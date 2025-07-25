@@ -293,6 +293,7 @@ import seaborn as sns
 df_complete['variant_change'] = df_complete['variant'] + '_' + df_complete['response_change'].astype(str) 
 
 # Loop over each scenario_number
+#TODO: sort by scenario_number and variant as a categorical variable
 for scenario in df_complete['scenario_number'].unique():
     df_scenario = df_complete[df_complete['scenario_number'] == scenario]
     plt.figure(figsize=(10, 6))
