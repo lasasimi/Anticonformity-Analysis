@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import re
 
-df = pd.read_csv('/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/data/Clean_files/presurvey_long_format.csv') # change file name as needed
-df = pd.read_csv('/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/data/Clean_files/presurvey_mock_long_format.csv') # change file name as needed
+df = pd.read_csv('/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/Clean_files/presurvey_long_format.csv') # change file name as needed
+df = pd.read_csv('/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/Clean_files/presurvey_mock_long_format.csv') # change file name as needed
 df.head()
 df.shape
 df["scenario"].unique()

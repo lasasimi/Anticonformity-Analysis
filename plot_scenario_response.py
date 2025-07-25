@@ -8,7 +8,7 @@ import seaborn as sns
 print(os.getcwd())
 
 # Define the paths for raw and clean data
-data_clean = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/data/Clean_files/'
+data_clean = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/Clean_files/'
 
 # Merge the 3 DataFrames
 df_1 = pd.read_csv(data_clean + 'clean_long_format_k1hhm7lf.csv')  

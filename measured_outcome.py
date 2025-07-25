@@ -5,8 +5,8 @@ import seaborn as sns
 import re
 print(os.getcwd())
 
-# df = pd.read_csv('C:/Users/lasmimarbun/Documents/Git/Prolific-Full-Experiment/data/Clean_files/mock_long_format.csv') # change file name as needed
-df = pd.read_csv('C:/Users/Lasmi Marbun/Documents/Git/Prolific-Full-Experiment/data/Clean_files/mock_long_format.csv') # change file name as needed
+# df = pd.read_csv('C:/Users/Lasmi Marbun/Documents/Git/Prolific-Full-Experiment/data/Clean_files/mock_long_format.csv') # change file name as needed
+df = pd.read_csv('C:/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/Clean_files/mock_long_format.csv') # change file name as needed
 df.head()
 df.shape
 

@@ -15,13 +15,13 @@ import math
 print(os.getcwd())
 
 # mac
-os.chdir('/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/data/')
+os.chdir('/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/')
 # windows
 #os.chdir('/Users/Lasmi Marbun/Documents/Git/Prolific-Full-Experiment/')
 
 # Define the paths for raw and clean data
-data_clean = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/data/Clean_files/'
-data_raw = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/data/Raw_otree/'
+data_clean = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/Clean_files/'
+data_raw = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/Raw_otree/'
 
 # Change the filename to the current file
 filename = 'all_apps_wide_k1hhm7lf.csv' # change file name as needed
