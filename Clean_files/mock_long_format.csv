@@ -1,0 +1,51 @@
+session.code,participant.code,participant.scenario,participant.anticonformist,participant.label,presurvey.1.player.gives_consent,presurvey.1.player.age,presurvey.1.player.gender,presurvey.1.player.education_lvl,presurvey.1.player.neighborhood_type,round_no,scenario,discussion_grp,old_response,new_response,forced_response
+b0qkdyda,gt0izquj,s3_n,0,67dd295a97f938cf679e00cf,1.0,34.0,Man,University degree or more,Urban,1,,1.0,1.0,1.0,0
+b0qkdyda,gt0izquj,s3_n,0,67dd295a97f938cf679e00cf,1.0,34.0,Man,University degree or more,Urban,2,,1.0,1.0,1.0,0
+b0qkdyda,gt0izquj,s3_n,0,67dd295a97f938cf679e00cf,1.0,34.0,Man,University degree or more,Urban,3,,1.0,1.0,1.0,0
+b0qkdyda,gt0izquj,s3_n,0,67dd295a97f938cf679e00cf,1.0,34.0,Man,University degree or more,Urban,4,,2.0,1.0,1.0,0
+b0qkdyda,gt0izquj,s3_n,0,67dd295a97f938cf679e00cf,1.0,34.0,Man,University degree or more,Urban,5,,2.0,1.0,1.0,0
+b0qkdyda,71dp2bd0,s3_n,0,684a7a0af88a38c5b4387e0e,1.0,34.0,Woman,University degree or more,Urban,1,,2.0,-1.0,1.0,0
+b0qkdyda,71dp2bd0,s3_n,0,684a7a0af88a38c5b4387e0e,1.0,34.0,Woman,University degree or more,Urban,2,,2.0,1.0,-1.0,0
+b0qkdyda,71dp2bd0,s3_n,0,684a7a0af88a38c5b4387e0e,1.0,34.0,Woman,University degree or more,Urban,3,,2.0,-1.0,-1.0,0
+b0qkdyda,71dp2bd0,s3_n,0,684a7a0af88a38c5b4387e0e,1.0,34.0,Woman,University degree or more,Urban,4,,2.0,-1.0,-1.0,0
+b0qkdyda,71dp2bd0,s3_n,0,684a7a0af88a38c5b4387e0e,1.0,34.0,Woman,University degree or more,Urban,5,,2.0,-1.0,1.0,0
+b0qkdyda,yixku3ou,s3_n,0,66045b87ffe71e6e521f357d,1.0,52.0,Man,University degree or more,Urban,1,,2.0,1.0,1.0,0
+b0qkdyda,yixku3ou,s3_n,0,66045b87ffe71e6e521f357d,1.0,52.0,Man,University degree or more,Urban,2,,1.0,1.0,-1.0,0
+b0qkdyda,yixku3ou,s3_n,0,66045b87ffe71e6e521f357d,1.0,52.0,Man,University degree or more,Urban,3,,2.0,-1.0,-1.0,0
+b0qkdyda,yixku3ou,s3_n,0,66045b87ffe71e6e521f357d,1.0,52.0,Man,University degree or more,Urban,4,,1.0,-1.0,1.0,0
+b0qkdyda,yixku3ou,s3_n,0,66045b87ffe71e6e521f357d,1.0,52.0,Man,University degree or more,Urban,5,,2.0,1.0,-1.0,0
+b0qkdyda,f6f7p7cw,s3_n,1,6855f8ccf2cb61ef4f1dfd58,1.0,41.0,Woman,University degree or more,Urban,1,,2.0,1.0,1.0,0
+b0qkdyda,f6f7p7cw,s3_n,1,6855f8ccf2cb61ef4f1dfd58,1.0,41.0,Woman,University degree or more,Urban,2,,2.0,1.0,-1.0,0
+b0qkdyda,f6f7p7cw,s3_n,1,6855f8ccf2cb61ef4f1dfd58,1.0,41.0,Woman,University degree or more,Urban,3,,2.0,-1.0,0.0,0
+b0qkdyda,f6f7p7cw,s3_n,1,6855f8ccf2cb61ef4f1dfd58,1.0,41.0,Woman,University degree or more,Urban,4,,2.0,0.0,0.0,0
+b0qkdyda,f6f7p7cw,s3_n,1,6855f8ccf2cb61ef4f1dfd58,1.0,41.0,Woman,University degree or more,Urban,5,,2.0,0.0,0.0,0
+b0qkdyda,vjvtw3jx,s3_n,0,5f6e723379ef5f3be5d2fde1,1.0,34.0,Man,High school diploma or equivalent,Urban,1,,1.0,-1.0,-1.0,0
+b0qkdyda,vjvtw3jx,s3_n,0,5f6e723379ef5f3be5d2fde1,1.0,34.0,Man,High school diploma or equivalent,Urban,2,,1.0,-1.0,-1.0,0
+b0qkdyda,vjvtw3jx,s3_n,0,5f6e723379ef5f3be5d2fde1,1.0,34.0,Man,High school diploma or equivalent,Urban,3,,1.0,-1.0,-1.0,0
+b0qkdyda,vjvtw3jx,s3_n,0,5f6e723379ef5f3be5d2fde1,1.0,34.0,Man,High school diploma or equivalent,Urban,4,,1.0,-1.0,-1.0,0
+b0qkdyda,vjvtw3jx,s3_n,0,5f6e723379ef5f3be5d2fde1,1.0,34.0,Man,High school diploma or equivalent,Urban,5,,1.0,-1.0,-1.0,0
+b0qkdyda,kl6idv17,s3_n,1,6797d5ada6654ec99f741b08,1.0,23.0,Woman,University degree or more,Urban,1,,1.0,-1.0,-1.0,0
+b0qkdyda,kl6idv17,s3_n,1,6797d5ada6654ec99f741b08,1.0,23.0,Woman,University degree or more,Urban,2,,1.0,-1.0,1.0,0
+b0qkdyda,kl6idv17,s3_n,1,6797d5ada6654ec99f741b08,1.0,23.0,Woman,University degree or more,Urban,3,,1.0,1.0,1.0,0
+b0qkdyda,kl6idv17,s3_n,1,6797d5ada6654ec99f741b08,1.0,23.0,Woman,University degree or more,Urban,4,,1.0,1.0,0.0,0
+b0qkdyda,kl6idv17,s3_n,1,6797d5ada6654ec99f741b08,1.0,23.0,Woman,University degree or more,Urban,5,,1.0,0.0,0.0,0
+b0qkdyda,9ilvd9sg,s3_n,0,685461ba2d002a3b6f2bccec,1.0,35.0,Woman,University degree or more,Urban,1,,1.0,1.0,0.0,0
+b0qkdyda,9ilvd9sg,s3_n,0,685461ba2d002a3b6f2bccec,1.0,35.0,Woman,University degree or more,Urban,2,,2.0,0.0,1.0,0
+b0qkdyda,9ilvd9sg,s3_n,0,685461ba2d002a3b6f2bccec,1.0,35.0,Woman,University degree or more,Urban,3,,2.0,1.0,-1.0,0
+b0qkdyda,9ilvd9sg,s3_n,0,685461ba2d002a3b6f2bccec,1.0,35.0,Woman,University degree or more,Urban,4,,1.0,-1.0,1.0,0
+b0qkdyda,9ilvd9sg,s3_n,0,685461ba2d002a3b6f2bccec,1.0,35.0,Woman,University degree or more,Urban,5,,1.0,1.0,-1.0,0
+b0qkdyda,ctejg380,s3_n,0,62dc65fdd3bbfeff289f1500,1.0,52.0,Man,High school diploma or equivalent,Suburban,1,,2.0,-1.0,-1.0,0
+b0qkdyda,ctejg380,s3_n,0,62dc65fdd3bbfeff289f1500,1.0,52.0,Man,High school diploma or equivalent,Suburban,2,,2.0,-1.0,-1.0,0
+b0qkdyda,ctejg380,s3_n,0,62dc65fdd3bbfeff289f1500,1.0,52.0,Man,High school diploma or equivalent,Suburban,3,,2.0,-1.0,-1.0,0
+b0qkdyda,ctejg380,s3_n,0,62dc65fdd3bbfeff289f1500,1.0,52.0,Man,High school diploma or equivalent,Suburban,4,,2.0,-1.0,-1.0,0
+b0qkdyda,ctejg380,s3_n,0,62dc65fdd3bbfeff289f1500,1.0,52.0,Man,High school diploma or equivalent,Suburban,5,,2.0,-1.0,-1.0,0
+b0qkdyda,jvbhy0lp,s3_n,0,6735456e8034ea7e61eac785,1.0,27.0,Woman,University degree or more,Suburban,1,,2.0,1.0,-1.0,0
+b0qkdyda,jvbhy0lp,s3_n,0,6735456e8034ea7e61eac785,1.0,27.0,Woman,University degree or more,Suburban,2,,2.0,-1.0,-1.0,0
+b0qkdyda,jvbhy0lp,s3_n,0,6735456e8034ea7e61eac785,1.0,27.0,Woman,University degree or more,Suburban,3,,1.0,-1.0,-1.0,0
+b0qkdyda,jvbhy0lp,s3_n,0,6735456e8034ea7e61eac785,1.0,27.0,Woman,University degree or more,Suburban,4,,2.0,-1.0,-1.0,0
+b0qkdyda,jvbhy0lp,s3_n,0,6735456e8034ea7e61eac785,1.0,27.0,Woman,University degree or more,Suburban,5,,1.0,-1.0,-1.0,0
+b0qkdyda,pz9g38m5,s3_n,0,6314c1e76c3f71e2127f1976,1.0,44.0,Man,High school diploma or equivalent,Urban,1,,1.0,-1.0,-1.0,0
+b0qkdyda,pz9g38m5,s3_n,0,6314c1e76c3f71e2127f1976,1.0,44.0,Man,High school diploma or equivalent,Urban,2,,1.0,-1.0,-1.0,0
+b0qkdyda,pz9g38m5,s3_n,0,6314c1e76c3f71e2127f1976,1.0,44.0,Man,High school diploma or equivalent,Urban,3,,1.0,-1.0,1.0,0
+b0qkdyda,pz9g38m5,s3_n,0,6314c1e76c3f71e2127f1976,1.0,44.0,Man,High school diploma or equivalent,Urban,4,,1.0,1.0,-1.0,0
+b0qkdyda,pz9g38m5,s3_n,0,6314c1e76c3f71e2127f1976,1.0,44.0,Man,High school diploma or equivalent,Urban,5,,1.0,-1.0,-1.0,0
