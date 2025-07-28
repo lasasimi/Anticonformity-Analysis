@@ -228,7 +228,6 @@ df_round10['correct_anticonformity'] = df_round10['neighbors'].map(correct_antic
 df_round10['correct_response_given_treatment'] = df_round10.apply(check_response_correct, axis=1)
 
 ### CORRECT OR INCORRECT RESPONSE PLOT (CONFORMITY AND ANTICONFORMITY) Note: only for round 10
-# TODO: plot round by round
 
 # Plot barplot to count how many people get the correct response in round 10
 # 2 plots: one for conformity and one for anticonformity
@@ -290,6 +289,8 @@ round_numbers = df['round_no'].unique()
 
 # For all treatments, plot the response differentiated by expected / non-expected responses (correct/incorrect)
 
+
+
 # 3 steps:
 # 1. Standardize the neighbors column
 df['neighbors'] = df['neighbors'].apply(which_neighbors_combinations)
@@ -309,7 +310,6 @@ df_counts = df.groupby(['round_no', 'correct_response_given_treatment']).size().
 
 # Convert counts to proportions by dividing by 80 (40 participants * 2 treatments)
 df_counts['proportion'] = df_counts['count'] / 80
-
 
 # Group the data to calculate counts for each round and response correctness
 df_treatment = df.copy()
@@ -331,7 +331,7 @@ df_counts_treatment = df_counts_treatment[df_counts_treatment['treatment_type'] 
 
 # Convert counts to proportions by dividing by 80 (40 participants * 2 treatments)
 df_counts_treatment.loc[:,'proportion'] = df_counts['count'] / 80
-df_counts_treatment[['correct_responses_given_treatment','count', 'treatment_type']]
+
 
 ## COUNT PLOT
 # Create subplots for Anticonformity and Conformity and Both
@@ -415,6 +415,7 @@ axes[2].legend(
 
 # Adjust layout
 plt.tight_layout()
+plt.show()
 plt.savefig('All+C+AC_expected_response_change.png', dpi=300)
 plt.show()
 
@@ -778,8 +779,17 @@ plt.show()
 df_steps_extneu['treatment_type'] = df_steps_extneu['participant.treatment'].apply(
     lambda x: 'Conformity' if x.startswith('C') else ('Anticonformity' if x.startswith('A') else 'No Treatment'))
 
+# Convert treatment_type to categorical type for better plotting
+df_steps_extneu['treatment_type'] = pd.Categorical(df_steps_extneu['treatment_type'], 
+                                                    categories=['Conformity', 'Anticonformity', 'No Treatment'],
+                                                    ordered=True)
+
+
+# Prepare No Treatment data for overlay
+no_treatment_data = df_steps_extneu[df_steps_extneu['treatment_type'] == 'No Treatment']
+
 palette = {'Neutral': '#785f6e', 'Non-Neutral':'#631a46' ,}
-treatment_types = df_steps_extneu['treatment_type'].unique().tolist()
+treatment_types = ['Conformity' , 'Anticonformity' , 'No Treatment']
 n_types = len(treatment_types)
 fig, axes = plt.subplots(1, n_types, figsize=(7 * n_types, 5), sharex=True, sharey=True)
 if n_types == 1:
@@ -787,6 +797,7 @@ if n_types == 1:
 
 for i, t_type in enumerate(treatment_types):
     data = df_steps_extneu[df_steps_extneu['treatment_type'] == t_type]
+    # Use lineplot with dashes for all lines
     sns.lineplot(
         data=data,
         x='round_no',
@@ -795,19 +806,45 @@ for i, t_type in enumerate(treatment_types):
         style='initially_neutral',
         palette=palette,
         markers=True,
-        dashes=True,
+        dashes=[(2,2), (2,2)],  # force all lines to be dashed
         ax=axes[i]
     )
+    
+    # Overlay No Treatment lines (same color/style for all subplots)
+    if not no_treatment_data.empty:
+        palette2 = {'Neutral': "#53E3E8", 'Non-Neutral':"#14908E" ,}
+        for init_neu, color in palette2.items():
+            nt_subset = no_treatment_data[no_treatment_data['initially_neutral'] == init_neu]
+            if not nt_subset.empty:
+                means = nt_subset.groupby('round_no')['response_delta'].mean()
+                axes[i].plot(
+                    means.index, means.values,
+                    label=f'No Treatment ({init_neu})',
+                    color=color,
+                    linestyle='-',  # full line
+                    marker='x',     # add marker here
+                    linewidth=2,
+                    alpha=0.7,
+                    zorder=0
+                )
+
     axes[i].set_title(f'Treatment: {t_type}')
     axes[i].set_xlabel('Round Number')
     axes[i].set_ylabel('Avg. Absolute Change')
     axes[i].set_xticks(range(1, 11))
-    axes[i].legend(title='Initial Opinion', loc='upper left', bbox_to_anchor=(1.05, 1))
+    # Only show legend for the last subplot
+    if i != n_types - 1:
+        axes[i].get_legend().remove()
+    else:
+        axes[i].legend(title='Initial Opinion', loc='upper left', bbox_to_anchor=(1.05, 1))
 
 plt.tight_layout()
-plt.savefig('abs_response_change_per_round_by_ext_treatment.png', dpi=300)
+plt.savefig('abs_overlay_response_change_per_round_by_ext_treatment.png', dpi=300)
+#plt.savefig('abs_response_change_per_round_by_ext_treatment.png', dpi=300)
 plt.show()
 
+# Prepare No Treatment data for overlay
+no_treatment_data = df_steps_extneu[df_steps_extneu['treatment_type'] == 'No Treatment']
 
 fig, axes = plt.subplots(1, n_types, figsize=(7 * n_types, 5), sharex=True, sharey=True)
 for i, t_type in enumerate(treatment_types):
@@ -823,12 +860,36 @@ for i, t_type in enumerate(treatment_types):
         dashes=True,
         ax=axes[i]
     )
+    # Overlay No Treatment lines (same color/style for all subplots)
+    if not no_treatment_data.empty:
+        palette2 = {'Neutral': "#53E3E8", 'Non-Neutral':"#14908E" ,}
+        for init_neu, color in palette2.items():
+            nt_subset = no_treatment_data[no_treatment_data['initially_neutral'] == init_neu]
+            if not nt_subset.empty:
+                means = nt_subset.groupby('round_no')['response_change'].mean()
+                axes[i].plot(
+                    means.index, means.values,
+                    label=f'No Treatment ({init_neu})',
+                    color=color,
+                    linestyle='-',  # full line
+                    marker='x',     # add marker here
+                    linewidth=2,
+                    alpha=0.7,
+                    zorder=0
+                )
+
     axes[i].set_title(f'Treatment: {t_type}')
     axes[i].set_xlabel('Round Number')
     axes[i].set_ylabel('Avg. Opinion Change [Round r+1 - Round r]')
     axes[i].set_xticks(range(1, 11))
     axes[i].legend(title='Initial Opinion', loc='upper left', bbox_to_anchor=(1.05, 1))
+    # Only show legend for the last subplot
+    if i != n_types - 1:
+        axes[i].get_legend().remove()
+    else:
+        axes[i].legend(title='Initial Opinion', loc='upper left', bbox_to_anchor=(1.05, 1))
 
 plt.tight_layout()
-plt.savefig('rel_response_change_per_round_by_ext_treatment.png', dpi=300)
+plt.savefig('rel_overlay_response_change_per_round_by_ext_treatment.png', dpi=300)
+#plt.savefig('rel_response_change_per_round_by_ext_treatment.png', dpi=300)
 plt.show()
