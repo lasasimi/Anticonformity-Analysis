@@ -589,14 +589,58 @@ sns.lineplot(
     dashes=True,   # Always use dashed lines for all treatment types
     palette=palette
 )
+
 plt.title('Average Response Change per Round by Treatment')
 plt.xlabel('Round Number')
 plt.ylabel('Average Delta [absolute change in response]')
-plt.xticks(range(1, 11))
+plt.xticks(range(0, 11))
 plt.legend(title='Treatment Type', loc='upper left', bbox_to_anchor=(1.05, 1))
 plt.tight_layout()
 plt.savefig('abs_response_change_per_round_by_treatment.png', dpi=300)
 plt.show()
+
+
+## Now pointplot with whiskers
+
+# Plot the response change from round 1 to round 10 for all treatments, anticonformity and conformity
+plt.figure(figsize=(12, 6))
+palette = {'Conformity': 'blue', 'Anticonformity': 'red', 'No Treatment': 'gray'}
+sns.pointplot(
+    data=df_steps,
+    x='round_no',
+    y='response_delta',
+    hue='treatment_type',
+    palette=palette,
+    dodge=0.3,
+    markers='o',
+    linestyles=':',  # dots
+    errorbar='se',  # Show standard error bars
+    capsize=0.1
+)
+sns.stripplot(
+    data=df_steps,
+    x='round_no',
+    y='response_delta',
+    hue='treatment_type',
+    palette=palette,
+    dodge=True,
+    jitter=True,
+    alpha=0.1,
+    marker='.',
+    linewidth=0,
+    legend=False  # Avoid duplicate legend
+)
+
+plt.title('Average Response Change per Round by Treatment')
+plt.xlabel('Round Number')
+plt.ylabel('Average Delta [absolute change in response]')
+plt.xticks(range(0, 11))
+plt.legend(title='Treatment Type', loc='upper left', bbox_to_anchor=(1.05, 1))
+plt.tight_layout()
+plt.savefig('abs_response_change_per_round_by_treatment_point.png', dpi=300)
+plt.show()
+
+
 
 # Plot the response change from round 1 to round 10 for all treatments, anticonformity and conformity
 plt.figure(figsize=(10, 6))
@@ -620,6 +664,50 @@ plt.legend(title='Treatment Type', loc='upper left', bbox_to_anchor=(1.05, 1))
 plt.tight_layout()
 plt.savefig('rel_response_change_per_round_by_treatment.png', dpi=300)
 plt.show()
+
+
+
+# Plot the response change from round 1 to round 10 for all treatments, anticonformity and conformity
+plt.figure(figsize=(12, 6))
+palette = {'Conformity': 'blue', 'Anticonformity': 'red', 'No Treatment': 'gray'}
+sns.pointplot(
+    data=df_steps,
+    x='round_no',
+    y='response_change',
+    hue='treatment_type',
+    palette=palette,
+    dodge=0.3,
+    markers='o',
+    linestyles=':',  # dots
+    errorbar='se',  # Show standard error bars
+    capsize=0.1
+)
+sns.stripplot(
+    data=df_steps,
+    x='round_no',
+    y='response_change',
+    hue='treatment_type',
+    palette=palette,
+    dodge=True,
+    jitter=True,
+    alpha=0.1,
+    marker='.',
+    linewidth=0,
+    legend=False  # Avoid duplicate legend
+)
+
+plt.title('Average Response Change per Round by Treatment')
+plt.xlabel('Round Number')
+plt.ylabel('Average Response Change [Round r+1 - Round r]')
+plt.xticks(range(0, 11))
+plt.legend(title='Treatment Type', loc='upper left', bbox_to_anchor=(1.05, 1))
+plt.tight_layout()
+plt.savefig('_response_change_per_round_by_treatment_point.png', dpi=300)
+plt.show()
+
+
+
+
 
 # Make the same figures but create subpanels for different participant.scenario
 
@@ -892,4 +980,123 @@ for i, t_type in enumerate(treatment_types):
 plt.tight_layout()
 plt.savefig('rel_overlay_response_change_per_round_by_ext_treatment.png', dpi=300)
 #plt.savefig('rel_response_change_per_round_by_ext_treatment.png', dpi=300)
+plt.show()
+
+
+## POINT PLOT
+# Prepare No Treatment data for overlay (average across both Neutral and Non-Neutral)
+no_treatment_data = df_steps_extneu[df_steps_extneu['treatment_type'] == 'No Treatment']
+
+palette = {'Neutral': '#785f6e', 'Non-Neutral':'#631a46'}
+treatment_types = ['Conformity', 'Anticonformity', 'No Treatment']
+n_types = len(treatment_types)
+fig, axes = plt.subplots(1, n_types, figsize=(7 * n_types, 5), sharex=True, sharey=True)
+if n_types == 1:
+    axes = [axes]  # Ensure axes is always iterable
+
+# Compute average No Treatment overlay for Neutral and Non-Neutral
+overlay_means = no_treatment_data.groupby(['round_no'])['response_delta'].mean().reset_index()
+
+for i, t_type in enumerate(treatment_types):
+    data = df_steps_extneu[df_steps_extneu['treatment_type'] == t_type]
+    # Use pointplot for means and error bars
+    sns.pointplot(
+        data=data,
+        x='round_no',
+        y='response_delta',
+        hue='initially_neutral',
+        palette=palette,
+        dodge=0.3,
+        markers='o',
+        linestyles=':',  # dotted lines
+        errorbar='se',
+        capsize=0.1,
+        ax=axes[i]
+    )
+    # Overlay average No Treatment lines for Neutral and Non-Neutral
+    means = overlay_means
+    if not means.empty:
+        axes[i].plot(
+            means['round_no'], means['response_delta'],
+            label=f'No Treatment Avg',
+            color="#53E3E8",
+            linestyle='-',
+            marker='x',
+            linewidth=2,
+            alpha=0.7,
+            zorder=0
+        )
+
+    axes[i].set_title(f'Treatment: {t_type}')
+    axes[i].set_xlabel('Round Number')
+    axes[i].set_ylabel('Avg. Absolute Change')
+    axes[i].set_xticks(range(1, 11))
+    # Only show legend for the last subplot
+    if i != n_types - 1:
+        axes[i].get_legend().remove()
+    else:
+        axes[i].legend(title='Initial Opinion', loc='upper left', bbox_to_anchor=(1.05, 1))
+plt.xticks(range(0, 11))
+plt.tight_layout()
+plt.savefig('abs_overlay_response_change_per_round_by_ext_treatment_point.png', dpi=300)
+plt.show()
+
+
+## POINT PLOT: Relative Change
+#TODO fix the round number for the overlay line
+# Prepare No Treatment data for overlay (average across both Neutral and Non-Neutral)
+no_treatment_data = df_steps_extneu[df_steps_extneu['treatment_type'] == 'No Treatment']
+
+palette = {'Neutral': '#785f6e', 'Non-Neutral':'#631a46'}
+treatment_types = ['Conformity', 'Anticonformity', 'No Treatment']
+n_types = len(treatment_types)
+fig, axes = plt.subplots(1, n_types, figsize=(7 * n_types, 5), sharex=True, sharey=True)
+if n_types == 1:
+    axes = [axes]  # Ensure axes is always iterable
+
+# Compute average No Treatment overlay for Neutral and Non-Neutral
+overlay_means = no_treatment_data.groupby(['round_no'])['response_change'].mean().reset_index()
+
+for i, t_type in enumerate(treatment_types):
+    data = df_steps_extneu[df_steps_extneu['treatment_type'] == t_type]
+    # Use pointplot for means and error bars
+    sns.pointplot(
+        data=data,
+        x='round_no',
+        y='response_change',
+        hue='initially_neutral',
+        palette=palette,
+        dodge=0.3,
+        markers='o',
+        linestyles=':',  # dotted lines
+        errorbar='se',
+        capsize=0.1,
+        ax=axes[i]
+    )
+    # Overlay average No Treatment lines for Neutral and Non-Neutral
+    means = overlay_means
+    if not means.empty:
+        axes[i].plot(
+            means['round_no'], means['response_change'],
+            label=f'No Treatment Avg',
+            color="#53E3E8",
+            linestyle='-',
+            marker='x',
+            linewidth=2,
+            alpha=0.7,
+            zorder=0
+        )
+
+    axes[i].set_title(f'Treatment: {t_type}')
+    axes[i].set_xlabel('Round Number')
+    axes[i].set_ylabel('Avg. Relative Change')
+    axes[i].set_xticks(range(1, 11))
+    # Only show legend for the last subplot
+    if i != n_types - 1:
+        axes[i].get_legend().remove()
+    else:
+        axes[i].legend(title='Initial Opinion', loc='upper left', bbox_to_anchor=(1.05, 1))
+plt.xticks(range(0, 11))
+plt.tight_layout()
+plt.savefig('rel_overlay_response_change_per_round_by_ext_treatment_point.png', dpi=300)
 plt.show()
