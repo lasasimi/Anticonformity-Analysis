@@ -19,6 +19,23 @@ clean_df_3 = pd.read_csv(file_location + 'clean_long_format_7agw525e.csv')
 # Merge the 3 dfs
 df = pd.concat([clean_df_1, clean_df_2, clean_df_3], ignore_index=True)
 
+# Load the neighbor configurations
+file_location = '/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/'
+neighbors_configs = pd.read_csv(file_location + 'neighbors_configurations.csv')
+
+# ignore index
+neighbors_configs.reset_index(drop=True, inplace=True)
+
+
+# Combine the three columns into one string column in neighbors_configs
+neighbor_cols = ['neighbor_1', 'neighbor_2', 'neighbor_3']
+neighbors_configs.columns = neighbor_cols
+print(neighbors_configs.columns)
+
+neighbors_configs['neighbors'] = neighbors_configs[neighbor_cols].astype(int).astype(str).agg(','.join, axis=1)
+
+
+
 participant_code = df['participant.code'].unique().tolist()
 len(participant_code)
 df.head()
@@ -33,6 +50,8 @@ df_scenario = pd.concat([clean_df_1, clean_df_2, clean_df_3], ignore_index=True)
 # Select only rows with no 'neighbors' to focus on the presurvey part of the app
 df_presurvey = df_scenario[df_scenario['neighbors'].isna()]
 df_presurvey['scenario_code'].value_counts()
+
+df_mock = df[df['neighbors'].notna()]
 
 non_neutral_counts = df_presurvey[df_presurvey['response'] != 0]['scenario_code'].value_counts()
 non_neutral_counts = non_neutral_counts.sort_index()
@@ -56,23 +75,16 @@ plt.show()
 
 ## MOCK PART OF THE APP
 # Filter only relevant rows in the mock part of the app; indicated by neighbors is not NaN
-relevant_df = df[df['neighbors'].notna()]
+df_mock = df[df['neighbors'].notna()]
 
 # How many participants in each treatment? 
-relevant_df['participant.treatment'].value_counts() / 10 # rounds
-
-# Load the neighbor configurations
-file_location = '/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/'
-neighbors_configs = pd.read_csv(file_location + 'neighbors_configurations.csv')
-
-# ignore index
-neighbors_configs.reset_index(drop=True, inplace=True)
+df_mock['participant.treatment'].value_counts() / 10 # rounds
 
 # Ensure the neighbors column is a string, remove any brackets
-df = relevant_df.copy()
+df_mock = df_mock.copy()
 
 # Ensure it does not have brackets and spaces
-df['neighbors'] = df['neighbors'].astype(str).str.strip("[]").str.replace(' ', '',regex=False)
+df_mock['neighbors'] = df_mock['neighbors'].astype(str).str.strip("[]").str.replace(' ', '',regex=False)
 
 # Combine the three columns into one string column in neighbors_configs
 neighbor_cols = ['neighbor_1', 'neighbor_2', 'neighbor_3']
@@ -114,6 +126,28 @@ correct_anticonformity = {
      '1,1,1': ['-1','0'],
 }
 
+# Merge the values from correct_conformity and correct_anticonformity for each key
+correct_both = {}
+for key in correct_conformity:
+    val1 = correct_conformity[key]
+    val2 = correct_anticonformity[key]
+    # Convert to list if not already
+    vals = []
+    if isinstance(val1, list):
+        vals.extend(val1)
+    elif val1 != 'None':
+        vals.append(val1)
+    if isinstance(val2, list):
+        vals.extend(val2)
+    elif val2 != 'None':
+        vals.append(val2)
+    # Remove duplicates and 'None'
+    vals = [v for v in set(vals) if v != 'None']
+    # If both are 'None', keep 'None'
+    if not vals and (val1 == 'None' or val2 == 'None'):
+        correct_both[key] = 'None'
+    else:
+        correct_both[key] = vals
 
 
 # Function to check if the response is correct based on the treatment type
@@ -140,6 +174,48 @@ def check_response_correct(row):
     else:
         return 'correct' if response_str == correct else 'incorrect'
 
+# Function to check if the response is in correct_both, then check conformity/anticonformity
+def check_response_treatment(row):
+    """
+    Checks if the response is in the correct_both dictionary for the given neighbors.
+    If not, returns Unknown.
+    If yes, checks if the response is in correct_conformity; if not, checks correct_anticonformity.
+    If the value is 'None', returns 'None'.
+    """
+    neighbors = row['neighbors']
+    response_str = str(int(row['response'])) if isinstance(row['response'], float) and row['response'] == int(row['response']) else str(row['response'])
+    correct_both_val = correct_both.get(neighbors, None)
+    if correct_both_val is None:
+        return 'Unknown'
+    if correct_both_val == 'None' or response_str == 'None':
+        return 'None'
+    if isinstance(correct_both_val, list):
+        if response_str not in correct_both_val:
+            return 'Unknown'
+    else:
+        if response_str != correct_both_val:
+            return 'Unknown'
+    # Now check conformity first
+    correct_conf = correct_conformity.get(neighbors, None)
+    if correct_conf == 'None':
+        return 'None'
+    if isinstance(correct_conf, list):
+        if response_str in correct_conf:
+            return 'conformity'
+    else:
+        if response_str == correct_conf:
+            return 'conformity'
+    # If not conformity, check anticonformity
+    correct_anti = correct_anticonformity.get(neighbors, None)
+    if correct_anti == 'None':
+        return 'None'
+    if isinstance(correct_anti, list):
+        if response_str in correct_anti:
+            return 'anticonformity'
+    else:
+        if response_str == correct_anti:
+            return 'anticonformity'
+    return False
 
 
 # Function to standardize the neighbors combinations (permutation to combination)
@@ -208,14 +284,14 @@ test_data2['correct_response_given_treatment'] = test_data2.apply(check_response
 
 
 # Remove unnecessary columns
-df = df[['participant.code', 
+df_mock = df_mock[['participant.code', 
                          'round_no', 
                          'neighbors', 
                          'response', 
                          'participant.treatment',]]
 
 # Get data for the round 10 only
-df_round10 = df[df['round_no'] == 10]
+df_round10 = df_mock[df_mock['round_no'] == 10]
 
 # 3 steps:
 # 1. Standardize the neighbors column
@@ -275,6 +351,7 @@ plt.show()
 ## EXPECTED RESPONSE CHANGE PLOT
 ## Plot the treatment opinion change in every rounds
 # Get the unique participant codes
+df = df_mock.copy()
 participant_codes = df['participant.code'].unique()
 len(participant_codes) # N=120
 
@@ -289,14 +366,14 @@ round_numbers = df['round_no'].unique()
 
 # For all treatments, plot the response differentiated by expected / non-expected responses (correct/incorrect)
 
-
-
 # 3 steps:
 # 1. Standardize the neighbors column
 df['neighbors'] = df['neighbors'].apply(which_neighbors_combinations)
 # 2. Create a new column for checking correctness of responses based on treatment and neighbors configs
 df['correct_conformity'] = df['neighbors'].map(correct_conformity)
 df['correct_anticonformity'] = df['neighbors'].map(correct_anticonformity)
+
+
 
 # 3. Apply function to each row
 df['correct_response_given_treatment'] = df.apply(check_response_correct, axis=1)
@@ -332,7 +409,7 @@ df_counts_treatment = df_counts_treatment[df_counts_treatment['treatment_type'] 
 # Convert counts to proportions by dividing by 80 (40 participants * 2 treatments)
 df_counts_treatment.loc[:,'proportion'] = df_counts['count'] / 80
 
-
+df_counts_treatment
 ## COUNT PLOT
 # Create subplots for Anticonformity and Conformity and Both
 fig, axes = plt.subplots(1, 3, figsize=(20, 6), sharex=True, sharey=False)
@@ -504,6 +581,355 @@ plt.ylim(0,1)
 plt.tight_layout()
 plt.savefig('All+C+AC_expected_response_change_prop.png', dpi=300)
 plt.show()
+
+## SPECIFIC SCENARIO PLOT
+spec_scenario = 's9'
+# Filter the DataFrame for the specific scenario
+df_spec_scenario = df[df['participant.scenario'].str.startswith(spec_scenario)]
+
+# Create a new column for treatment names
+df_spec_scenario['treatment_type'] = df_spec_scenario['participant.treatment'].apply(
+    lambda x: 'Conformity' if x.startswith('C') else ('Anticonformity' if x.startswith('A') else 'No Treatment')
+)
+
+# Convert the 'correct_response_given_treatment' to a categorical type for better plotting
+# And remove the NA from the NO treatment
+df_spec_scenario['correct_response_given_treatment'] = pd.Categorical(df_spec_scenario['correct_response_given_treatment'],
+                                                         categories=['correct', 'incorrect', 'None'])   
+
+# Starts with A for Anticonformity and strats with C for Conformity
+df_counts_spec = df_spec_scenario.groupby(['round_no', 'correct_response_given_treatment', 'treatment_type']).size().reset_index(name='count')
+
+# Remove the rows with No Treatment
+df_counts_spec = df_counts_spec[df_counts_spec['treatment_type'] != 'No Treatment']
+
+df_counts_spec
+## COUNT PLOT
+# Plot for specific scenario expected response (all types) in a single plot
+plt.figure(figsize=(10, 6))
+ax = sns.lineplot(
+    data=df_counts_spec,
+    x='round_no',
+    y='count',
+    hue='correct_response_given_treatment',
+    style='correct_response_given_treatment',
+    markers=True,  # Add markers for the dots
+    dashes=True,   # Add dashed lines
+    errorbar=None,
+    palette={'correct': 'limegreen', 'incorrect': 'orange', 'None': 'gray'}
+)
+
+plt.title(f'Expected Response in scenario {spec_scenario}')
+plt.xlabel('Round Number')
+plt.ylabel('Count')
+plt.ylim(0, 40)
+plt.xticks(range(1, 11))
+
+# Change legend labels
+handles, labels = ax.get_legend_handles_labels()
+custom_labels = ['Expected', 'Not Expected', 'None']
+# The first legend entry is for 'hue', so skip it if present
+if labels and labels[0] == 'correct_response_given_treatment':
+    handles = handles[1:]
+    labels = labels[1:]
+ax.legend(handles=handles, labels=custom_labels, loc='upper left', bbox_to_anchor=(1.05, 1))
+
+plt.tight_layout()
+plt.show()
+
+
+
+# Convert counts to proportions by dividing by counts of people in the specific scenario with treatment (excluding No Treatment)
+spec_scenario_count = df_spec_scenario[df_spec_scenario['treatment_type'] != 'No Treatment']['participant.code'].nunique()
+spec_scenario_count
+df_counts_spec.loc[:,'proportion'] = df_counts_spec['count'] / spec_scenario_count
+
+## PROPORTION PLOT
+# Plot for specific scenario expected response (all types) in a single plot
+plt.figure(figsize=(10, 6))
+ax = sns.lineplot(
+    data=df_counts_spec,
+    x='round_no',
+    y='proportion',
+    hue='correct_response_given_treatment',
+    style='correct_response_given_treatment',
+    markers=True,  # Add markers for the dots
+    dashes=True,   # Add dashed lines
+    errorbar=None,
+    palette={'correct': 'limegreen', 'incorrect': 'orange', 'None': 'gray'}
+)
+
+plt.title(f'Expected Response in scenario {spec_scenario}')
+plt.xlabel('Round Number')
+plt.ylabel('Proportion')
+plt.ylim(0, 1)
+plt.xticks(range(1, 11))
+
+# Change legend labels
+handles, labels = ax.get_legend_handles_labels()
+custom_labels = ['Expected', 'Not Expected', 'None']
+# The first legend entry is for 'hue', so skip it if present
+if labels and labels[0] == 'correct_response_given_treatment':
+    handles = handles[1:]
+    labels = labels[1:]
+ax.legend(handles=handles, labels=custom_labels, loc='upper left', bbox_to_anchor=(1.05, 1))
+
+plt.tight_layout()
+plt.show()
+
+
+
+## PLOT THE EXPECTED X NON EXPECTED FOR INITIALLY NEUTRAL AND NON-NEUTRAL RESPONSES -- data is only from the mock round
+# use df_steps_extneu from below
+# Create a new column to distinguish initially neutral participants
+
+# get the df_presurvey and df_mock
+df_presurvey = df[df['neighbors'].isna()]
+df_mock = df[df['neighbors'].notna()]
+
+# add the round 0 to determine the initially neutral participants
+df_merged = add_round_0(df_presurvey, df_mock)
+df_merged_extneu = df_merged.copy()
+
+# Remove round 0 data
+df_merged_extneu = df_merged_extneu[df_merged_extneu['round_no'] != 0]
+
+# Ensure neighbors does not have brackets and spaces
+df_merged_extneu['neighbors'] = df_merged_extneu['neighbors'].astype(str).str.strip("[]").str.replace(' ', '',regex=False)
+
+# Standardize the neighbors column
+df_merged_extneu['neighbors'] = df_merged_extneu['neighbors'].apply(which_neighbors_combinations)
+
+# Create column for Expected and Non-Expected responses
+df_merged_extneu['correct_conformity'] = df_merged_extneu['neighbors'].map(correct_conformity)
+df_merged_extneu['correct_anticonformity'] = df_merged_extneu['neighbors'].map(correct_anticonformity)
+
+df_merged_extneu['correct_response_given_treatment'] = df_merged_extneu.apply(check_response_correct, axis=1)
+
+df_merged_extneu['treatment_resemblance'] = df_merged_extneu.apply(check_response_treatment, axis=1)
+
+df_merged_extneu[['response', 'correct_conformity', 'correct_anticonformity', 'treatment_resemblance']].head()
+
+df_merged_extneu['initially_neutral'] = df_merged_extneu.groupby('participant.code')['response'].transform(
+    lambda x: 'Neutral' if (x.iloc[0] == 0) else 'Non-Neutral'
+)   
+
+
+# How many initially non-neutral and neutral participants are there?
+df_merged_extneu['initially_neutral'].value_counts()/ 10
+
+## PLOT THE EXPECTED X NON-EXPECTED FOR INITIALLY NEUTRAL AND NON-NEUTRAL RESPONSES
+# Group the data to calculate counts for each round and response correctness
+# take only the rows with participant.treatment starting with C or A
+df_merged_extneu_treatment = df_merged_extneu[df_merged_extneu['participant.treatment'].str.startswith(('C', 'A'))]
+
+# create a new column for treatment names
+df_merged_extneu_treatment['treatment'] = df_merged_extneu_treatment['participant.treatment'].apply(
+    lambda x: 'Conformity' if x.startswith('C') else ('Anticonformity' if x.startswith('A') else 'No Treatment')
+)
+
+# Treatment
+df_merged_extneu_treatment_counts = df_merged_extneu_treatment.groupby(['round_no', 'correct_response_given_treatment', 'initially_neutral']).size().reset_index(name='count')
+
+# Count the proportion by dividing by their respective counts of initially neutral and non-neutral participants
+init_neutral_count = df_merged_extneu_treatment[df_merged_extneu_treatment['initially_neutral'] == 'Neutral']['participant.code'].nunique()
+init_non_neutral_count = df_merged_extneu_treatment[df_merged_extneu_treatment['initially_neutral'] == 'Non-Neutral']['participant.code'].nunique()
+df_merged_extneu_treatment_counts.loc[df_merged_extneu_treatment_counts['initially_neutral'] == 'Neutral', 'proportion'] = df_merged_extneu_treatment_counts['count'] / init_neutral_count
+df_merged_extneu_treatment_counts.loc[df_merged_extneu_treatment_counts['initially_neutral'] == 'Non-Neutral', 'proportion'] = df_merged_extneu_treatment_counts['count'] / init_non_neutral_count
+
+## COUNT PLOT
+# Plot the count of expected vs non-expected responses as subplots for initially neutral and non-neutral participants
+fig, axes = plt.subplots(1, 2, figsize=(14, 6), sharey=True)
+
+neutral_types = ['Neutral', 'Non-Neutral']
+titles = ['Initially Neutral', 'Initially Non-Neutral']
+
+# Custom label mapping
+label_map = {'correct': 'Expected', 'incorrect': 'Not Expected', 'None': 'None'}
+palette_map = {'Expected': 'limegreen', 'Not Expected': 'orange', 'None': 'gray'}
+
+for i, init_type in enumerate(neutral_types):
+    subset = df_merged_extneu_treatment_counts[df_merged_extneu_treatment_counts['initially_neutral'] == init_type].copy()
+    # Map the labels for plotting
+    subset['expected_label'] = subset['correct_response_given_treatment'].map(label_map)
+    sns.lineplot(
+        data=subset,
+        x='round_no',
+        y='count',
+        hue='expected_label',
+        style='expected_label',
+        markers=True,
+        dashes=True,
+        palette=palette_map,
+        errorbar=None,
+        ax=axes[i]
+    )
+    axes[i].set_title(f'Expected vs Non-Expected: {titles[i]}')
+    axes[i].set_xlabel('Round Number')
+    axes[i].set_ylabel('Count')
+    axes[i].set_xticks(range(1, 11))
+    axes[i].set_ylim(0, 40)
+    if i == 1:
+        axes[i].legend(title='Expected Response', loc='upper left', bbox_to_anchor=(1.05, 1))
+    else:
+        axes[i].get_legend().remove()
+
+plt.tight_layout()
+plt.savefig('Expected_vs_NonExpected_Responses_Initial_Neutral_Subplots.png', dpi=300)
+plt.show()
+
+
+## PROPORTION PLOT
+# Plot the count of expected vs non-expected responses as subplots for initially neutral and non-neutral participants
+fig, axes = plt.subplots(1, 2, figsize=(14, 6), sharey=True)
+
+neutral_types = ['Neutral', 'Non-Neutral']
+titles = ['Initially Neutral', 'Initially Non-Neutral']
+
+# Custom label mapping
+label_map = {'correct': 'Expected', 'incorrect': 'Not Expected', 'None': 'None'}
+palette_map = {'Expected': 'limegreen', 'Not Expected': 'orange', 'None': 'gray'}
+
+for i, init_type in enumerate(neutral_types):
+    subset = df_merged_extneu_treatment_counts[df_merged_extneu_treatment_counts['initially_neutral'] == init_type].copy()
+    # Map the labels for plotting
+    subset['expected_label'] = subset['correct_response_given_treatment'].map(label_map)
+    sns.lineplot(
+        data=subset,
+        x='round_no',
+        y='proportion',
+        hue='expected_label',
+        style='expected_label',
+        markers=True,
+        dashes=True,
+        palette=palette_map,
+        errorbar=None,
+        ax=axes[i]
+    )
+    axes[i].set_title(f'Expected vs Non-Expected: {titles[i]}')
+    axes[i].set_xlabel('Round Number')
+    axes[i].set_ylabel('Count')
+    axes[i].set_xticks(range(1, 11))
+    axes[i].set_ylim(0, 1)
+    if i == 1:
+        axes[i].legend(title='Expected Response', loc='upper left', bbox_to_anchor=(1.05, 1))
+    else:
+        axes[i].get_legend().remove()
+
+plt.tight_layout()
+plt.savefig('Expected_vs_NonExpected_Responses_Initial_Neutral_Subplots_Prop.png', dpi=300)
+plt.show()
+
+
+### PLOT FOR THE NO NUDGE TREATMENT
+# Get the data
+df = df_mock.copy()
+participant_codes = df['participant.code'].unique()
+len(participant_codes) # N=120
+
+# Get the unique treatment types
+treatments = ['C_n', 'C_p', 'AC_n', 'AC_p', 'NO_n', 'NO_p']
+
+# Convert to categorical type for better plotting
+df['participant.treatment'] = pd.Categorical(df['participant.treatment'], categories=treatments)
+
+# Get the unique round numbers
+round_numbers = df['round_no'].unique()
+
+# For all treatments, plot the response differentiated by expected / non-expected responses (correct/incorrect)
+
+# 3 steps:
+# 1. Standardize the neighbors column
+df['neighbors'] = df['neighbors'].apply(which_neighbors_combinations)
+# 2. Create a new column for checking correctness of responses based on treatment and neighbors configs
+df['correct_conformity'] = df['neighbors'].map(correct_conformity)
+df['correct_anticonformity'] = df['neighbors'].map(correct_anticonformity)
+
+
+
+# 3. Apply function to each row
+df['correct_response_given_treatment'] = df.apply(check_response_correct, axis=1)
+# Create a new column called 'conformity_response' for conformity responses and 'anticonformity_response' for anticonformity responses
+df['treatment_resemblance'] = df.apply(check_response_treatment, axis=1)
+df[['response', 'correct_conformity', 'correct_anticonformity', 'treatment_resemblance']].head()
+
+# Convert the 'correct_response_given_treatment' to a categorical type 
+df['treatment_resemblance'] = pd.Categorical(df['treatment_resemblance'],categories=['conformity', 'anticonformity', 'None', 'Unknown'])
+
+df_notreatment = df.copy()
+# Create a new column for treatment names
+df_notreatment['treatment_type'] = df_notreatment['participant.treatment'].apply(
+    lambda x: 'Conformity' if x.startswith('C') else ('Anticonformity' if x.startswith('A') else 'No Treatment')
+)
+
+# Group the data to calculate counts for each round and response correctness
+df_no_treatment_counts = df_notreatment.groupby(['round_no', 'treatment_resemblance', 'treatment_type']).size().reset_index(name='count')
+
+
+# Remove the rows with Conformity or Anticonformity Treatment
+df_no_treatment_counts = df_no_treatment_counts[df_no_treatment_counts['treatment_type'] == 'No Treatment']
+
+# Convert counts to proportions by dividing by 40 (40 participants * 1 treatments)
+df_no_treatment_counts['proportion'] = df_no_treatment_counts['count'] / 40
+
+
+## COUNT PLOT
+# Plot for No Treatment resemblance (all types) in a single plot
+plt.figure(figsize=(10, 6))
+sns.lineplot(
+    data=df_no_treatment_counts,
+    x='round_no',
+    y='count',
+    hue='treatment_resemblance',
+    style='treatment_resemblance',
+    markers=True,  # Add markers for the dots
+    dashes=True,   # Add dashed lines
+    palette={'conformity': 'blue', 'anticonformity': 'red', 'None': 'gray', 'Unknown': 'purple'}
+)
+
+plt.title('No Treatment: Conformity/Anticonformity Resemblance')
+plt.xlabel('Round Number')
+plt.ylabel('Count')
+plt.ylim(0,40)
+plt.xticks(range(1, 11))
+plt.legend(title='Resemblance Type', loc='upper left', bbox_to_anchor=(1.05, 1))
+plt.tight_layout()
+plt.savefig('No_Treatment_Resemblance_Count.png', dpi=300)
+plt.show()
+
+
+## PROPORTION PLOT
+# Plot for No Treatment resemblance (all types) in a single plot
+plt.figure(figsize=(10, 6))
+sns.lineplot(
+    data=df_no_treatment_counts,
+    x='round_no',
+    y='proportion',
+    hue='treatment_resemblance',
+    style='treatment_resemblance',
+    markers=True,  # Add markers for the dots
+    dashes=True,   # Add dashed lines
+    palette={'conformity': 'blue', 'anticonformity': 'red', 'None': 'gray', 'Unknown': 'purple'}
+)
+
+plt.title('No Treatment: Conformity/Anticonformity Resemblance')
+plt.xlabel('Round Number')
+plt.ylabel('Count')
+plt.ylim(0,1)
+plt.xticks(range(1, 11))
+plt.legend(title='Resemblance Type', loc='upper left', bbox_to_anchor=(1.05, 1))
+plt.tight_layout()
+plt.savefig('No_Treatment_Resemblance_Proportion.png', dpi=300)
+plt.show()
+
+
+
+
+
+
+
+
+
 
 
 ## PLOT THE STEPS CHANGE FROM ROUND 1 TO ROUND 10
@@ -820,7 +1246,7 @@ df_steps_extneu['initially_neutral'].value_counts()/ 10
 
 # Plot the response change from round 1 to round 10 for all treatments, anticonformity and conformity
 plt.figure(figsize=(10, 6))
-palette = {'Neutral': '#785f6e', 'Non-Neutral':'#631a46' ,}
+palette = {'Neutral': "#A88A9A", 'Non-Neutral':"#d41286" ,}
 sns.lineplot(
     data=df_steps_extneu,
     x='round_no',
@@ -842,7 +1268,7 @@ plt.show()
 
 # Plot the response change from round 1 to round 10 for all treatments, anticonformity and conformity
 plt.figure(figsize=(10, 6))
-palette = {'Neutral': '#785f6e', 'Non-Neutral':'#631a46' ,}
+palette = {'Neutral': '#A88A9A', 'Non-Neutral':'#d41286' ,}
 sns.lineplot(
     data=df_steps_extneu,
     x='round_no',
@@ -876,7 +1302,7 @@ df_steps_extneu['treatment_type'] = pd.Categorical(df_steps_extneu['treatment_ty
 # Prepare No Treatment data for overlay
 no_treatment_data = df_steps_extneu[df_steps_extneu['treatment_type'] == 'No Treatment']
 
-palette = {'Neutral': '#785f6e', 'Non-Neutral':'#631a46' ,}
+palette = {'Neutral': '#A88A9A', 'Non-Neutral':'#d41286' ,}
 treatment_types = ['Conformity' , 'Anticonformity' , 'No Treatment']
 n_types = len(treatment_types)
 fig, axes = plt.subplots(1, n_types, figsize=(7 * n_types, 5), sharex=True, sharey=True)
@@ -934,6 +1360,7 @@ plt.show()
 # Prepare No Treatment data for overlay
 no_treatment_data = df_steps_extneu[df_steps_extneu['treatment_type'] == 'No Treatment']
 
+palette = {'Neutral': '#A88A9A', 'Non-Neutral':'#d41286' ,}
 fig, axes = plt.subplots(1, n_types, figsize=(7 * n_types, 5), sharex=True, sharey=True)
 for i, t_type in enumerate(treatment_types):
     data = df_steps_extneu[df_steps_extneu['treatment_type'] == t_type]
@@ -987,7 +1414,7 @@ plt.show()
 # Prepare No Treatment data for overlay (average across both Neutral and Non-Neutral)
 no_treatment_data = df_steps_extneu[df_steps_extneu['treatment_type'] == 'No Treatment']
 
-palette = {'Neutral': '#785f6e', 'Non-Neutral':'#631a46'}
+palette = {'Neutral': '#A88A9A', 'Non-Neutral':'#d41286' ,}
 treatment_types = ['Conformity', 'Anticonformity', 'No Treatment']
 n_types = len(treatment_types)
 fig, axes = plt.subplots(1, n_types, figsize=(7 * n_types, 5), sharex=True, sharey=True)
@@ -996,6 +1423,11 @@ if n_types == 1:
 
 # Compute average No Treatment overlay for Neutral and Non-Neutral
 overlay_means = no_treatment_data.groupby(['round_no'])['response_delta'].mean().reset_index()
+
+# Ensure `round_no` is an integer and includes all rounds from 1 to 10
+overlay_means['round_no'] = overlay_means['round_no'].astype(int)
+overlay_means = overlay_means.set_index('round_no').reindex(range(1, 11)).reset_index()
+overlay_means['response_delta'] = overlay_means['response_delta'].fillna(0)  # Fill missing values with 0
 
 for i, t_type in enumerate(treatment_types):
     data = df_steps_extneu[df_steps_extneu['treatment_type'] == t_type]
@@ -1013,19 +1445,19 @@ for i, t_type in enumerate(treatment_types):
         capsize=0.1,
         ax=axes[i]
     )
-    # Overlay average No Treatment lines for Neutral and Non-Neutral
-    means = overlay_means
-    if not means.empty:
-        axes[i].plot(
-            means['round_no'], means['response_delta'],
-            label=f'No Treatment Avg',
-            color="#53E3E8",
-            linestyle='-',
-            marker='x',
-            linewidth=2,
-            alpha=0.7,
-            zorder=0
-        )
+    # # Overlay average No Treatment lines for Neutral and Non-Neutral
+    # if not overlay_means.empty:
+    #     axes[i].plot(
+    #         overlay_means['round_no'], overlay_means['response_delta'],
+    #         label=f'No Treatment Avg',
+    #         color="#53E3E8",
+    #         linestyle='-',
+    #         marker='x',
+    #         linewidth=2,
+    #         alpha=0.7,
+    #         #zorder=0
+    #     )
+
 
     axes[i].set_title(f'Treatment: {t_type}')
     axes[i].set_xlabel('Round Number')
@@ -1036,7 +1468,8 @@ for i, t_type in enumerate(treatment_types):
         axes[i].get_legend().remove()
     else:
         axes[i].legend(title='Initial Opinion', loc='upper left', bbox_to_anchor=(1.05, 1))
-plt.xticks(range(0, 11))
+
+plt.xticks(range(1, 11))
 plt.tight_layout()
 plt.savefig('abs_overlay_response_change_per_round_by_ext_treatment_point.png', dpi=300)
 plt.show()
@@ -1047,7 +1480,6 @@ plt.show()
 # Prepare No Treatment data for overlay (average across both Neutral and Non-Neutral)
 no_treatment_data = df_steps_extneu[df_steps_extneu['treatment_type'] == 'No Treatment']
 
-palette = {'Neutral': '#785f6e', 'Non-Neutral':'#631a46'}
 treatment_types = ['Conformity', 'Anticonformity', 'No Treatment']
 n_types = len(treatment_types)
 fig, axes = plt.subplots(1, n_types, figsize=(7 * n_types, 5), sharex=True, sharey=True)
@@ -1073,19 +1505,19 @@ for i, t_type in enumerate(treatment_types):
         capsize=0.1,
         ax=axes[i]
     )
-    # Overlay average No Treatment lines for Neutral and Non-Neutral
-    means = overlay_means
-    if not means.empty:
-        axes[i].plot(
-            means['round_no'], means['response_change'],
-            label=f'No Treatment Avg',
-            color="#53E3E8",
-            linestyle='-',
-            marker='x',
-            linewidth=2,
-            alpha=0.7,
-            zorder=0
-        )
+    # # Overlay average No Treatment lines for Neutral and Non-Neutral
+    # means = overlay_means
+    # if not means.empty:
+    #     axes[i].plot(
+    #         means['round_no'], means['response_change'],
+    #         label=f'No Treatment Avg',
+    #         color="#53E3E8",
+    #         linestyle='-',
+    #         marker='x',
+    #         linewidth=2,
+    #         alpha=0.7,
+    #         zorder=0
+    #     )
 
     axes[i].set_title(f'Treatment: {t_type}')
     axes[i].set_xlabel('Round Number')
@@ -1096,7 +1528,7 @@ for i, t_type in enumerate(treatment_types):
         axes[i].get_legend().remove()
     else:
         axes[i].legend(title='Initial Opinion', loc='upper left', bbox_to_anchor=(1.05, 1))
-plt.xticks(range(0, 11))
+plt.xticks(range(1, 11))
 plt.tight_layout()
 plt.savefig('rel_overlay_response_change_per_round_by_ext_treatment_point.png', dpi=300)
 plt.show()
