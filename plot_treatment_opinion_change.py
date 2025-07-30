@@ -583,9 +583,16 @@ plt.savefig('All+C+AC_expected_response_change_prop.png', dpi=300)
 plt.show()
 
 ## SPECIFIC SCENARIO PLOT
-spec_scenario = 's9'
+spec_scenario = 's4'
 # Filter the DataFrame for the specific scenario
 df_spec_scenario = df[df['participant.scenario'].str.startswith(spec_scenario)]
+
+# How many participants in each specific scenario?
+participant_in_scenario = df_spec_scenario['participant.code'].value_counts() / 10 # rounds
+print(len(participant_in_scenario))
+# s9 = 44
+# s4 = 39
+# s2 = 37
 
 # Create a new column for treatment names
 df_spec_scenario['treatment_type'] = df_spec_scenario['participant.treatment'].apply(
@@ -602,6 +609,12 @@ df_counts_spec = df_spec_scenario.groupby(['round_no', 'correct_response_given_t
 
 # Remove the rows with No Treatment
 df_counts_spec = df_counts_spec[df_counts_spec['treatment_type'] != 'No Treatment']
+
+# Recount the participant after removing the No Treatment
+df_spec_scenario[df_spec_scenario['treatment_type'] != 'No Treatment']['participant.code'].nunique()
+# s9 = 35
+# s4 = 25
+# s2 = 20
 
 df_counts_spec
 ## COUNT PLOT
