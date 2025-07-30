@@ -1,0 +1,1201 @@
+participant.code,round_no,participant.scenario,response,participant.treatment,neighbors,treatment_type,response_change,response_delta
+04psjg1z,1,s2_n,0.0,C_n,"0, 0, 0",Conformity,-1.0,1.0
+04psjg1z,2,s2_n,0.0,C_n,"0, 1, 0",Conformity,0.0,0.0
+04psjg1z,3,s2_n,-1.0,C_n,"0, -1, -1",Conformity,-1.0,1.0
+04psjg1z,4,s2_n,1.0,C_n,"1, -1, 0",Conformity,2.0,2.0
+04psjg1z,5,s2_n,1.0,C_n,"1, 1, -1",Conformity,0.0,0.0
+04psjg1z,6,s2_n,1.0,C_n,"1, 1, 1",Conformity,0.0,0.0
+04psjg1z,7,s2_n,1.0,C_n,"1, 1, 0",Conformity,0.0,0.0
+04psjg1z,8,s2_n,0.0,C_n,"0, 0, -1",Conformity,-1.0,1.0
+04psjg1z,9,s2_n,-1.0,C_n,"-1, -1, 1",Conformity,-1.0,1.0
+04psjg1z,10,s2_n,-1.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+09389l9u,1,s2_p,0.0,NO_p,"1, 0, 1",No Treatment,-1.0,1.0
+09389l9u,2,s2_p,1.0,NO_p,"-1, -1, 1",No Treatment,1.0,1.0
+09389l9u,3,s2_p,1.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+09389l9u,4,s2_p,1.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+09389l9u,5,s2_p,1.0,NO_p,"-1, 1, 1",No Treatment,0.0,0.0
+09389l9u,6,s2_p,1.0,NO_p,"0, 0, -1",No Treatment,0.0,0.0
+09389l9u,7,s2_p,1.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+09389l9u,8,s2_p,1.0,NO_p,"1, 0, -1",No Treatment,0.0,0.0
+09389l9u,9,s2_p,1.0,NO_p,"-1, -1, 0",No Treatment,0.0,0.0
+09389l9u,10,s2_p,1.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+0qh8cd3h,1,s2_p,1.0,NO_p,"-1, -1, 0",No Treatment,0.0,0.0
+0qh8cd3h,2,s2_p,1.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+0qh8cd3h,3,s2_p,1.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+0qh8cd3h,4,s2_p,1.0,NO_p,"1, -1, 1",No Treatment,0.0,0.0
+0qh8cd3h,5,s2_p,1.0,NO_p,"1, 0, 1",No Treatment,0.0,0.0
+0qh8cd3h,6,s2_p,1.0,NO_p,"0, 0, -1",No Treatment,0.0,0.0
+0qh8cd3h,7,s2_p,1.0,NO_p,"-1, 1, 0",No Treatment,0.0,0.0
+0qh8cd3h,8,s2_p,1.0,NO_p,"-1, -1, 1",No Treatment,0.0,0.0
+0qh8cd3h,9,s2_p,1.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+0qh8cd3h,10,s2_p,1.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+0qqekewj,1,s4_p,1.0,AC_p,"0, 1, 1",Anticonformity,0.0,0.0
+0qqekewj,2,s4_p,1.0,AC_p,"-1, 1, 1",Anticonformity,0.0,0.0
+0qqekewj,3,s4_p,1.0,AC_p,"1, 0, 0",Anticonformity,0.0,0.0
+0qqekewj,4,s4_p,1.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+0qqekewj,5,s4_p,0.0,AC_p,"-1, -1, -1",Anticonformity,-1.0,1.0
+0qqekewj,6,s4_p,1.0,AC_p,"-1, 0, 0",Anticonformity,1.0,1.0
+0qqekewj,7,s4_p,1.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+0qqekewj,8,s4_p,1.0,AC_p,"1, 0, -1",Anticonformity,0.0,0.0
+0qqekewj,9,s4_p,1.0,AC_p,"1, -1, -1",Anticonformity,0.0,0.0
+0qqekewj,10,s4_p,0.0,AC_p,"0, -1, -1",Anticonformity,-1.0,1.0
+1sgxjqwj,1,s2_p,0.0,AC_p,"-1, 0, -1",Anticonformity,0.0,0.0
+1sgxjqwj,2,s2_p,0.0,AC_p,"-1, -1, 1",Anticonformity,0.0,0.0
+1sgxjqwj,3,s2_p,0.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+1sgxjqwj,4,s2_p,0.0,AC_p,"0, -1, 0",Anticonformity,0.0,0.0
+1sgxjqwj,5,s2_p,0.0,AC_p,"1, 0, -1",Anticonformity,0.0,0.0
+1sgxjqwj,6,s2_p,0.0,AC_p,"-1, 1, 1",Anticonformity,0.0,0.0
+1sgxjqwj,7,s2_p,0.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+1sgxjqwj,8,s2_p,0.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+1sgxjqwj,9,s2_p,0.0,AC_p,"0, 1, 0",Anticonformity,0.0,0.0
+1sgxjqwj,10,s2_p,0.0,AC_p,"0, 1, 1",Anticonformity,0.0,0.0
+1tz0xqjm,1,s4_p,1.0,NO_p,"1, -1, 1",No Treatment,1.0,1.0
+1tz0xqjm,2,s4_p,1.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+1tz0xqjm,3,s4_p,1.0,NO_p,"1, 1, 0",No Treatment,0.0,0.0
+1tz0xqjm,4,s4_p,0.0,NO_p,"0, 0, 0",No Treatment,-1.0,1.0
+1tz0xqjm,5,s4_p,-1.0,NO_p,"1, -1, -1",No Treatment,-1.0,1.0
+1tz0xqjm,6,s4_p,-1.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+1tz0xqjm,7,s4_p,0.0,NO_p,"0, 0, -1",No Treatment,1.0,1.0
+1tz0xqjm,8,s4_p,-1.0,NO_p,"0, -1, -1",No Treatment,-1.0,1.0
+1tz0xqjm,9,s4_p,0.0,NO_p,"-1, 1, 0",No Treatment,1.0,1.0
+1tz0xqjm,10,s4_p,0.0,NO_p,"0, 1, 0",No Treatment,0.0,0.0
+22sw755d,1,s4_n,0.0,C_n,"1, -1, -1",Conformity,0.0,0.0
+22sw755d,2,s4_n,-1.0,C_n,"-1, -1, -1",Conformity,-1.0,1.0
+22sw755d,3,s4_n,-1.0,C_n,"1, 1, 1",Conformity,0.0,0.0
+22sw755d,4,s4_n,0.0,C_n,"0, 0, 0",Conformity,1.0,1.0
+22sw755d,5,s4_n,-1.0,C_n,"1, 0, -1",Conformity,-1.0,1.0
+22sw755d,6,s4_n,-1.0,C_n,"-1, 0, 0",Conformity,0.0,0.0
+22sw755d,7,s4_n,0.0,C_n,"1, 0, 1",Conformity,1.0,1.0
+22sw755d,8,s4_n,-1.0,C_n,"0, -1, -1",Conformity,-1.0,1.0
+22sw755d,9,s4_n,-1.0,C_n,"1, -1, 1",Conformity,0.0,0.0
+22sw755d,10,s4_n,0.0,C_n,"0, 0, 1",Conformity,1.0,1.0
+25os6zos,1,s9_n,-1.0,AC_n,"0, 1, 0",Anticonformity,0.0,0.0
+25os6zos,2,s9_n,0.0,AC_n,"-1, -1, -1",Anticonformity,1.0,1.0
+25os6zos,3,s9_n,0.0,AC_n,"-1, 1, -1",Anticonformity,0.0,0.0
+25os6zos,4,s9_n,-1.0,AC_n,"1, 0, -1",Anticonformity,-1.0,1.0
+25os6zos,5,s9_n,-1.0,AC_n,"1, 1, 1",Anticonformity,0.0,0.0
+25os6zos,6,s9_n,0.0,AC_n,"1, 1, -1",Anticonformity,1.0,1.0
+25os6zos,7,s9_n,-1.0,AC_n,"0, 0, 0",Anticonformity,-1.0,1.0
+25os6zos,8,s9_n,1.0,AC_n,"0, -1, -1",Anticonformity,2.0,2.0
+25os6zos,9,s9_n,-1.0,AC_n,"0, 1, 1",Anticonformity,-2.0,2.0
+25os6zos,10,s9_n,1.0,AC_n,"0, -1, 0",Anticonformity,2.0,2.0
+27rruec5,1,s4_p,1.0,AC_p,"[1, 1, 1]",Anticonformity,0.0,0.0
+27rruec5,2,s4_p,1.0,AC_p,"[1, 1, -1]",Anticonformity,0.0,0.0
+27rruec5,3,s4_p,1.0,AC_p,"[0, 0, 0]",Anticonformity,0.0,0.0
+27rruec5,4,s4_p,1.0,AC_p,"[1, -1, 0]",Anticonformity,0.0,0.0
+27rruec5,5,s4_p,1.0,AC_p,"[0, -1, -1]",Anticonformity,0.0,0.0
+27rruec5,6,s4_p,1.0,AC_p,"[1, -1, -1]",Anticonformity,0.0,0.0
+27rruec5,7,s4_p,1.0,AC_p,"[-1, 0, 0]",Anticonformity,0.0,0.0
+27rruec5,8,s4_p,1.0,AC_p,"[0, 1, 1]",Anticonformity,0.0,0.0
+27rruec5,9,s4_p,1.0,AC_p,"[-1, -1, -1]",Anticonformity,0.0,0.0
+27rruec5,10,s4_p,1.0,AC_p,"[0, 0, 1]",Anticonformity,0.0,0.0
+2sxvp0rv,1,s4_p,0.0,NO_p,"0, 0, 0",No Treatment,-1.0,1.0
+2sxvp0rv,2,s4_p,1.0,NO_p,"1, 1, 1",No Treatment,1.0,1.0
+2sxvp0rv,3,s4_p,1.0,NO_p,"0, 1, 0",No Treatment,0.0,0.0
+2sxvp0rv,4,s4_p,0.0,NO_p,"-1, -1, -1",No Treatment,-1.0,1.0
+2sxvp0rv,5,s4_p,0.0,NO_p,"0, -1, 0",No Treatment,0.0,0.0
+2sxvp0rv,6,s4_p,1.0,NO_p,"1, -1, 1",No Treatment,1.0,1.0
+2sxvp0rv,7,s4_p,1.0,NO_p,"-1, 0, -1",No Treatment,0.0,0.0
+2sxvp0rv,8,s4_p,1.0,NO_p,"1, 0, 1",No Treatment,0.0,0.0
+2sxvp0rv,9,s4_p,1.0,NO_p,"1, -1, 0",No Treatment,0.0,0.0
+2sxvp0rv,10,s4_p,0.0,NO_p,"-1, -1, 1",No Treatment,-1.0,1.0
+2vqdn1r7,1,s4_n,0.0,AC_n,"[0, 1, 1]",Anticonformity,0.0,0.0
+2vqdn1r7,2,s4_n,0.0,AC_n,"[0, -1, 1]",Anticonformity,0.0,0.0
+2vqdn1r7,3,s4_n,0.0,AC_n,"[1, -1, -1]",Anticonformity,0.0,0.0
+2vqdn1r7,4,s4_n,0.0,AC_n,"[1, 1, 1]",Anticonformity,0.0,0.0
+2vqdn1r7,5,s4_n,0.0,AC_n,"[0, 0, 0]",Anticonformity,0.0,0.0
+2vqdn1r7,6,s4_n,0.0,AC_n,"[0, -1, -1]",Anticonformity,0.0,0.0
+2vqdn1r7,7,s4_n,0.0,AC_n,"[-1, 1, 1]",Anticonformity,0.0,0.0
+2vqdn1r7,8,s4_n,0.0,AC_n,"[0, 0, -1]",Anticonformity,0.0,0.0
+2vqdn1r7,9,s4_n,0.0,AC_n,"[1, 0, 0]",Anticonformity,0.0,0.0
+2vqdn1r7,10,s4_n,0.0,AC_n,"[-1, -1, -1]",Anticonformity,0.0,0.0
+2yz5dwoj,1,s4_p,0.0,C_p,"0, 0, 0",Conformity,-1.0,1.0
+2yz5dwoj,2,s4_p,0.0,C_p,"1, 0, 0",Conformity,0.0,0.0
+2yz5dwoj,3,s4_p,0.0,C_p,"-1, 0, 1",Conformity,0.0,0.0
+2yz5dwoj,4,s4_p,1.0,C_p,"0, 1, 1",Conformity,1.0,1.0
+2yz5dwoj,5,s4_p,1.0,C_p,"1, 1, 1",Conformity,0.0,0.0
+2yz5dwoj,6,s4_p,-1.0,C_p,"-1, 0, -1",Conformity,-2.0,2.0
+2yz5dwoj,7,s4_p,-1.0,C_p,"1, -1, -1",Conformity,0.0,0.0
+2yz5dwoj,8,s4_p,-1.0,C_p,"-1, -1, -1",Conformity,0.0,0.0
+2yz5dwoj,9,s4_p,1.0,C_p,"1, -1, 1",Conformity,2.0,2.0
+2yz5dwoj,10,s4_p,0.0,C_p,"-1, 0, 0",Conformity,-1.0,1.0
+36egld53,1,s9_n,1.0,C_n,"1, -1, 1",Conformity,0.0,0.0
+36egld53,2,s9_n,1.0,C_n,"-1, 0, 0",Conformity,0.0,0.0
+36egld53,3,s9_n,1.0,C_n,"0, 1, 0",Conformity,0.0,0.0
+36egld53,4,s9_n,1.0,C_n,"-1, 0, -1",Conformity,0.0,0.0
+36egld53,5,s9_n,1.0,C_n,"1, 1, 0",Conformity,0.0,0.0
+36egld53,6,s9_n,-1.0,C_n,"-1, 0, 1",Conformity,-2.0,2.0
+36egld53,7,s9_n,1.0,C_n,"1, 1, 1",Conformity,2.0,2.0
+36egld53,8,s9_n,1.0,C_n,"1, -1, -1",Conformity,0.0,0.0
+36egld53,9,s9_n,1.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+36egld53,10,s9_n,1.0,C_n,"0, 0, 0",Conformity,0.0,0.0
+3ic6p37b,1,s9_n,0.0,C_n,"[-1, -1, -1]",Conformity,0.0,0.0
+3ic6p37b,2,s9_n,0.0,C_n,"[1, -1, -1]",Conformity,0.0,0.0
+3ic6p37b,3,s9_n,0.0,C_n,"[-1, 1, 1]",Conformity,0.0,0.0
+3ic6p37b,4,s9_n,0.0,C_n,"[0, 1, 0]",Conformity,0.0,0.0
+3ic6p37b,5,s9_n,0.0,C_n,"[1, 1, 1]",Conformity,0.0,0.0
+3ic6p37b,6,s9_n,0.0,C_n,"[0, 1, 1]",Conformity,0.0,0.0
+3ic6p37b,7,s9_n,0.0,C_n,"[0, -1, 0]",Conformity,0.0,0.0
+3ic6p37b,8,s9_n,-1.0,C_n,"[-1, -1, 0]",Conformity,-1.0,1.0
+3ic6p37b,9,s9_n,0.0,C_n,"[0, 0, 0]",Conformity,1.0,1.0
+3ic6p37b,10,s9_n,0.0,C_n,"[-1, 0, 1]",Conformity,0.0,0.0
+3oh6crbi,1,s9_p,0.0,AC_p,"1, 1, 1",Anticonformity,-1.0,1.0
+3oh6crbi,2,s9_p,0.0,AC_p,"1, -1, 1",Anticonformity,0.0,0.0
+3oh6crbi,3,s9_p,0.0,AC_p,"1, -1, -1",Anticonformity,0.0,0.0
+3oh6crbi,4,s9_p,1.0,AC_p,"-1, 0, -1",Anticonformity,1.0,1.0
+3oh6crbi,5,s9_p,1.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+3oh6crbi,6,s9_p,-1.0,AC_p,"0, 0, 1",Anticonformity,-2.0,2.0
+3oh6crbi,7,s9_p,1.0,AC_p,"-1, -1, -1",Anticonformity,2.0,2.0
+3oh6crbi,8,s9_p,-1.0,AC_p,"1, 1, 0",Anticonformity,-2.0,2.0
+3oh6crbi,9,s9_p,0.0,AC_p,"0, 1, -1",Anticonformity,1.0,1.0
+3oh6crbi,10,s9_p,1.0,AC_p,"0, -1, 0",Anticonformity,1.0,1.0
+3oyfb7lr,1,s4_n,1.0,NO_n,"-1, 1, 1",No Treatment,0.0,0.0
+3oyfb7lr,2,s4_n,-1.0,NO_n,"-1, 1, -1",No Treatment,-2.0,2.0
+3oyfb7lr,3,s4_n,1.0,NO_n,"1, 0, 1",No Treatment,2.0,2.0
+3oyfb7lr,4,s4_n,0.0,NO_n,"1, 0, 0",No Treatment,-1.0,1.0
+3oyfb7lr,5,s4_n,0.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+3oyfb7lr,6,s4_n,0.0,NO_n,"-1, 0, 0",No Treatment,0.0,0.0
+3oyfb7lr,7,s4_n,1.0,NO_n,"-1, 0, 1",No Treatment,1.0,1.0
+3oyfb7lr,8,s4_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+3oyfb7lr,9,s4_n,-1.0,NO_n,"-1, -1, -1",No Treatment,-2.0,2.0
+3oyfb7lr,10,s4_n,-1.0,NO_n,"-1, -1, 0",No Treatment,0.0,0.0
+3rg84scm,1,s4_n,0.0,NO_n,"-1, 0, -1",No Treatment,0.0,0.0
+3rg84scm,2,s4_n,0.0,NO_n,"-1, -1, -1",No Treatment,0.0,0.0
+3rg84scm,3,s4_n,0.0,NO_n,"1, -1, 0",No Treatment,0.0,0.0
+3rg84scm,4,s4_n,0.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+3rg84scm,5,s4_n,0.0,NO_n,"-1, 1, 1",No Treatment,0.0,0.0
+3rg84scm,6,s4_n,0.0,NO_n,"1, 0, 0",No Treatment,0.0,0.0
+3rg84scm,7,s4_n,0.0,NO_n,"-1, -1, 1",No Treatment,0.0,0.0
+3rg84scm,8,s4_n,0.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+3rg84scm,9,s4_n,0.0,NO_n,"-1, 0, 0",No Treatment,0.0,0.0
+3rg84scm,10,s4_n,0.0,NO_n,"1, 1, 0",No Treatment,0.0,0.0
+3un7u84w,1,s9_n,1.0,NO_n,"1, 1, 0",No Treatment,0.0,0.0
+3un7u84w,2,s9_n,1.0,NO_n,"-1, 0, -1",No Treatment,0.0,0.0
+3un7u84w,3,s9_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+3un7u84w,4,s9_n,1.0,NO_n,"-1, 1, 1",No Treatment,0.0,0.0
+3un7u84w,5,s9_n,1.0,NO_n,"-1, -1, -1",No Treatment,0.0,0.0
+3un7u84w,6,s9_n,1.0,NO_n,"0, 1, 0",No Treatment,0.0,0.0
+3un7u84w,7,s9_n,1.0,NO_n,"-1, 1, -1",No Treatment,0.0,0.0
+3un7u84w,8,s9_n,1.0,NO_n,"0, -1, 1",No Treatment,0.0,0.0
+3un7u84w,9,s9_n,1.0,NO_n,"0, 0, -1",No Treatment,0.0,0.0
+3un7u84w,10,s9_n,1.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+3zkr61oj,1,s4_n,-1.0,NO_n,"1, -1, 1",No Treatment,0.0,0.0
+3zkr61oj,2,s4_n,-1.0,NO_n,"-1, -1, -1",No Treatment,0.0,0.0
+3zkr61oj,3,s4_n,0.0,NO_n,"0, 0, 0",No Treatment,1.0,1.0
+3zkr61oj,4,s4_n,-1.0,NO_n,"1, -1, -1",No Treatment,-1.0,1.0
+3zkr61oj,5,s4_n,0.0,NO_n,"0, 1, 0",No Treatment,1.0,1.0
+3zkr61oj,6,s4_n,-1.0,NO_n,"-1, -1, 0",No Treatment,-1.0,1.0
+3zkr61oj,7,s4_n,0.0,NO_n,"0, -1, 0",No Treatment,1.0,1.0
+3zkr61oj,8,s4_n,0.0,NO_n,"1, -1, 0",No Treatment,0.0,0.0
+3zkr61oj,9,s4_n,1.0,NO_n,"1, 1, 1",No Treatment,1.0,1.0
+3zkr61oj,10,s4_n,1.0,NO_n,"1, 1, 0",No Treatment,0.0,0.0
+3zp8zev5,1,s2_p,1.0,NO_p,"[1, 0, 1]",No Treatment,1.0,1.0
+3zp8zev5,2,s2_p,1.0,NO_p,"[1, -1, 1]",No Treatment,0.0,0.0
+3zp8zev5,3,s2_p,1.0,NO_p,"[0, 0, 0]",No Treatment,0.0,0.0
+3zp8zev5,4,s2_p,1.0,NO_p,"[-1, -1, 1]",No Treatment,0.0,0.0
+3zp8zev5,5,s2_p,1.0,NO_p,"[-1, 0, 0]",No Treatment,0.0,0.0
+3zp8zev5,6,s2_p,1.0,NO_p,"[1, -1, 0]",No Treatment,0.0,0.0
+3zp8zev5,7,s2_p,1.0,NO_p,"[1, 1, 1]",No Treatment,0.0,0.0
+3zp8zev5,8,s2_p,1.0,NO_p,"[0, 0, 1]",No Treatment,0.0,0.0
+3zp8zev5,9,s2_p,1.0,NO_p,"[-1, -1, -1]",No Treatment,0.0,0.0
+3zp8zev5,10,s2_p,1.0,NO_p,"[-1, -1, 0]",No Treatment,0.0,0.0
+4awxvpoy,1,s2_p,1.0,AC_p,"0, -1, -1",Anticonformity,0.0,0.0
+4awxvpoy,2,s2_p,1.0,AC_p,"0, 0, -1",Anticonformity,0.0,0.0
+4awxvpoy,3,s2_p,-1.0,AC_p,"1, 1, 1",Anticonformity,-2.0,2.0
+4awxvpoy,4,s2_p,0.0,AC_p,"1, 1, -1",Anticonformity,1.0,1.0
+4awxvpoy,5,s2_p,1.0,AC_p,"1, -1, -1",Anticonformity,1.0,1.0
+4awxvpoy,6,s2_p,1.0,AC_p,"0, -1, 1",Anticonformity,0.0,0.0
+4awxvpoy,7,s2_p,1.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+4awxvpoy,8,s2_p,1.0,AC_p,"0, 1, 0",Anticonformity,0.0,0.0
+4awxvpoy,9,s2_p,0.0,AC_p,"0, 1, 1",Anticonformity,-1.0,1.0
+4awxvpoy,10,s2_p,1.0,AC_p,"0, 0, 0",Anticonformity,1.0,1.0
+4mmqht8k,1,s4_n,0.0,AC_n,"0, 0, 1",Anticonformity,0.0,0.0
+4mmqht8k,2,s4_n,1.0,AC_n,"1, -1, 1",Anticonformity,1.0,1.0
+4mmqht8k,3,s4_n,-1.0,AC_n,"-1, 0, -1",Anticonformity,-2.0,2.0
+4mmqht8k,4,s4_n,1.0,AC_n,"1, 1, 1",Anticonformity,2.0,2.0
+4mmqht8k,5,s4_n,-1.0,AC_n,"-1, -1, -1",Anticonformity,-2.0,2.0
+4mmqht8k,6,s4_n,0.0,AC_n,"1, 0, 1",Anticonformity,1.0,1.0
+4mmqht8k,7,s4_n,0.0,AC_n,"1, 0, -1",Anticonformity,0.0,0.0
+4mmqht8k,8,s4_n,0.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+4mmqht8k,9,s4_n,-1.0,AC_n,"-1, 1, -1",Anticonformity,-1.0,1.0
+4mmqht8k,10,s4_n,0.0,AC_n,"-1, 0, 0",Anticonformity,1.0,1.0
+4rwo4ca5,1,s4_p,-1.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+4rwo4ca5,2,s4_p,-1.0,AC_p,"1, 0, 1",Anticonformity,0.0,0.0
+4rwo4ca5,3,s4_p,1.0,AC_p,"1, 1, 1",Anticonformity,2.0,2.0
+4rwo4ca5,4,s4_p,-1.0,AC_p,"-1, 1, -1",Anticonformity,-2.0,2.0
+4rwo4ca5,5,s4_p,-1.0,AC_p,"-1, 1, 0",Anticonformity,0.0,0.0
+4rwo4ca5,6,s4_p,-1.0,AC_p,"1, -1, 1",Anticonformity,0.0,0.0
+4rwo4ca5,7,s4_p,-1.0,AC_p,"0, 0, 1",Anticonformity,0.0,0.0
+4rwo4ca5,8,s4_p,-1.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+4rwo4ca5,9,s4_p,-1.0,AC_p,"0, -1, -1",Anticonformity,0.0,0.0
+4rwo4ca5,10,s4_p,-1.0,AC_p,"0, -1, 0",Anticonformity,0.0,0.0
+5b2ac6jz,1,s2_n,0.0,AC_n,"-1, 1, 1",Anticonformity,0.0,0.0
+5b2ac6jz,2,s2_n,0.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+5b2ac6jz,3,s2_n,0.0,AC_n,"1, 1, 1",Anticonformity,0.0,0.0
+5b2ac6jz,4,s2_n,0.0,AC_n,"0, 1, 0",Anticonformity,0.0,0.0
+5b2ac6jz,5,s2_n,0.0,AC_n,"0, -1, -1",Anticonformity,0.0,0.0
+5b2ac6jz,6,s2_n,0.0,AC_n,"1, -1, -1",Anticonformity,0.0,0.0
+5b2ac6jz,7,s2_n,0.0,AC_n,"0, -1, 0",Anticonformity,0.0,0.0
+5b2ac6jz,8,s2_n,0.0,AC_n,"1, -1, 0",Anticonformity,0.0,0.0
+5b2ac6jz,9,s2_n,0.0,AC_n,"-1, -1, -1",Anticonformity,0.0,0.0
+5b2ac6jz,10,s2_n,0.0,AC_n,"1, 1, 0",Anticonformity,0.0,0.0
+5dmb8rwf,1,s9_n,0.0,AC_n,"1, 1, 1",Anticonformity,-1.0,1.0
+5dmb8rwf,2,s9_n,-1.0,AC_n,"0, 1, 0",Anticonformity,-1.0,1.0
+5dmb8rwf,3,s9_n,-1.0,AC_n,"0, 1, 1",Anticonformity,0.0,0.0
+5dmb8rwf,4,s9_n,-1.0,AC_n,"1, 0, -1",Anticonformity,0.0,0.0
+5dmb8rwf,5,s9_n,1.0,AC_n,"-1, -1, -1",Anticonformity,2.0,2.0
+5dmb8rwf,6,s9_n,1.0,AC_n,"0, 0, -1",Anticonformity,0.0,0.0
+5dmb8rwf,7,s9_n,1.0,AC_n,"0, -1, -1",Anticonformity,0.0,0.0
+5dmb8rwf,8,s9_n,0.0,AC_n,"-1, -1, 1",Anticonformity,-1.0,1.0
+5dmb8rwf,9,s9_n,1.0,AC_n,"0, 0, 0",Anticonformity,1.0,1.0
+5dmb8rwf,10,s9_n,0.0,AC_n,"1, 1, -1",Anticonformity,-1.0,1.0
+5g7ydtcz,1,s4_n,1.0,NO_n,"[-1, 1, -1]",No Treatment,0.0,0.0
+5g7ydtcz,2,s4_n,-1.0,NO_n,"[-1, 0, -1]",No Treatment,-2.0,2.0
+5g7ydtcz,3,s4_n,1.0,NO_n,"[1, 1, 1]",No Treatment,2.0,2.0
+5g7ydtcz,4,s4_n,-1.0,NO_n,"[-1, -1, -1]",No Treatment,-2.0,2.0
+5g7ydtcz,5,s4_n,0.0,NO_n,"[0, 1, 1]",No Treatment,1.0,1.0
+5g7ydtcz,6,s4_n,0.0,NO_n,"[-1, 0, 0]",No Treatment,0.0,0.0
+5g7ydtcz,7,s4_n,1.0,NO_n,"[1, 0, -1]",No Treatment,1.0,1.0
+5g7ydtcz,8,s4_n,1.0,NO_n,"[1, 0, 0]",No Treatment,0.0,0.0
+5g7ydtcz,9,s4_n,1.0,NO_n,"[1, 1, -1]",No Treatment,0.0,0.0
+5g7ydtcz,10,s4_n,0.0,NO_n,"[0, 0, 0]",No Treatment,-1.0,1.0
+5qckfwnq,1,s2_p,1.0,AC_p,"1, 0, 0",Anticonformity,0.0,0.0
+5qckfwnq,2,s2_p,1.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+5qckfwnq,3,s2_p,1.0,AC_p,"1, -1, 0",Anticonformity,0.0,0.0
+5qckfwnq,4,s2_p,1.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+5qckfwnq,5,s2_p,1.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+5qckfwnq,6,s2_p,1.0,AC_p,"-1, -1, 1",Anticonformity,0.0,0.0
+5qckfwnq,7,s2_p,1.0,AC_p,"-1, -1, 0",Anticonformity,0.0,0.0
+5qckfwnq,8,s2_p,1.0,AC_p,"-1, 0, 0",Anticonformity,0.0,0.0
+5qckfwnq,9,s2_p,1.0,AC_p,"1, 0, 1",Anticonformity,0.0,0.0
+5qckfwnq,10,s2_p,1.0,AC_p,"1, 1, -1",Anticonformity,0.0,0.0
+5vypxuls,1,s2_p,1.0,NO_p,"-1, 1, 1",No Treatment,1.0,1.0
+5vypxuls,2,s2_p,0.0,NO_p,"0, 0, -1",No Treatment,-1.0,1.0
+5vypxuls,3,s2_p,0.0,NO_p,"-1, 1, 0",No Treatment,0.0,0.0
+5vypxuls,4,s2_p,0.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+5vypxuls,5,s2_p,0.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+5vypxuls,6,s2_p,0.0,NO_p,"0, 1, 1",No Treatment,0.0,0.0
+5vypxuls,7,s2_p,0.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+5vypxuls,8,s2_p,0.0,NO_p,"-1, 0, -1",No Treatment,0.0,0.0
+5vypxuls,9,s2_p,0.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+5vypxuls,10,s2_p,0.0,NO_p,"-1, -1, 1",No Treatment,0.0,0.0
+68l0ptph,1,s4_p,0.0,C_p,"[-1, -1, -1]",Conformity,1.0,1.0
+68l0ptph,2,s4_p,1.0,C_p,"[-1, -1, 0]",Conformity,1.0,1.0
+68l0ptph,3,s4_p,-1.0,C_p,"[0, 0, 1]",Conformity,-2.0,2.0
+68l0ptph,4,s4_p,-1.0,C_p,"[-1, -1, 1]",Conformity,0.0,0.0
+68l0ptph,5,s4_p,-1.0,C_p,"[-1, 0, 0]",Conformity,0.0,0.0
+68l0ptph,6,s4_p,-1.0,C_p,"[-1, 0, 1]",Conformity,0.0,0.0
+68l0ptph,7,s4_p,-1.0,C_p,"[1, 1, 1]",Conformity,0.0,0.0
+68l0ptph,8,s4_p,1.0,C_p,"[1, -1, 1]",Conformity,2.0,2.0
+68l0ptph,9,s4_p,-1.0,C_p,"[1, 1, 0]",Conformity,-2.0,2.0
+68l0ptph,10,s4_p,-1.0,C_p,"[0, 0, 0]",Conformity,0.0,0.0
+70ss2mr0,1,s2_n,1.0,NO_n,"[-1, -1, 1]",No Treatment,1.0,1.0
+70ss2mr0,2,s2_n,0.0,NO_n,"[-1, 0, 1]",No Treatment,-1.0,1.0
+70ss2mr0,3,s2_n,0.0,NO_n,"[1, 0, 1]",No Treatment,0.0,0.0
+70ss2mr0,4,s2_n,0.0,NO_n,"[1, 1, 1]",No Treatment,0.0,0.0
+70ss2mr0,5,s2_n,0.0,NO_n,"[-1, -1, 0]",No Treatment,0.0,0.0
+70ss2mr0,6,s2_n,0.0,NO_n,"[-1, 0, 0]",No Treatment,0.0,0.0
+70ss2mr0,7,s2_n,0.0,NO_n,"[0, 0, 0]",No Treatment,0.0,0.0
+70ss2mr0,8,s2_n,0.0,NO_n,"[-1, -1, -1]",No Treatment,0.0,0.0
+70ss2mr0,9,s2_n,0.0,NO_n,"[0, 1, 0]",No Treatment,0.0,0.0
+70ss2mr0,10,s2_n,1.0,NO_n,"[-1, 1, 1]",No Treatment,1.0,1.0
+7x8pkfd5,1,s4_n,-1.0,NO_n,"0, 0, -1",No Treatment,0.0,0.0
+7x8pkfd5,2,s4_n,-1.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+7x8pkfd5,3,s4_n,-1.0,NO_n,"-1, 1, -1",No Treatment,0.0,0.0
+7x8pkfd5,4,s4_n,-1.0,NO_n,"1, 1, -1",No Treatment,0.0,0.0
+7x8pkfd5,5,s4_n,-1.0,NO_n,"-1, 0, 1",No Treatment,0.0,0.0
+7x8pkfd5,6,s4_n,-1.0,NO_n,"0, 0, 1",No Treatment,0.0,0.0
+7x8pkfd5,7,s4_n,-1.0,NO_n,"-1, -1, 0",No Treatment,0.0,0.0
+7x8pkfd5,8,s4_n,1.0,NO_n,"1, 1, 1",No Treatment,2.0,2.0
+7x8pkfd5,9,s4_n,1.0,NO_n,"1, 1, 0",No Treatment,0.0,0.0
+7x8pkfd5,10,s4_n,-1.0,NO_n,"-1, -1, -1",No Treatment,-2.0,2.0
+897to2u1,1,s9_n,1.0,AC_n,"-1, -1, 1",Anticonformity,2.0,2.0
+897to2u1,2,s9_n,1.0,AC_n,"0, 1, 0",Anticonformity,0.0,0.0
+897to2u1,3,s9_n,-1.0,AC_n,"1, -1, 0",Anticonformity,-2.0,2.0
+897to2u1,4,s9_n,-1.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+897to2u1,5,s9_n,1.0,AC_n,"1, 1, 1",Anticonformity,2.0,2.0
+897to2u1,6,s9_n,-1.0,AC_n,"0, 0, -1",Anticonformity,-2.0,2.0
+897to2u1,7,s9_n,-1.0,AC_n,"-1, 0, -1",Anticonformity,0.0,0.0
+897to2u1,8,s9_n,1.0,AC_n,"-1, -1, -1",Anticonformity,2.0,2.0
+897to2u1,9,s9_n,0.0,AC_n,"1, -1, 1",Anticonformity,-1.0,1.0
+897to2u1,10,s9_n,-1.0,AC_n,"0, 1, 1",Anticonformity,-1.0,1.0
+8bd6khwj,1,s9_p,1.0,NO_p,"[0, 1, 1]",No Treatment,1.0,1.0
+8bd6khwj,2,s9_p,1.0,NO_p,"[1, 1, 1]",No Treatment,0.0,0.0
+8bd6khwj,3,s9_p,0.0,NO_p,"[1, 0, 0]",No Treatment,-1.0,1.0
+8bd6khwj,4,s9_p,0.0,NO_p,"[0, -1, 0]",No Treatment,0.0,0.0
+8bd6khwj,5,s9_p,1.0,NO_p,"[-1, 1, 0]",No Treatment,1.0,1.0
+8bd6khwj,6,s9_p,0.0,NO_p,"[-1, -1, 1]",No Treatment,-1.0,1.0
+8bd6khwj,7,s9_p,0.0,NO_p,"[-1, 0, -1]",No Treatment,0.0,0.0
+8bd6khwj,8,s9_p,1.0,NO_p,"[0, 0, 0]",No Treatment,1.0,1.0
+8bd6khwj,9,s9_p,0.0,NO_p,"[-1, 1, 1]",No Treatment,-1.0,1.0
+8bd6khwj,10,s9_p,-1.0,NO_p,"[-1, -1, -1]",No Treatment,-1.0,1.0
+8lhlmljs,1,s2_p,0.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+8lhlmljs,2,s2_p,0.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+8lhlmljs,3,s2_p,0.0,NO_p,"-1, 1, 0",No Treatment,0.0,0.0
+8lhlmljs,4,s2_p,0.0,NO_p,"1, -1, -1",No Treatment,0.0,0.0
+8lhlmljs,5,s2_p,0.0,NO_p,"-1, 1, 1",No Treatment,0.0,0.0
+8lhlmljs,6,s2_p,0.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+8lhlmljs,7,s2_p,0.0,NO_p,"1, 1, 0",No Treatment,0.0,0.0
+8lhlmljs,8,s2_p,0.0,NO_p,"0, 1, 0",No Treatment,0.0,0.0
+8lhlmljs,9,s2_p,0.0,NO_p,"-1, 0, -1",No Treatment,0.0,0.0
+8lhlmljs,10,s2_p,0.0,NO_p,"-1, 0, 0",No Treatment,0.0,0.0
+8uqhbvx9,1,s9_n,1.0,AC_n,"1, -1, 0",Anticonformity,0.0,0.0
+8uqhbvx9,2,s9_n,1.0,AC_n,"1, 1, -1",Anticonformity,0.0,0.0
+8uqhbvx9,3,s9_n,1.0,AC_n,"-1, -1, 1",Anticonformity,0.0,0.0
+8uqhbvx9,4,s9_n,1.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+8uqhbvx9,5,s9_n,1.0,AC_n,"-1, 0, -1",Anticonformity,0.0,0.0
+8uqhbvx9,6,s9_n,1.0,AC_n,"1, 1, 1",Anticonformity,0.0,0.0
+8uqhbvx9,7,s9_n,1.0,AC_n,"-1, -1, -1",Anticonformity,0.0,0.0
+8uqhbvx9,8,s9_n,1.0,AC_n,"0, 1, 1",Anticonformity,0.0,0.0
+8uqhbvx9,9,s9_n,0.0,AC_n,"1, 0, 0",Anticonformity,-1.0,1.0
+8uqhbvx9,10,s9_n,0.0,AC_n,"0, -1, 0",Anticonformity,0.0,0.0
+9ac3hmt8,1,s9_p,-1.0,AC_p,"[1, -1, 1]",Anticonformity,0.0,0.0
+9ac3hmt8,2,s9_p,-1.0,AC_p,"[-1, -1, 0]",Anticonformity,0.0,0.0
+9ac3hmt8,3,s9_p,-1.0,AC_p,"[0, 0, -1]",Anticonformity,0.0,0.0
+9ac3hmt8,4,s9_p,-1.0,AC_p,"[1, 1, 0]",Anticonformity,0.0,0.0
+9ac3hmt8,5,s9_p,-1.0,AC_p,"[1, -1, -1]",Anticonformity,0.0,0.0
+9ac3hmt8,6,s9_p,-1.0,AC_p,"[1, 1, 1]",Anticonformity,0.0,0.0
+9ac3hmt8,7,s9_p,-1.0,AC_p,"[-1, -1, -1]",Anticonformity,0.0,0.0
+9ac3hmt8,8,s9_p,-1.0,AC_p,"[0, 0, 1]",Anticonformity,0.0,0.0
+9ac3hmt8,9,s9_p,-1.0,AC_p,"[1, -1, 0]",Anticonformity,0.0,0.0
+9ac3hmt8,10,s9_p,-1.0,AC_p,"[0, 0, 0]",Anticonformity,0.0,0.0
+9el7ivjc,1,s4_n,-1.0,AC_n,"-1, -1, -1",Anticonformity,0.0,0.0
+9el7ivjc,2,s4_n,-1.0,AC_n,"1, 0, 0",Anticonformity,0.0,0.0
+9el7ivjc,3,s4_n,-1.0,AC_n,"0, -1, 1",Anticonformity,0.0,0.0
+9el7ivjc,4,s4_n,-1.0,AC_n,"1, -1, -1",Anticonformity,0.0,0.0
+9el7ivjc,5,s4_n,-1.0,AC_n,"-1, 0, -1",Anticonformity,0.0,0.0
+9el7ivjc,6,s4_n,-1.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+9el7ivjc,7,s4_n,-1.0,AC_n,"1, 1, 1",Anticonformity,0.0,0.0
+9el7ivjc,8,s4_n,-1.0,AC_n,"0, 1, 1",Anticonformity,0.0,0.0
+9el7ivjc,9,s4_n,-1.0,AC_n,"1, -1, 1",Anticonformity,0.0,0.0
+9el7ivjc,10,s4_n,-1.0,AC_n,"-1, 0, 0",Anticonformity,0.0,0.0
+9kowj1he,1,s9_p,1.0,C_p,"0, 0, 1",Conformity,0.0,0.0
+9kowj1he,2,s9_p,1.0,C_p,"1, 0, -1",Conformity,0.0,0.0
+9kowj1he,3,s9_p,0.0,C_p,"0, 0, 0",Conformity,-1.0,1.0
+9kowj1he,4,s9_p,1.0,C_p,"1, 1, 1",Conformity,1.0,1.0
+9kowj1he,5,s9_p,1.0,C_p,"-1, -1, -1",Conformity,0.0,0.0
+9kowj1he,6,s9_p,1.0,C_p,"-1, 1, 1",Conformity,0.0,0.0
+9kowj1he,7,s9_p,1.0,C_p,"1, 0, 1",Conformity,0.0,0.0
+9kowj1he,8,s9_p,1.0,C_p,"-1, 0, -1",Conformity,0.0,0.0
+9kowj1he,9,s9_p,1.0,C_p,"-1, 1, -1",Conformity,0.0,0.0
+9kowj1he,10,s9_p,1.0,C_p,"0, 0, -1",Conformity,0.0,0.0
+a2ph9zey,1,s9_p,1.0,C_p,"0, 1, 1",Conformity,0.0,0.0
+a2ph9zey,2,s9_p,1.0,C_p,"1, 0, 0",Conformity,0.0,0.0
+a2ph9zey,3,s9_p,1.0,C_p,"0, 0, -1",Conformity,0.0,0.0
+a2ph9zey,4,s9_p,1.0,C_p,"-1, -1, 0",Conformity,0.0,0.0
+a2ph9zey,5,s9_p,1.0,C_p,"0, 0, 0",Conformity,0.0,0.0
+a2ph9zey,6,s9_p,1.0,C_p,"1, 0, -1",Conformity,0.0,0.0
+a2ph9zey,7,s9_p,1.0,C_p,"-1, -1, 1",Conformity,0.0,0.0
+a2ph9zey,8,s9_p,1.0,C_p,"1, 1, 1",Conformity,0.0,0.0
+a2ph9zey,9,s9_p,1.0,C_p,"-1, 1, 1",Conformity,0.0,0.0
+a2ph9zey,10,s9_p,-1.0,C_p,"-1, -1, -1",Conformity,-2.0,2.0
+alb8jopf,1,s2_p,0.0,C_p,"[-1, -1, 1]",Conformity,0.0,0.0
+alb8jopf,2,s2_p,0.0,C_p,"[0, 1, 0]",Conformity,0.0,0.0
+alb8jopf,3,s2_p,1.0,C_p,"[1, 1, 1]",Conformity,1.0,1.0
+alb8jopf,4,s2_p,-1.0,C_p,"[0, -1, -1]",Conformity,-2.0,2.0
+alb8jopf,5,s2_p,0.0,C_p,"[-1, 0, 0]",Conformity,1.0,1.0
+alb8jopf,6,s2_p,1.0,C_p,"[1, 1, -1]",Conformity,1.0,1.0
+alb8jopf,7,s2_p,1.0,C_p,"[1, 1, 0]",Conformity,0.0,0.0
+alb8jopf,8,s2_p,0.0,C_p,"[0, 0, 0]",Conformity,-1.0,1.0
+alb8jopf,9,s2_p,-1.0,C_p,"[-1, -1, -1]",Conformity,-1.0,1.0
+alb8jopf,10,s2_p,0.0,C_p,"[1, 0, -1]",Conformity,1.0,1.0
+aodrvssw,1,s9_n,0.0,C_n,"1, 0, 0",Conformity,1.0,1.0
+aodrvssw,2,s9_n,0.0,C_n,"1, 1, 0",Conformity,0.0,0.0
+aodrvssw,3,s9_n,-1.0,C_n,"-1, -1, -1",Conformity,-1.0,1.0
+aodrvssw,4,s9_n,-1.0,C_n,"0, -1, 1",Conformity,0.0,0.0
+aodrvssw,5,s9_n,0.0,C_n,"0, 0, 0",Conformity,1.0,1.0
+aodrvssw,6,s9_n,0.0,C_n,"0, 0, -1",Conformity,0.0,0.0
+aodrvssw,7,s9_n,1.0,C_n,"1, 1, 1",Conformity,1.0,1.0
+aodrvssw,8,s9_n,1.0,C_n,"1, -1, 1",Conformity,0.0,0.0
+aodrvssw,9,s9_n,-1.0,C_n,"1, -1, -1",Conformity,-2.0,2.0
+aodrvssw,10,s9_n,-1.0,C_n,"-1, 0, -1",Conformity,0.0,0.0
+b0au8mbn,1,s4_n,1.0,C_n,"[0, 1, 0]",Conformity,0.0,0.0
+b0au8mbn,2,s4_n,1.0,C_n,"[1, -1, 1]",Conformity,0.0,0.0
+b0au8mbn,3,s4_n,0.0,C_n,"[0, -1, -1]",Conformity,-1.0,1.0
+b0au8mbn,4,s4_n,1.0,C_n,"[1, 0, 1]",Conformity,1.0,1.0
+b0au8mbn,5,s4_n,0.0,C_n,"[0, -1, 0]",Conformity,-1.0,1.0
+b0au8mbn,6,s4_n,-1.0,C_n,"[-1, -1, -1]",Conformity,-1.0,1.0
+b0au8mbn,7,s4_n,0.0,C_n,"[1, 1, 1]",Conformity,1.0,1.0
+b0au8mbn,8,s4_n,0.0,C_n,"[0, 0, 0]",Conformity,0.0,0.0
+b0au8mbn,9,s4_n,1.0,C_n,"[1, -1, 0]",Conformity,1.0,1.0
+b0au8mbn,10,s4_n,1.0,C_n,"[1, -1, -1]",Conformity,0.0,0.0
+b7311j5a,1,s2_p,1.0,AC_p,"0, 1, 0",Anticonformity,0.0,0.0
+b7311j5a,2,s2_p,1.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+b7311j5a,3,s2_p,1.0,AC_p,"-1, 1, 1",Anticonformity,0.0,0.0
+b7311j5a,4,s2_p,1.0,AC_p,"1, 1, 0",Anticonformity,0.0,0.0
+b7311j5a,5,s2_p,0.0,AC_p,"1, -1, -1",Anticonformity,-1.0,1.0
+b7311j5a,6,s2_p,0.0,AC_p,"1, 0, -1",Anticonformity,0.0,0.0
+b7311j5a,7,s2_p,1.0,AC_p,"0, -1, 0",Anticonformity,1.0,1.0
+b7311j5a,8,s2_p,1.0,AC_p,"-1, -1, 0",Anticonformity,0.0,0.0
+b7311j5a,9,s2_p,0.0,AC_p,"0, 0, 0",Anticonformity,-1.0,1.0
+b7311j5a,10,s2_p,-1.0,AC_p,"-1, -1, -1",Anticonformity,-1.0,1.0
+buhotb05,1,s2_n,0.0,C_n,"1, -1, 1",Conformity,0.0,0.0
+buhotb05,2,s2_n,0.0,C_n,"-1, 1, 0",Conformity,0.0,0.0
+buhotb05,3,s2_n,1.0,C_n,"1, 0, 1",Conformity,1.0,1.0
+buhotb05,4,s2_n,-1.0,C_n,"1, -1, -1",Conformity,-2.0,2.0
+buhotb05,5,s2_n,1.0,C_n,"1, 1, 1",Conformity,2.0,2.0
+buhotb05,6,s2_n,1.0,C_n,"0, 0, 0",Conformity,0.0,0.0
+buhotb05,7,s2_n,0.0,C_n,"0, 0, -1",Conformity,-1.0,1.0
+buhotb05,8,s2_n,1.0,C_n,"-1, -1, -1",Conformity,1.0,1.0
+buhotb05,9,s2_n,0.0,C_n,"-1, 0, -1",Conformity,-1.0,1.0
+buhotb05,10,s2_n,0.0,C_n,"0, 1, 0",Conformity,0.0,0.0
+bzbc7z4u,1,s9_p,-1.0,NO_p,"-1, 1, -1",No Treatment,0.0,0.0
+bzbc7z4u,2,s9_p,0.0,NO_p,"0, -1, -1",No Treatment,1.0,1.0
+bzbc7z4u,3,s9_p,-1.0,NO_p,"0, 0, 0",No Treatment,-1.0,1.0
+bzbc7z4u,4,s9_p,-1.0,NO_p,"-1, 1, 1",No Treatment,0.0,0.0
+bzbc7z4u,5,s9_p,-1.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+bzbc7z4u,6,s9_p,-1.0,NO_p,"-1, 0, 1",No Treatment,0.0,0.0
+bzbc7z4u,7,s9_p,-1.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+bzbc7z4u,8,s9_p,-1.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+bzbc7z4u,9,s9_p,-1.0,NO_p,"0, 0, -1",No Treatment,0.0,0.0
+bzbc7z4u,10,s9_p,-1.0,NO_p,"1, 0, 1",No Treatment,0.0,0.0
+c1i1bc8n,1,s9_p,1.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+c1i1bc8n,2,s9_p,1.0,AC_p,"0, 0, 1",Anticonformity,0.0,0.0
+c1i1bc8n,3,s9_p,1.0,AC_p,"-1, 0, -1",Anticonformity,0.0,0.0
+c1i1bc8n,4,s9_p,1.0,AC_p,"-1, 0, 1",Anticonformity,0.0,0.0
+c1i1bc8n,5,s9_p,1.0,AC_p,"0, 1, 1",Anticonformity,0.0,0.0
+c1i1bc8n,6,s9_p,1.0,AC_p,"1, 1, -1",Anticonformity,0.0,0.0
+c1i1bc8n,7,s9_p,1.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+c1i1bc8n,8,s9_p,1.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+c1i1bc8n,9,s9_p,1.0,AC_p,"1, -1, -1",Anticonformity,0.0,0.0
+c1i1bc8n,10,s9_p,1.0,AC_p,"0, 0, -1",Anticonformity,0.0,0.0
+crvglbzy,1,s9_p,1.0,C_p,"1, 1, -1",Conformity,0.0,0.0
+crvglbzy,2,s9_p,0.0,C_p,"-1, 0, 0",Conformity,-1.0,1.0
+crvglbzy,3,s9_p,1.0,C_p,"1, 0, 1",Conformity,1.0,1.0
+crvglbzy,4,s9_p,1.0,C_p,"-1, 1, 0",Conformity,0.0,0.0
+crvglbzy,5,s9_p,0.0,C_p,"0, 1, 0",Conformity,-1.0,1.0
+crvglbzy,6,s9_p,0.0,C_p,"0, 0, 0",Conformity,0.0,0.0
+crvglbzy,7,s9_p,-1.0,C_p,"-1, -1, -1",Conformity,-1.0,1.0
+crvglbzy,8,s9_p,-1.0,C_p,"-1, -1, 0",Conformity,0.0,0.0
+crvglbzy,9,s9_p,-1.0,C_p,"-1, 1, -1",Conformity,0.0,0.0
+crvglbzy,10,s9_p,1.0,C_p,"1, 1, 1",Conformity,2.0,2.0
+csb48ulf,1,s2_n,1.0,AC_n,"1, 1, 1",Anticonformity,0.0,0.0
+csb48ulf,2,s2_n,0.0,AC_n,"0, 0, 0",Anticonformity,-1.0,1.0
+csb48ulf,3,s2_n,0.0,AC_n,"-1, 0, -1",Anticonformity,0.0,0.0
+csb48ulf,4,s2_n,1.0,AC_n,"0, 1, 0",Anticonformity,1.0,1.0
+csb48ulf,5,s2_n,1.0,AC_n,"-1, 1, 1",Anticonformity,0.0,0.0
+csb48ulf,6,s2_n,1.0,AC_n,"0, 1, -1",Anticonformity,0.0,0.0
+csb48ulf,7,s2_n,1.0,AC_n,"-1, 1, -1",Anticonformity,0.0,0.0
+csb48ulf,8,s2_n,0.0,AC_n,"0, -1, 0",Anticonformity,-1.0,1.0
+csb48ulf,9,s2_n,0.0,AC_n,"-1, -1, -1",Anticonformity,0.0,0.0
+csb48ulf,10,s2_n,0.0,AC_n,"1, 0, 1",Anticonformity,0.0,0.0
+d4zgydcz,1,s4_n,0.0,AC_n,"[-1, 1, -1]",Anticonformity,0.0,0.0
+d4zgydcz,2,s4_n,0.0,AC_n,"[-1, -1, -1]",Anticonformity,0.0,0.0
+d4zgydcz,3,s4_n,0.0,AC_n,"[0, 1, 1]",Anticonformity,0.0,0.0
+d4zgydcz,4,s4_n,0.0,AC_n,"[0, -1, -1]",Anticonformity,0.0,0.0
+d4zgydcz,5,s4_n,-1.0,AC_n,"[1, 0, 0]",Anticonformity,-1.0,1.0
+d4zgydcz,6,s4_n,-1.0,AC_n,"[0, 0, 0]",Anticonformity,0.0,0.0
+d4zgydcz,7,s4_n,0.0,AC_n,"[-1, 0, 1]",Anticonformity,1.0,1.0
+d4zgydcz,8,s4_n,1.0,AC_n,"[0, -1, 0]",Anticonformity,1.0,1.0
+d4zgydcz,9,s4_n,0.0,AC_n,"[-1, 1, 1]",Anticonformity,-1.0,1.0
+d4zgydcz,10,s4_n,0.0,AC_n,"[1, 1, 1]",Anticonformity,0.0,0.0
+dua2uv6m,1,s9_n,-1.0,AC_n,"0, 1, -1",Anticonformity,0.0,0.0
+dua2uv6m,2,s9_n,-1.0,AC_n,"1, 1, 0",Anticonformity,0.0,0.0
+dua2uv6m,3,s9_n,-1.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+dua2uv6m,4,s9_n,1.0,AC_n,"-1, -1, -1",Anticonformity,2.0,2.0
+dua2uv6m,5,s9_n,-1.0,AC_n,"-1, -1, 0",Anticonformity,-2.0,2.0
+dua2uv6m,6,s9_n,-1.0,AC_n,"1, 0, 0",Anticonformity,0.0,0.0
+dua2uv6m,7,s9_n,0.0,AC_n,"-1, 1, 1",Anticonformity,1.0,1.0
+dua2uv6m,8,s9_n,0.0,AC_n,"-1, 1, -1",Anticonformity,0.0,0.0
+dua2uv6m,9,s9_n,-1.0,AC_n,"1, 1, 1",Anticonformity,-1.0,1.0
+dua2uv6m,10,s9_n,-1.0,AC_n,"0, 0, -1",Anticonformity,0.0,0.0
+e3t9qh98,1,s9_n,0.0,C_n,"[0, 0, 0]",Conformity,-1.0,1.0
+e3t9qh98,2,s9_n,1.0,C_n,"[-1, 1, 1]",Conformity,1.0,1.0
+e3t9qh98,3,s9_n,0.0,C_n,"[0, 0, -1]",Conformity,-1.0,1.0
+e3t9qh98,4,s9_n,-1.0,C_n,"[-1, -1, 1]",Conformity,-1.0,1.0
+e3t9qh98,5,s9_n,-1.0,C_n,"[-1, 0, -1]",Conformity,0.0,0.0
+e3t9qh98,6,s9_n,0.0,C_n,"[1, 0, 0]",Conformity,1.0,1.0
+e3t9qh98,7,s9_n,1.0,C_n,"[1, 0, 1]",Conformity,1.0,1.0
+e3t9qh98,8,s9_n,-1.0,C_n,"[-1, -1, -1]",Conformity,-2.0,2.0
+e3t9qh98,9,s9_n,0.0,C_n,"[-1, 0, 1]",Conformity,1.0,1.0
+e3t9qh98,10,s9_n,1.0,C_n,"[1, 1, 1]",Conformity,1.0,1.0
+e3xe5lmn,1,s4_n,0.0,NO_n,"0, 0, -1",No Treatment,0.0,0.0
+e3xe5lmn,2,s4_n,1.0,NO_n,"1, 1, -1",No Treatment,1.0,1.0
+e3xe5lmn,3,s4_n,-1.0,NO_n,"-1, -1, 0",No Treatment,-2.0,2.0
+e3xe5lmn,4,s4_n,0.0,NO_n,"0, 0, 0",No Treatment,1.0,1.0
+e3xe5lmn,5,s4_n,1.0,NO_n,"1, 0, 1",No Treatment,1.0,1.0
+e3xe5lmn,6,s4_n,-1.0,NO_n,"-1, -1, -1",No Treatment,-2.0,2.0
+e3xe5lmn,7,s4_n,0.0,NO_n,"1, 0, 0",No Treatment,1.0,1.0
+e3xe5lmn,8,s4_n,1.0,NO_n,"1, 1, 1",No Treatment,1.0,1.0
+e3xe5lmn,9,s4_n,0.0,NO_n,"-1, 1, 0",No Treatment,-1.0,1.0
+e3xe5lmn,10,s4_n,-1.0,NO_n,"1, -1, -1",No Treatment,-1.0,1.0
+e5ci97vu,1,s9_p,1.0,AC_p,"0, 0, -1",Anticonformity,0.0,0.0
+e5ci97vu,2,s9_p,1.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+e5ci97vu,3,s9_p,1.0,AC_p,"0, -1, -1",Anticonformity,0.0,0.0
+e5ci97vu,4,s9_p,1.0,AC_p,"1, 0, 1",Anticonformity,0.0,0.0
+e5ci97vu,5,s9_p,1.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+e5ci97vu,6,s9_p,1.0,AC_p,"0, -1, 1",Anticonformity,0.0,0.0
+e5ci97vu,7,s9_p,0.0,AC_p,"-1, 1, 1",Anticonformity,-1.0,1.0
+e5ci97vu,8,s9_p,1.0,AC_p,"1, -1, -1",Anticonformity,1.0,1.0
+e5ci97vu,9,s9_p,1.0,AC_p,"0, 0, 1",Anticonformity,0.0,0.0
+e5ci97vu,10,s9_p,1.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+e76o2u3r,1,s9_n,1.0,C_n,"-1, 1, -1",Conformity,0.0,0.0
+e76o2u3r,2,s9_n,1.0,C_n,"-1, 1, 0",Conformity,0.0,0.0
+e76o2u3r,3,s9_n,1.0,C_n,"-1, -1, 0",Conformity,0.0,0.0
+e76o2u3r,4,s9_n,1.0,C_n,"1, 0, 1",Conformity,0.0,0.0
+e76o2u3r,5,s9_n,1.0,C_n,"1, 1, 1",Conformity,0.0,0.0
+e76o2u3r,6,s9_n,0.0,C_n,"0, 0, 0",Conformity,-1.0,1.0
+e76o2u3r,7,s9_n,1.0,C_n,"0, 0, 1",Conformity,1.0,1.0
+e76o2u3r,8,s9_n,1.0,C_n,"1, 1, -1",Conformity,0.0,0.0
+e76o2u3r,9,s9_n,0.0,C_n,"0, 0, -1",Conformity,-1.0,1.0
+e76o2u3r,10,s9_n,-1.0,C_n,"-1, -1, -1",Conformity,-1.0,1.0
+e9p15lcn,1,s2_p,1.0,AC_p,"1, 1, -1",Anticonformity,0.0,0.0
+e9p15lcn,2,s2_p,1.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+e9p15lcn,3,s2_p,-1.0,AC_p,"1, 1, 0",Anticonformity,-2.0,2.0
+e9p15lcn,4,s2_p,1.0,AC_p,"-1, -1, -1",Anticonformity,2.0,2.0
+e9p15lcn,5,s2_p,0.0,AC_p,"1, -1, -1",Anticonformity,-1.0,1.0
+e9p15lcn,6,s2_p,-1.0,AC_p,"1, 1, 1",Anticonformity,-1.0,1.0
+e9p15lcn,7,s2_p,-1.0,AC_p,"0, 0, 1",Anticonformity,0.0,0.0
+e9p15lcn,8,s2_p,1.0,AC_p,"-1, 0, 0",Anticonformity,2.0,2.0
+e9p15lcn,9,s2_p,0.0,AC_p,"-1, -1, 0",Anticonformity,-1.0,1.0
+e9p15lcn,10,s2_p,-1.0,AC_p,"0, 1, -1",Anticonformity,-1.0,1.0
+etcfshua,1,s9_n,1.0,NO_n,"1, 0, 0",No Treatment,0.0,0.0
+etcfshua,2,s9_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+etcfshua,3,s9_n,1.0,NO_n,"1, 1, 0",No Treatment,0.0,0.0
+etcfshua,4,s9_n,-1.0,NO_n,"-1, -1, -1",No Treatment,-2.0,2.0
+etcfshua,5,s9_n,1.0,NO_n,"-1, -1, 0",No Treatment,2.0,2.0
+etcfshua,6,s9_n,1.0,NO_n,"0, -1, 0",No Treatment,0.0,0.0
+etcfshua,7,s9_n,-1.0,NO_n,"1, -1, -1",No Treatment,-2.0,2.0
+etcfshua,8,s9_n,1.0,NO_n,"0, 1, -1",No Treatment,2.0,2.0
+etcfshua,9,s9_n,1.0,NO_n,"1, -1, 1",No Treatment,0.0,0.0
+etcfshua,10,s9_n,0.0,NO_n,"0, 0, 0",No Treatment,-1.0,1.0
+ezcg6a3o,1,s4_n,0.0,AC_n,"-1, -1, -1",Anticonformity,-1.0,1.0
+ezcg6a3o,2,s4_n,0.0,AC_n,"1, -1, 1",Anticonformity,0.0,0.0
+ezcg6a3o,3,s4_n,1.0,AC_n,"-1, 0, -1",Anticonformity,1.0,1.0
+ezcg6a3o,4,s4_n,-1.0,AC_n,"1, 1, 1",Anticonformity,-2.0,2.0
+ezcg6a3o,5,s4_n,-1.0,AC_n,"0, 1, 1",Anticonformity,0.0,0.0
+ezcg6a3o,6,s4_n,0.0,AC_n,"0, 1, -1",Anticonformity,1.0,1.0
+ezcg6a3o,7,s4_n,0.0,AC_n,"0, -1, 0",Anticonformity,0.0,0.0
+ezcg6a3o,8,s4_n,0.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+ezcg6a3o,9,s4_n,0.0,AC_n,"0, 0, 1",Anticonformity,0.0,0.0
+ezcg6a3o,10,s4_n,-1.0,AC_n,"-1, -1, 1",Anticonformity,-1.0,1.0
+f8nuki5x,1,s4_n,0.0,C_n,"0, 0, 0",Conformity,0.0,0.0
+f8nuki5x,2,s4_n,1.0,C_n,"1, 1, 1",Conformity,1.0,1.0
+f8nuki5x,3,s4_n,1.0,C_n,"1, 0, 1",Conformity,0.0,0.0
+f8nuki5x,4,s4_n,0.0,C_n,"0, -1, 0",Conformity,-1.0,1.0
+f8nuki5x,5,s4_n,-1.0,C_n,"1, -1, -1",Conformity,-1.0,1.0
+f8nuki5x,6,s4_n,-1.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+f8nuki5x,7,s4_n,0.0,C_n,"0, 1, -1",Conformity,1.0,1.0
+f8nuki5x,8,s4_n,-1.0,C_n,"0, -1, -1",Conformity,-1.0,1.0
+f8nuki5x,9,s4_n,1.0,C_n,"-1, 1, 1",Conformity,2.0,2.0
+f8nuki5x,10,s4_n,0.0,C_n,"0, 1, 0",Conformity,-1.0,1.0
+fhh9lm97,1,s2_n,1.0,NO_n,"1, 1, 0",No Treatment,0.0,0.0
+fhh9lm97,2,s2_n,1.0,NO_n,"1, 0, 0",No Treatment,0.0,0.0
+fhh9lm97,3,s2_n,1.0,NO_n,"0, 0, -1",No Treatment,0.0,0.0
+fhh9lm97,4,s2_n,1.0,NO_n,"-1, -1, 1",No Treatment,0.0,0.0
+fhh9lm97,5,s2_n,1.0,NO_n,"-1, 1, 1",No Treatment,0.0,0.0
+fhh9lm97,6,s2_n,1.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+fhh9lm97,7,s2_n,1.0,NO_n,"-1, -1, -1",No Treatment,0.0,0.0
+fhh9lm97,8,s2_n,1.0,NO_n,"-1, 1, 0",No Treatment,0.0,0.0
+fhh9lm97,9,s2_n,1.0,NO_n,"-1, 0, -1",No Treatment,0.0,0.0
+fhh9lm97,10,s2_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+fn0p14ie,1,s9_p,1.0,C_p,"1, 1, 1",Conformity,0.0,0.0
+fn0p14ie,2,s9_p,1.0,C_p,"1, 1, -1",Conformity,0.0,0.0
+fn0p14ie,3,s9_p,-1.0,C_p,"-1, -1, 0",Conformity,-2.0,2.0
+fn0p14ie,4,s9_p,-1.0,C_p,"1, -1, -1",Conformity,0.0,0.0
+fn0p14ie,5,s9_p,0.0,C_p,"-1, 0, 0",Conformity,1.0,1.0
+fn0p14ie,6,s9_p,0.0,C_p,"0, 0, 1",Conformity,0.0,0.0
+fn0p14ie,7,s9_p,0.0,C_p,"0, 0, 0",Conformity,0.0,0.0
+fn0p14ie,8,s9_p,-1.0,C_p,"-1, -1, -1",Conformity,-1.0,1.0
+fn0p14ie,9,s9_p,1.0,C_p,"1, 1, 0",Conformity,2.0,2.0
+fn0p14ie,10,s9_p,1.0,C_p,"0, -1, 1",Conformity,0.0,0.0
+g0tfkm0w,1,s2_p,1.0,NO_p,"1, 0, 1",No Treatment,0.0,0.0
+g0tfkm0w,2,s2_p,0.0,NO_p,"1, -1, -1",No Treatment,-1.0,1.0
+g0tfkm0w,3,s2_p,0.0,NO_p,"0, -1, 1",No Treatment,0.0,0.0
+g0tfkm0w,4,s2_p,0.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+g0tfkm0w,5,s2_p,1.0,NO_p,"1, 1, 1",No Treatment,1.0,1.0
+g0tfkm0w,6,s2_p,0.0,NO_p,"0, 0, -1",No Treatment,-1.0,1.0
+g0tfkm0w,7,s2_p,0.0,NO_p,"-1, -1, 0",No Treatment,0.0,0.0
+g0tfkm0w,8,s2_p,0.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+g0tfkm0w,9,s2_p,0.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+g0tfkm0w,10,s2_p,0.0,NO_p,"1, -1, 1",No Treatment,0.0,0.0
+gd7917qx,1,s9_p,1.0,C_p,"0, 1, -1",Conformity,0.0,0.0
+gd7917qx,2,s9_p,1.0,C_p,"1, 1, 0",Conformity,0.0,0.0
+gd7917qx,3,s9_p,1.0,C_p,"1, -1, -1",Conformity,0.0,0.0
+gd7917qx,4,s9_p,1.0,C_p,"0, 0, -1",Conformity,0.0,0.0
+gd7917qx,5,s9_p,1.0,C_p,"-1, -1, -1",Conformity,0.0,0.0
+gd7917qx,6,s9_p,1.0,C_p,"-1, 1, 1",Conformity,0.0,0.0
+gd7917qx,7,s9_p,1.0,C_p,"0, 0, 0",Conformity,0.0,0.0
+gd7917qx,8,s9_p,1.0,C_p,"1, 1, 1",Conformity,0.0,0.0
+gd7917qx,9,s9_p,1.0,C_p,"1, 0, 0",Conformity,0.0,0.0
+gd7917qx,10,s9_p,1.0,C_p,"-1, 0, -1",Conformity,0.0,0.0
+gvjieukk,1,s2_n,0.0,C_n,"0, -1, -1",Conformity,0.0,0.0
+gvjieukk,2,s2_n,0.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+gvjieukk,3,s2_n,0.0,C_n,"0, 0, 1",Conformity,0.0,0.0
+gvjieukk,4,s2_n,1.0,C_n,"1, 1, 1",Conformity,1.0,1.0
+gvjieukk,5,s2_n,0.0,C_n,"1, 0, 1",Conformity,-1.0,1.0
+gvjieukk,6,s2_n,0.0,C_n,"1, 1, -1",Conformity,0.0,0.0
+gvjieukk,7,s2_n,0.0,C_n,"0, -1, 1",Conformity,0.0,0.0
+gvjieukk,8,s2_n,0.0,C_n,"-1, 1, -1",Conformity,0.0,0.0
+gvjieukk,9,s2_n,0.0,C_n,"0, 0, 0",Conformity,0.0,0.0
+gvjieukk,10,s2_n,0.0,C_n,"0, -1, 0",Conformity,0.0,0.0
+gvrl2hdm,1,s9_n,0.0,AC_n,"1, 1, 1",Anticonformity,-1.0,1.0
+gvrl2hdm,2,s9_n,-1.0,AC_n,"1, 0, 0",Anticonformity,-1.0,1.0
+gvrl2hdm,3,s9_n,0.0,AC_n,"-1, -1, -1",Anticonformity,1.0,1.0
+gvrl2hdm,4,s9_n,0.0,AC_n,"-1, -1, 1",Anticonformity,0.0,0.0
+gvrl2hdm,5,s9_n,0.0,AC_n,"1, 0, -1",Anticonformity,0.0,0.0
+gvrl2hdm,6,s9_n,-1.0,AC_n,"0, 0, 0",Anticonformity,-1.0,1.0
+gvrl2hdm,7,s9_n,1.0,AC_n,"-1, 0, -1",Anticonformity,2.0,2.0
+gvrl2hdm,8,s9_n,0.0,AC_n,"1, -1, 1",Anticonformity,-1.0,1.0
+gvrl2hdm,9,s9_n,-1.0,AC_n,"1, 0, 1",Anticonformity,-1.0,1.0
+gvrl2hdm,10,s9_n,1.0,AC_n,"-1, 0, 0",Anticonformity,2.0,2.0
+h299jdkv,1,s2_n,0.0,AC_n,"0, 1, 1",Anticonformity,0.0,0.0
+h299jdkv,2,s2_n,0.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+h299jdkv,3,s2_n,0.0,AC_n,"0, 1, 0",Anticonformity,0.0,0.0
+h299jdkv,4,s2_n,0.0,AC_n,"1, 1, 1",Anticonformity,0.0,0.0
+h299jdkv,5,s2_n,0.0,AC_n,"-1, -1, -1",Anticonformity,0.0,0.0
+h299jdkv,6,s2_n,0.0,AC_n,"1, -1, -1",Anticonformity,0.0,0.0
+h299jdkv,7,s2_n,0.0,AC_n,"0, -1, 0",Anticonformity,0.0,0.0
+h299jdkv,8,s2_n,0.0,AC_n,"-1, 1, 1",Anticonformity,0.0,0.0
+h299jdkv,9,s2_n,0.0,AC_n,"-1, -1, 0",Anticonformity,0.0,0.0
+h299jdkv,10,s2_n,0.0,AC_n,"0, 1, -1",Anticonformity,0.0,0.0
+h8dqiajp,1,s2_n,1.0,AC_n,"[-1, -1, 0]",Anticonformity,0.0,0.0
+h8dqiajp,2,s2_n,1.0,AC_n,"[-1, -1, -1]",Anticonformity,0.0,0.0
+h8dqiajp,3,s2_n,1.0,AC_n,"[0, -1, 1]",Anticonformity,0.0,0.0
+h8dqiajp,4,s2_n,1.0,AC_n,"[-1, 0, 0]",Anticonformity,0.0,0.0
+h8dqiajp,5,s2_n,1.0,AC_n,"[1, 0, 0]",Anticonformity,0.0,0.0
+h8dqiajp,6,s2_n,1.0,AC_n,"[0, 0, 0]",Anticonformity,0.0,0.0
+h8dqiajp,7,s2_n,1.0,AC_n,"[0, 1, 1]",Anticonformity,0.0,0.0
+h8dqiajp,8,s2_n,-1.0,AC_n,"[1, 1, 1]",Anticonformity,-2.0,2.0
+h8dqiajp,9,s2_n,0.0,AC_n,"[1, -1, 1]",Anticonformity,1.0,1.0
+h8dqiajp,10,s2_n,0.0,AC_n,"[-1, -1, 1]",Anticonformity,0.0,0.0
+hfm6hm70,1,s9_n,-1.0,NO_n,"-1, -1, -1",No Treatment,0.0,0.0
+hfm6hm70,2,s9_n,-1.0,NO_n,"-1, 0, 0",No Treatment,0.0,0.0
+hfm6hm70,3,s9_n,1.0,NO_n,"1, 0, 1",No Treatment,2.0,2.0
+hfm6hm70,4,s9_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+hfm6hm70,5,s9_n,1.0,NO_n,"-1, 1, 1",No Treatment,0.0,0.0
+hfm6hm70,6,s9_n,1.0,NO_n,"0, 1, 0",No Treatment,0.0,0.0
+hfm6hm70,7,s9_n,1.0,NO_n,"-1, -1, 1",No Treatment,0.0,0.0
+hfm6hm70,8,s9_n,1.0,NO_n,"0, 1, -1",No Treatment,0.0,0.0
+hfm6hm70,9,s9_n,-1.0,NO_n,"0, -1, -1",No Treatment,-2.0,2.0
+hfm6hm70,10,s9_n,-1.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+hmuh8wc5,1,s2_n,1.0,NO_n,"[1, 1, -1]",No Treatment,0.0,0.0
+hmuh8wc5,2,s2_n,1.0,NO_n,"[0, 0, 1]",No Treatment,0.0,0.0
+hmuh8wc5,3,s2_n,1.0,NO_n,"[1, 1, 1]",No Treatment,0.0,0.0
+hmuh8wc5,4,s2_n,1.0,NO_n,"[1, 0, 1]",No Treatment,0.0,0.0
+hmuh8wc5,5,s2_n,-1.0,NO_n,"[0, -1, -1]",No Treatment,-2.0,2.0
+hmuh8wc5,6,s2_n,-1.0,NO_n,"[-1, -1, 1]",No Treatment,0.0,0.0
+hmuh8wc5,7,s2_n,0.0,NO_n,"[-1, 1, 0]",No Treatment,1.0,1.0
+hmuh8wc5,8,s2_n,0.0,NO_n,"[0, 0, 0]",No Treatment,0.0,0.0
+hmuh8wc5,9,s2_n,-1.0,NO_n,"[-1, -1, -1]",No Treatment,-1.0,1.0
+hmuh8wc5,10,s2_n,0.0,NO_n,"[-1, 0, 0]",No Treatment,1.0,1.0
+j7rq2bh9,1,s4_n,0.0,C_n,"1, 0, 0",Conformity,0.0,0.0
+j7rq2bh9,2,s4_n,1.0,C_n,"0, -1, 0",Conformity,1.0,1.0
+j7rq2bh9,3,s4_n,0.0,C_n,"-1, -1, -1",Conformity,-1.0,1.0
+j7rq2bh9,4,s4_n,-1.0,C_n,"-1, 1, 0",Conformity,-1.0,1.0
+j7rq2bh9,5,s4_n,1.0,C_n,"0, 0, 0",Conformity,2.0,2.0
+j7rq2bh9,6,s4_n,1.0,C_n,"1, 1, 1",Conformity,0.0,0.0
+j7rq2bh9,7,s4_n,-1.0,C_n,"0, -1, -1",Conformity,-2.0,2.0
+j7rq2bh9,8,s4_n,1.0,C_n,"1, 0, 1",Conformity,2.0,2.0
+j7rq2bh9,9,s4_n,-1.0,C_n,"1, -1, -1",Conformity,-2.0,2.0
+j7rq2bh9,10,s4_n,1.0,C_n,"1, -1, 1",Conformity,2.0,2.0
+jdnqtnoy,1,s9_p,-1.0,C_p,"-1, -1, -1",Conformity,-2.0,2.0
+jdnqtnoy,2,s9_p,0.0,C_p,"1, 0, 0",Conformity,1.0,1.0
+jdnqtnoy,3,s9_p,1.0,C_p,"1, -1, 0",Conformity,1.0,1.0
+jdnqtnoy,4,s9_p,0.0,C_p,"0, 0, -1",Conformity,-1.0,1.0
+jdnqtnoy,5,s9_p,1.0,C_p,"1, 1, -1",Conformity,1.0,1.0
+jdnqtnoy,6,s9_p,0.0,C_p,"0, 0, 0",Conformity,-1.0,1.0
+jdnqtnoy,7,s9_p,1.0,C_p,"1, 1, 1",Conformity,1.0,1.0
+jdnqtnoy,8,s9_p,-1.0,C_p,"1, -1, -1",Conformity,-2.0,2.0
+jdnqtnoy,9,s9_p,-1.0,C_p,"-1, -1, 0",Conformity,0.0,0.0
+jdnqtnoy,10,s9_p,1.0,C_p,"1, 1, 0",Conformity,2.0,2.0
+kgls7k04,1,s9_p,0.0,C_p,"-1, 0, 0",Conformity,-1.0,1.0
+kgls7k04,2,s9_p,0.0,C_p,"0, 1, 0",Conformity,0.0,0.0
+kgls7k04,3,s9_p,1.0,C_p,"1, 1, 0",Conformity,1.0,1.0
+kgls7k04,4,s9_p,0.0,C_p,"0, 0, 0",Conformity,-1.0,1.0
+kgls7k04,5,s9_p,-1.0,C_p,"-1, -1, 0",Conformity,-1.0,1.0
+kgls7k04,6,s9_p,1.0,C_p,"1, 1, -1",Conformity,2.0,2.0
+kgls7k04,7,s9_p,1.0,C_p,"1, 1, 1",Conformity,0.0,0.0
+kgls7k04,8,s9_p,-1.0,C_p,"-1, -1, 1",Conformity,-2.0,2.0
+kgls7k04,9,s9_p,-1.0,C_p,"-1, -1, -1",Conformity,0.0,0.0
+kgls7k04,10,s9_p,1.0,C_p,"1, 0, -1",Conformity,2.0,2.0
+khx6i338,1,s4_n,1.0,AC_n,"[-1, -1, 1]",Anticonformity,1.0,1.0
+khx6i338,2,s4_n,0.0,AC_n,"[-1, -1, 0]",Anticonformity,-1.0,1.0
+khx6i338,3,s4_n,1.0,AC_n,"[-1, -1, -1]",Anticonformity,1.0,1.0
+khx6i338,4,s4_n,1.0,AC_n,"[1, 1, 0]",Anticonformity,0.0,0.0
+khx6i338,5,s4_n,1.0,AC_n,"[1, -1, 1]",Anticonformity,0.0,0.0
+khx6i338,6,s4_n,1.0,AC_n,"[0, 0, 1]",Anticonformity,0.0,0.0
+khx6i338,7,s4_n,0.0,AC_n,"[0, -1, 0]",Anticonformity,-1.0,1.0
+khx6i338,8,s4_n,1.0,AC_n,"[1, -1, 0]",Anticonformity,1.0,1.0
+khx6i338,9,s4_n,0.0,AC_n,"[0, 0, 0]",Anticonformity,-1.0,1.0
+khx6i338,10,s4_n,1.0,AC_n,"[1, 1, 1]",Anticonformity,1.0,1.0
+kx9su8tm,1,s2_p,1.0,NO_p,"1, 1, 0",No Treatment,0.0,0.0
+kx9su8tm,2,s2_p,1.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+kx9su8tm,3,s2_p,0.0,NO_p,"0, -1, -1",No Treatment,-1.0,1.0
+kx9su8tm,4,s2_p,1.0,NO_p,"1, 1, 1",No Treatment,1.0,1.0
+kx9su8tm,5,s2_p,1.0,NO_p,"1, -1, 1",No Treatment,0.0,0.0
+kx9su8tm,6,s2_p,1.0,NO_p,"1, -1, 0",No Treatment,0.0,0.0
+kx9su8tm,7,s2_p,1.0,NO_p,"-1, -1, 1",No Treatment,0.0,0.0
+kx9su8tm,8,s2_p,0.0,NO_p,"0, 0, 0",No Treatment,-1.0,1.0
+kx9su8tm,9,s2_p,0.0,NO_p,"0, 0, -1",No Treatment,0.0,0.0
+kx9su8tm,10,s2_p,0.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+l6hb5a3o,1,s9_p,0.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+l6hb5a3o,2,s9_p,0.0,AC_p,"-1, -1, 0",Anticonformity,0.0,0.0
+l6hb5a3o,3,s9_p,0.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+l6hb5a3o,4,s9_p,0.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+l6hb5a3o,5,s9_p,0.0,AC_p,"0, -1, 1",Anticonformity,0.0,0.0
+l6hb5a3o,6,s9_p,0.0,AC_p,"0, 0, -1",Anticonformity,0.0,0.0
+l6hb5a3o,7,s9_p,0.0,AC_p,"1, -1, 1",Anticonformity,0.0,0.0
+l6hb5a3o,8,s9_p,0.0,AC_p,"1, -1, -1",Anticonformity,0.0,0.0
+l6hb5a3o,9,s9_p,0.0,AC_p,"1, 0, 0",Anticonformity,0.0,0.0
+l6hb5a3o,10,s9_p,0.0,AC_p,"1, 1, 0",Anticonformity,0.0,0.0
+l8kt10wh,1,s2_p,1.0,NO_p,"0, 1, 1",No Treatment,0.0,0.0
+l8kt10wh,2,s2_p,1.0,NO_p,"-1, 1, -1",No Treatment,0.0,0.0
+l8kt10wh,3,s2_p,1.0,NO_p,"-1, 1, 1",No Treatment,0.0,0.0
+l8kt10wh,4,s2_p,1.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+l8kt10wh,5,s2_p,1.0,NO_p,"-1, 0, 0",No Treatment,0.0,0.0
+l8kt10wh,6,s2_p,1.0,NO_p,"-1, 1, 0",No Treatment,0.0,0.0
+l8kt10wh,7,s2_p,-1.0,NO_p,"-1, -1, -1",No Treatment,-2.0,2.0
+l8kt10wh,8,s2_p,0.0,NO_p,"-1, 0, -1",No Treatment,1.0,1.0
+l8kt10wh,9,s2_p,1.0,NO_p,"1, 1, 1",No Treatment,1.0,1.0
+l8kt10wh,10,s2_p,1.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+lndcioss,1,s4_n,0.0,NO_n,"1, 1, -1",No Treatment,0.0,0.0
+lndcioss,2,s4_n,1.0,NO_n,"1, 1, 1",No Treatment,1.0,1.0
+lndcioss,3,s4_n,1.0,NO_n,"0, -1, 1",No Treatment,0.0,0.0
+lndcioss,4,s4_n,0.0,NO_n,"-1, 0, -1",No Treatment,-1.0,1.0
+lndcioss,5,s4_n,-1.0,NO_n,"1, -1, -1",No Treatment,-1.0,1.0
+lndcioss,6,s4_n,-1.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+lndcioss,7,s4_n,0.0,NO_n,"0, 0, 1",No Treatment,1.0,1.0
+lndcioss,8,s4_n,1.0,NO_n,"1, 0, 1",No Treatment,1.0,1.0
+lndcioss,9,s4_n,-1.0,NO_n,"-1, -1, -1",No Treatment,-2.0,2.0
+lndcioss,10,s4_n,0.0,NO_n,"0, 0, -1",No Treatment,1.0,1.0
+lpt1g2on,1,s9_p,-1.0,C_p,"-1, 0, -1",Conformity,-2.0,2.0
+lpt1g2on,2,s9_p,-1.0,C_p,"-1, 1, 1",Conformity,0.0,0.0
+lpt1g2on,3,s9_p,1.0,C_p,"1, 1, 1",Conformity,2.0,2.0
+lpt1g2on,4,s9_p,1.0,C_p,"0, -1, 0",Conformity,0.0,0.0
+lpt1g2on,5,s9_p,1.0,C_p,"0, 0, 0",Conformity,0.0,0.0
+lpt1g2on,6,s9_p,1.0,C_p,"1, 0, -1",Conformity,0.0,0.0
+lpt1g2on,7,s9_p,1.0,C_p,"-1, -1, -1",Conformity,0.0,0.0
+lpt1g2on,8,s9_p,1.0,C_p,"0, 1, 0",Conformity,0.0,0.0
+lpt1g2on,9,s9_p,1.0,C_p,"0, 1, 1",Conformity,0.0,0.0
+lpt1g2on,10,s9_p,1.0,C_p,"-1, 1, -1",Conformity,0.0,0.0
+m6odypdm,1,s9_p,1.0,AC_p,"0, -1, 0",Anticonformity,0.0,0.0
+m6odypdm,2,s9_p,1.0,AC_p,"1, -1, 1",Anticonformity,0.0,0.0
+m6odypdm,3,s9_p,1.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+m6odypdm,4,s9_p,1.0,AC_p,"1, -1, -1",Anticonformity,0.0,0.0
+m6odypdm,5,s9_p,1.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+m6odypdm,6,s9_p,1.0,AC_p,"-1, 0, -1",Anticonformity,0.0,0.0
+m6odypdm,7,s9_p,1.0,AC_p,"0, -1, 1",Anticonformity,0.0,0.0
+m6odypdm,8,s9_p,1.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+m6odypdm,9,s9_p,1.0,AC_p,"0, 1, 0",Anticonformity,0.0,0.0
+m6odypdm,10,s9_p,1.0,AC_p,"1, 0, 1",Anticonformity,0.0,0.0
+mgrd3v7v,1,s9_p,-1.0,C_p,"-1, -1, 0",Conformity,-2.0,2.0
+mgrd3v7v,2,s9_p,1.0,C_p,"-1, 1, 1",Conformity,2.0,2.0
+mgrd3v7v,3,s9_p,1.0,C_p,"1, 1, 1",Conformity,0.0,0.0
+mgrd3v7v,4,s9_p,-1.0,C_p,"1, -1, -1",Conformity,-2.0,2.0
+mgrd3v7v,5,s9_p,1.0,C_p,"1, -1, 0",Conformity,2.0,2.0
+mgrd3v7v,6,s9_p,-1.0,C_p,"-1, -1, -1",Conformity,-2.0,2.0
+mgrd3v7v,7,s9_p,0.0,C_p,"0, 0, -1",Conformity,1.0,1.0
+mgrd3v7v,8,s9_p,1.0,C_p,"0, 1, 1",Conformity,1.0,1.0
+mgrd3v7v,9,s9_p,0.0,C_p,"0, 0, 0",Conformity,-1.0,1.0
+mgrd3v7v,10,s9_p,-1.0,C_p,"1, 0, 0",Conformity,-1.0,1.0
+mo8hraf3,1,s4_p,-1.0,C_p,"0, -1, -1",Conformity,0.0,0.0
+mo8hraf3,2,s4_p,1.0,C_p,"1, 1, 0",Conformity,2.0,2.0
+mo8hraf3,3,s4_p,-1.0,C_p,"1, -1, -1",Conformity,-2.0,2.0
+mo8hraf3,4,s4_p,1.0,C_p,"1, 1, 1",Conformity,2.0,2.0
+mo8hraf3,5,s4_p,0.0,C_p,"1, 0, -1",Conformity,-1.0,1.0
+mo8hraf3,6,s4_p,1.0,C_p,"1, -1, 1",Conformity,1.0,1.0
+mo8hraf3,7,s4_p,-1.0,C_p,"-1, -1, -1",Conformity,-2.0,2.0
+mo8hraf3,8,s4_p,0.0,C_p,"0, 0, -1",Conformity,1.0,1.0
+mo8hraf3,9,s4_p,0.0,C_p,"1, 0, 0",Conformity,0.0,0.0
+mo8hraf3,10,s4_p,0.0,C_p,"0, 0, 0",Conformity,0.0,0.0
+ms8htpnx,1,s2_p,0.0,AC_p,"-1, 0, 0",Anticonformity,0.0,0.0
+ms8htpnx,2,s2_p,1.0,AC_p,"1, -1, 0",Anticonformity,1.0,1.0
+ms8htpnx,3,s2_p,1.0,AC_p,"-1, 1, 1",Anticonformity,0.0,0.0
+ms8htpnx,4,s2_p,0.0,AC_p,"-1, 0, -1",Anticonformity,-1.0,1.0
+ms8htpnx,5,s2_p,1.0,AC_p,"0, 0, 0",Anticonformity,1.0,1.0
+ms8htpnx,6,s2_p,1.0,AC_p,"0, 0, 1",Anticonformity,0.0,0.0
+ms8htpnx,7,s2_p,0.0,AC_p,"-1, -1, -1",Anticonformity,-1.0,1.0
+ms8htpnx,8,s2_p,1.0,AC_p,"1, 1, 1",Anticonformity,1.0,1.0
+ms8htpnx,9,s2_p,1.0,AC_p,"1, 1, 0",Anticonformity,0.0,0.0
+ms8htpnx,10,s2_p,1.0,AC_p,"-1, 1, -1",Anticonformity,0.0,0.0
+msz9lkpd,1,s9_p,0.0,C_p,"0, 1, 0",Conformity,1.0,1.0
+msz9lkpd,2,s9_p,1.0,C_p,"1, 1, 1",Conformity,1.0,1.0
+msz9lkpd,3,s9_p,1.0,C_p,"0, 1, -1",Conformity,0.0,0.0
+msz9lkpd,4,s9_p,-1.0,C_p,"-1, -1, -1",Conformity,-2.0,2.0
+msz9lkpd,5,s9_p,1.0,C_p,"0, 1, 1",Conformity,2.0,2.0
+msz9lkpd,6,s9_p,-1.0,C_p,"-1, 0, 0",Conformity,-2.0,2.0
+msz9lkpd,7,s9_p,-1.0,C_p,"-1, -1, 0",Conformity,0.0,0.0
+msz9lkpd,8,s9_p,1.0,C_p,"1, 1, -1",Conformity,2.0,2.0
+msz9lkpd,9,s9_p,0.0,C_p,"0, 0, 0",Conformity,-1.0,1.0
+msz9lkpd,10,s9_p,-1.0,C_p,"-1, -1, 1",Conformity,-1.0,1.0
+n09tnnyt,1,s9_n,0.0,C_n,"-1, -1, 0",Conformity,0.0,0.0
+n09tnnyt,2,s9_n,0.0,C_n,"0, 1, 0",Conformity,0.0,0.0
+n09tnnyt,3,s9_n,1.0,C_n,"1, 1, 0",Conformity,1.0,1.0
+n09tnnyt,4,s9_n,0.0,C_n,"-1, -1, -1",Conformity,-1.0,1.0
+n09tnnyt,5,s9_n,0.0,C_n,"0, -1, 0",Conformity,0.0,0.0
+n09tnnyt,6,s9_n,0.0,C_n,"-1, -1, 1",Conformity,0.0,0.0
+n09tnnyt,7,s9_n,-1.0,C_n,"0, 0, 0",Conformity,-1.0,1.0
+n09tnnyt,8,s9_n,1.0,C_n,"1, 1, -1",Conformity,2.0,2.0
+n09tnnyt,9,s9_n,1.0,C_n,"1, 1, 1",Conformity,0.0,0.0
+n09tnnyt,10,s9_n,-1.0,C_n,"0, -1, 1",Conformity,-2.0,2.0
+nips6aqe,1,s4_p,0.0,C_p,"-1, 0, -1",Conformity,0.0,0.0
+nips6aqe,2,s4_p,0.0,C_p,"0, 0, 0",Conformity,0.0,0.0
+nips6aqe,3,s4_p,0.0,C_p,"-1, 1, -1",Conformity,0.0,0.0
+nips6aqe,4,s4_p,0.0,C_p,"-1, -1, -1",Conformity,0.0,0.0
+nips6aqe,5,s4_p,0.0,C_p,"0, -1, 0",Conformity,0.0,0.0
+nips6aqe,6,s4_p,0.0,C_p,"0, 1, 1",Conformity,0.0,0.0
+nips6aqe,7,s4_p,0.0,C_p,"1, -1, 0",Conformity,0.0,0.0
+nips6aqe,8,s4_p,0.0,C_p,"0, 0, 1",Conformity,0.0,0.0
+nips6aqe,9,s4_p,0.0,C_p,"1, 1, -1",Conformity,0.0,0.0
+nips6aqe,10,s4_p,1.0,C_p,"1, 1, 1",Conformity,1.0,1.0
+nnqz4sef,1,s4_n,0.0,NO_n,"0, 0, 0",No Treatment,-1.0,1.0
+nnqz4sef,2,s4_n,1.0,NO_n,"0, 1, -1",No Treatment,1.0,1.0
+nnqz4sef,3,s4_n,1.0,NO_n,"1, -1, 1",No Treatment,0.0,0.0
+nnqz4sef,4,s4_n,0.0,NO_n,"0, 1, 0",No Treatment,-1.0,1.0
+nnqz4sef,5,s4_n,0.0,NO_n,"-1, 1, -1",No Treatment,0.0,0.0
+nnqz4sef,6,s4_n,1.0,NO_n,"0, 1, 1",No Treatment,1.0,1.0
+nnqz4sef,7,s4_n,0.0,NO_n,"-1, -1, -1",No Treatment,-1.0,1.0
+nnqz4sef,8,s4_n,1.0,NO_n,"1, 1, 1",No Treatment,1.0,1.0
+nnqz4sef,9,s4_n,0.0,NO_n,"-1, -1, 0",No Treatment,-1.0,1.0
+nnqz4sef,10,s4_n,1.0,NO_n,"0, 0, -1",No Treatment,1.0,1.0
+nvctek87,1,s4_p,0.0,NO_p,"[0, 0, 0]",No Treatment,0.0,0.0
+nvctek87,2,s4_p,0.0,NO_p,"[0, -1, 0]",No Treatment,0.0,0.0
+nvctek87,3,s4_p,1.0,NO_p,"[1, 0, 1]",No Treatment,1.0,1.0
+nvctek87,4,s4_p,1.0,NO_p,"[1, 1, 1]",No Treatment,0.0,0.0
+nvctek87,5,s4_p,-1.0,NO_p,"[-1, -1, 1]",No Treatment,-2.0,2.0
+nvctek87,6,s4_p,-1.0,NO_p,"[-1, -1, 0]",No Treatment,0.0,0.0
+nvctek87,7,s4_p,-1.0,NO_p,"[-1, -1, -1]",No Treatment,0.0,0.0
+nvctek87,8,s4_p,-1.0,NO_p,"[1, 0, 0]",No Treatment,0.0,0.0
+nvctek87,9,s4_p,1.0,NO_p,"[1, 1, -1]",No Treatment,2.0,2.0
+nvctek87,10,s4_p,0.0,NO_p,"[-1, 0, 1]",No Treatment,-1.0,1.0
+olls6kys,1,s2_n,1.0,AC_n,"0, -1, 0",Anticonformity,0.0,0.0
+olls6kys,2,s2_n,1.0,AC_n,"-1, 0, -1",Anticonformity,0.0,0.0
+olls6kys,3,s2_n,1.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+olls6kys,4,s2_n,-1.0,AC_n,"1, 1, 1",Anticonformity,-2.0,2.0
+olls6kys,5,s2_n,1.0,AC_n,"-1, -1, -1",Anticonformity,2.0,2.0
+olls6kys,6,s2_n,1.0,AC_n,"1, 0, -1",Anticonformity,0.0,0.0
+olls6kys,7,s2_n,1.0,AC_n,"1, -1, -1",Anticonformity,0.0,0.0
+olls6kys,8,s2_n,0.0,AC_n,"1, 1, -1",Anticonformity,-1.0,1.0
+olls6kys,9,s2_n,1.0,AC_n,"0, 0, 1",Anticonformity,1.0,1.0
+olls6kys,10,s2_n,1.0,AC_n,"0, 1, 1",Anticonformity,0.0,0.0
+pkxuzweu,1,s2_p,1.0,NO_p,"1, 1, 0",No Treatment,1.0,1.0
+pkxuzweu,2,s2_p,1.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+pkxuzweu,3,s2_p,1.0,NO_p,"-1, -1, 1",No Treatment,0.0,0.0
+pkxuzweu,4,s2_p,1.0,NO_p,"-1, 0, -1",No Treatment,0.0,0.0
+pkxuzweu,5,s2_p,1.0,NO_p,"0, 0, -1",No Treatment,0.0,0.0
+pkxuzweu,6,s2_p,1.0,NO_p,"1, -1, 1",No Treatment,0.0,0.0
+pkxuzweu,7,s2_p,1.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+pkxuzweu,8,s2_p,1.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+pkxuzweu,9,s2_p,1.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+pkxuzweu,10,s2_p,1.0,NO_p,"-1, 1, 0",No Treatment,0.0,0.0
+prog4qzy,1,s2_n,1.0,NO_n,"1, 0, 0",No Treatment,0.0,0.0
+prog4qzy,2,s2_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+prog4qzy,3,s2_n,1.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+prog4qzy,4,s2_n,1.0,NO_n,"-1, 0, -1",No Treatment,0.0,0.0
+prog4qzy,5,s2_n,1.0,NO_n,"1, 1, 0",No Treatment,0.0,0.0
+prog4qzy,6,s2_n,1.0,NO_n,"0, -1, 1",No Treatment,0.0,0.0
+prog4qzy,7,s2_n,1.0,NO_n,"1, -1, -1",No Treatment,0.0,0.0
+prog4qzy,8,s2_n,1.0,NO_n,"-1, 0, 0",No Treatment,0.0,0.0
+prog4qzy,9,s2_n,1.0,NO_n,"-1, -1, -1",No Treatment,0.0,0.0
+prog4qzy,10,s2_n,1.0,NO_n,"1, -1, 1",No Treatment,0.0,0.0
+pu6i20cl,1,s2_p,1.0,C_p,"1, 1, 1",Conformity,2.0,2.0
+pu6i20cl,2,s2_p,-1.0,C_p,"-1, -1, 0",Conformity,-2.0,2.0
+pu6i20cl,3,s2_p,-1.0,C_p,"-1, 1, 0",Conformity,0.0,0.0
+pu6i20cl,4,s2_p,0.0,C_p,"-1, 0, 0",Conformity,1.0,1.0
+pu6i20cl,5,s2_p,-1.0,C_p,"-1, 1, -1",Conformity,-1.0,1.0
+pu6i20cl,6,s2_p,1.0,C_p,"1, -1, 1",Conformity,2.0,2.0
+pu6i20cl,7,s2_p,1.0,C_p,"1, 0, 1",Conformity,0.0,0.0
+pu6i20cl,8,s2_p,0.0,C_p,"0, 0, 0",Conformity,-1.0,1.0
+pu6i20cl,9,s2_p,0.0,C_p,"0, 1, 0",Conformity,0.0,0.0
+pu6i20cl,10,s2_p,-1.0,C_p,"-1, -1, -1",Conformity,-1.0,1.0
+qnfl3lqy,1,s2_n,0.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+qnfl3lqy,2,s2_n,1.0,NO_n,"-1, 0, 0",No Treatment,1.0,1.0
+qnfl3lqy,3,s2_n,0.0,NO_n,"-1, -1, 0",No Treatment,-1.0,1.0
+qnfl3lqy,4,s2_n,-1.0,NO_n,"0, 1, 0",No Treatment,-1.0,1.0
+qnfl3lqy,5,s2_n,0.0,NO_n,"1, 1, 0",No Treatment,1.0,1.0
+qnfl3lqy,6,s2_n,0.0,NO_n,"1, -1, 1",No Treatment,0.0,0.0
+qnfl3lqy,7,s2_n,1.0,NO_n,"-1, -1, -1",No Treatment,1.0,1.0
+qnfl3lqy,8,s2_n,1.0,NO_n,"-1, 1, 0",No Treatment,0.0,0.0
+qnfl3lqy,9,s2_n,1.0,NO_n,"-1, 1, -1",No Treatment,0.0,0.0
+qnfl3lqy,10,s2_n,0.0,NO_n,"0, 0, 0",No Treatment,-1.0,1.0
+qpxjqilh,1,s4_p,-1.0,AC_p,"-1, -1, 1",Anticonformity,-1.0,1.0
+qpxjqilh,2,s4_p,-1.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+qpxjqilh,3,s4_p,1.0,AC_p,"-1, 1, 1",Anticonformity,2.0,2.0
+qpxjqilh,4,s4_p,-1.0,AC_p,"0, 0, -1",Anticonformity,-2.0,2.0
+qpxjqilh,5,s4_p,0.0,AC_p,"1, 1, 0",Anticonformity,1.0,1.0
+qpxjqilh,6,s4_p,-1.0,AC_p,"1, 0, -1",Anticonformity,-1.0,1.0
+qpxjqilh,7,s4_p,-1.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+qpxjqilh,8,s4_p,0.0,AC_p,"-1, -1, 0",Anticonformity,1.0,1.0
+qpxjqilh,9,s4_p,1.0,AC_p,"0, 0, 0",Anticonformity,1.0,1.0
+qpxjqilh,10,s4_p,1.0,AC_p,"1, 0, 0",Anticonformity,0.0,0.0
+rj990tuw,1,s9_n,1.0,C_n,"1, -1, 1",Conformity,0.0,0.0
+rj990tuw,2,s9_n,1.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+rj990tuw,3,s9_n,1.0,C_n,"-1, 0, -1",Conformity,0.0,0.0
+rj990tuw,4,s9_n,1.0,C_n,"1, 1, 1",Conformity,0.0,0.0
+rj990tuw,5,s9_n,1.0,C_n,"-1, 1, 0",Conformity,0.0,0.0
+rj990tuw,6,s9_n,1.0,C_n,"0, 1, 1",Conformity,0.0,0.0
+rj990tuw,7,s9_n,1.0,C_n,"0, 0, 0",Conformity,0.0,0.0
+rj990tuw,8,s9_n,1.0,C_n,"-1, 1, -1",Conformity,0.0,0.0
+rj990tuw,9,s9_n,1.0,C_n,"0, 0, 1",Conformity,0.0,0.0
+rj990tuw,10,s9_n,1.0,C_n,"-1, 0, 0",Conformity,0.0,0.0
+rppg77ae,1,s2_n,1.0,AC_n,"1, 0, 1",Anticonformity,0.0,0.0
+rppg77ae,2,s2_n,1.0,AC_n,"0, -1, -1",Anticonformity,0.0,0.0
+rppg77ae,3,s2_n,0.0,AC_n,"-1, 1, 1",Anticonformity,-1.0,1.0
+rppg77ae,4,s2_n,1.0,AC_n,"-1, 0, 0",Anticonformity,1.0,1.0
+rppg77ae,5,s2_n,1.0,AC_n,"-1, -1, -1",Anticonformity,0.0,0.0
+rppg77ae,6,s2_n,1.0,AC_n,"1, 0, -1",Anticonformity,0.0,0.0
+rppg77ae,7,s2_n,-1.0,AC_n,"0, 0, 0",Anticonformity,-2.0,2.0
+rppg77ae,8,s2_n,1.0,AC_n,"1, 1, 1",Anticonformity,2.0,2.0
+rppg77ae,9,s2_n,1.0,AC_n,"0, 1, 0",Anticonformity,0.0,0.0
+rppg77ae,10,s2_n,1.0,AC_n,"-1, 1, -1",Anticonformity,0.0,0.0
+rqlxbinl,1,s2_p,0.0,NO_p,"0, -1, 0",No Treatment,0.0,0.0
+rqlxbinl,2,s2_p,0.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+rqlxbinl,3,s2_p,0.0,NO_p,"0, -1, 1",No Treatment,0.0,0.0
+rqlxbinl,4,s2_p,0.0,NO_p,"1, 1, 0",No Treatment,0.0,0.0
+rqlxbinl,5,s2_p,0.0,NO_p,"-1, 0, -1",No Treatment,0.0,0.0
+rqlxbinl,6,s2_p,0.0,NO_p,"1, -1, -1",No Treatment,0.0,0.0
+rqlxbinl,7,s2_p,0.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+rqlxbinl,8,s2_p,0.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+rqlxbinl,9,s2_p,0.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+rqlxbinl,10,s2_p,0.0,NO_p,"1, 1, -1",No Treatment,0.0,0.0
+rrvhld3u,1,s9_p,0.0,C_p,"[0, -1, 0]",Conformity,0.0,0.0
+rrvhld3u,2,s9_p,1.0,C_p,"[-1, 1, 1]",Conformity,1.0,1.0
+rrvhld3u,3,s9_p,1.0,C_p,"[1, 0, 1]",Conformity,0.0,0.0
+rrvhld3u,4,s9_p,1.0,C_p,"[1, 1, 1]",Conformity,0.0,0.0
+rrvhld3u,5,s9_p,0.0,C_p,"[-1, 1, 0]",Conformity,-1.0,1.0
+rrvhld3u,6,s9_p,-1.0,C_p,"[1, -1, -1]",Conformity,-1.0,1.0
+rrvhld3u,7,s9_p,0.0,C_p,"[0, 0, 0]",Conformity,1.0,1.0
+rrvhld3u,8,s9_p,-1.0,C_p,"[-1, -1, -1]",Conformity,-1.0,1.0
+rrvhld3u,9,s9_p,0.0,C_p,"[1, 0, 0]",Conformity,1.0,1.0
+rrvhld3u,10,s9_p,-1.0,C_p,"[-1, 0, -1]",Conformity,-1.0,1.0
+synutgfj,1,s9_p,-1.0,C_p,"-1, -1, 1",Conformity,0.0,0.0
+synutgfj,2,s9_p,0.0,C_p,"1, 0, 0",Conformity,1.0,1.0
+synutgfj,3,s9_p,0.0,C_p,"0, 1, 1",Conformity,0.0,0.0
+synutgfj,4,s9_p,1.0,C_p,"1, 1, 1",Conformity,1.0,1.0
+synutgfj,5,s9_p,1.0,C_p,"1, 1, -1",Conformity,0.0,0.0
+synutgfj,6,s9_p,0.0,C_p,"0, 0, 0",Conformity,-1.0,1.0
+synutgfj,7,s9_p,-1.0,C_p,"-1, -1, -1",Conformity,-1.0,1.0
+synutgfj,8,s9_p,-1.0,C_p,"-1, 0, -1",Conformity,0.0,0.0
+synutgfj,9,s9_p,0.0,C_p,"1, -1, 0",Conformity,1.0,1.0
+synutgfj,10,s9_p,0.0,C_p,"0, 0, -1",Conformity,0.0,0.0
+t0s2zwb6,1,s2_n,1.0,NO_n,"-1, 1, 1",No Treatment,0.0,0.0
+t0s2zwb6,2,s2_n,1.0,NO_n,"-1, -1, 0",No Treatment,0.0,0.0
+t0s2zwb6,3,s2_n,-1.0,NO_n,"-1, -1, -1",No Treatment,-2.0,2.0
+t0s2zwb6,4,s2_n,1.0,NO_n,"-1, 1, -1",No Treatment,2.0,2.0
+t0s2zwb6,5,s2_n,1.0,NO_n,"0, 1, -1",No Treatment,0.0,0.0
+t0s2zwb6,6,s2_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+t0s2zwb6,7,s2_n,1.0,NO_n,"1, 1, 0",No Treatment,0.0,0.0
+t0s2zwb6,8,s2_n,0.0,NO_n,"0, 0, 0",No Treatment,-1.0,1.0
+t0s2zwb6,9,s2_n,0.0,NO_n,"0, 0, -1",No Treatment,0.0,0.0
+t0s2zwb6,10,s2_n,1.0,NO_n,"1, 0, 0",No Treatment,1.0,1.0
+t153xuq7,1,s2_p,0.0,AC_p,"-1, 0, 1",Anticonformity,0.0,0.0
+t153xuq7,2,s2_p,0.0,AC_p,"0, 0, 0",Anticonformity,0.0,0.0
+t153xuq7,3,s2_p,1.0,AC_p,"0, 0, -1",Anticonformity,1.0,1.0
+t153xuq7,4,s2_p,0.0,AC_p,"-1, -1, -1",Anticonformity,-1.0,1.0
+t153xuq7,5,s2_p,0.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+t153xuq7,6,s2_p,1.0,AC_p,"0, 1, 0",Anticonformity,1.0,1.0
+t153xuq7,7,s2_p,0.0,AC_p,"1, 1, -1",Anticonformity,-1.0,1.0
+t153xuq7,8,s2_p,0.0,AC_p,"-1, -1, 1",Anticonformity,0.0,0.0
+t153xuq7,9,s2_p,1.0,AC_p,"-1, 0, -1",Anticonformity,1.0,1.0
+t153xuq7,10,s2_p,0.0,AC_p,"1, 1, 0",Anticonformity,-1.0,1.0
+tq70ya3t,1,s9_p,1.0,AC_p,"[-1, 1, -1]",Anticonformity,0.0,0.0
+tq70ya3t,2,s9_p,1.0,AC_p,"[0, 0, 1]",Anticonformity,0.0,0.0
+tq70ya3t,3,s9_p,1.0,AC_p,"[-1, 0, 1]",Anticonformity,0.0,0.0
+tq70ya3t,4,s9_p,1.0,AC_p,"[1, 1, 1]",Anticonformity,0.0,0.0
+tq70ya3t,5,s9_p,1.0,AC_p,"[1, 1, 0]",Anticonformity,0.0,0.0
+tq70ya3t,6,s9_p,1.0,AC_p,"[-1, -1, -1]",Anticonformity,0.0,0.0
+tq70ya3t,7,s9_p,1.0,AC_p,"[0, 0, -1]",Anticonformity,0.0,0.0
+tq70ya3t,8,s9_p,1.0,AC_p,"[0, -1, -1]",Anticonformity,0.0,0.0
+tq70ya3t,9,s9_p,1.0,AC_p,"[0, 0, 0]",Anticonformity,0.0,0.0
+tq70ya3t,10,s9_p,1.0,AC_p,"[1, 1, -1]",Anticonformity,0.0,0.0
+tqgfi8g6,1,s4_n,-1.0,AC_n,"1, 0, 0",Anticonformity,-1.0,1.0
+tqgfi8g6,2,s4_n,-1.0,AC_n,"1, 0, 1",Anticonformity,0.0,0.0
+tqgfi8g6,3,s4_n,0.0,AC_n,"-1, -1, -1",Anticonformity,1.0,1.0
+tqgfi8g6,4,s4_n,1.0,AC_n,"0, 0, -1",Anticonformity,1.0,1.0
+tqgfi8g6,5,s4_n,0.0,AC_n,"1, 1, -1",Anticonformity,-1.0,1.0
+tqgfi8g6,6,s4_n,-1.0,AC_n,"0, 0, 0",Anticonformity,-1.0,1.0
+tqgfi8g6,7,s4_n,0.0,AC_n,"1, 1, 1",Anticonformity,1.0,1.0
+tqgfi8g6,8,s4_n,0.0,AC_n,"1, 0, -1",Anticonformity,0.0,0.0
+tqgfi8g6,9,s4_n,1.0,AC_n,"-1, -1, 0",Anticonformity,1.0,1.0
+tqgfi8g6,10,s4_n,0.0,AC_n,"1, -1, -1",Anticonformity,-1.0,1.0
+tzpa51lg,1,s9_n,-1.0,NO_n,"-1, -1, 0",No Treatment,-2.0,2.0
+tzpa51lg,2,s9_n,1.0,NO_n,"-1, 1, 1",No Treatment,2.0,2.0
+tzpa51lg,3,s9_n,0.0,NO_n,"0, 1, -1",No Treatment,-1.0,1.0
+tzpa51lg,4,s9_n,0.0,NO_n,"0, 0, 0",No Treatment,0.0,0.0
+tzpa51lg,5,s9_n,1.0,NO_n,"1, 0, 1",No Treatment,1.0,1.0
+tzpa51lg,6,s9_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+tzpa51lg,7,s9_n,-1.0,NO_n,"-1, 1, -1",No Treatment,-2.0,2.0
+tzpa51lg,8,s9_n,-1.0,NO_n,"-1, -1, -1",No Treatment,0.0,0.0
+tzpa51lg,9,s9_n,0.0,NO_n,"0, -1, 0",No Treatment,1.0,1.0
+tzpa51lg,10,s9_n,0.0,NO_n,"1, 0, 0",No Treatment,0.0,0.0
+u4e3bbyt,1,s9_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+u4e3bbyt,2,s9_n,1.0,NO_n,"1, 0, 0",No Treatment,0.0,0.0
+u4e3bbyt,3,s9_n,1.0,NO_n,"-1, 1, 1",No Treatment,0.0,0.0
+u4e3bbyt,4,s9_n,1.0,NO_n,"0, -1, 0",No Treatment,0.0,0.0
+u4e3bbyt,5,s9_n,0.0,NO_n,"1, -1, -1",No Treatment,-1.0,1.0
+u4e3bbyt,6,s9_n,1.0,NO_n,"-1, 1, 0",No Treatment,1.0,1.0
+u4e3bbyt,7,s9_n,0.0,NO_n,"0, -1, -1",No Treatment,-1.0,1.0
+u4e3bbyt,8,s9_n,-1.0,NO_n,"0, 0, 0",No Treatment,-1.0,1.0
+u4e3bbyt,9,s9_n,0.0,NO_n,"-1, -1, -1",No Treatment,1.0,1.0
+u4e3bbyt,10,s9_n,1.0,NO_n,"1, 0, 1",No Treatment,1.0,1.0
+u6l0tyq8,1,s4_p,-1.0,C_p,"[-1, 1, -1]",Conformity,-2.0,2.0
+u6l0tyq8,2,s4_p,0.0,C_p,"[0, 0, 0]",Conformity,1.0,1.0
+u6l0tyq8,3,s4_p,1.0,C_p,"[1, -1, 1]",Conformity,1.0,1.0
+u6l0tyq8,4,s4_p,-1.0,C_p,"[-1, -1, -1]",Conformity,-2.0,2.0
+u6l0tyq8,5,s4_p,1.0,C_p,"[1, 1, 0]",Conformity,2.0,2.0
+u6l0tyq8,6,s4_p,0.0,C_p,"[0, 1, 0]",Conformity,-1.0,1.0
+u6l0tyq8,7,s4_p,-1.0,C_p,"[-1, 0, -1]",Conformity,-1.0,1.0
+u6l0tyq8,8,s4_p,1.0,C_p,"[-1, 0, 1]",Conformity,2.0,2.0
+u6l0tyq8,9,s4_p,1.0,C_p,"[1, 1, 1]",Conformity,0.0,0.0
+u6l0tyq8,10,s4_p,0.0,C_p,"[0, 0, -1]",Conformity,-1.0,1.0
+uw6slj3m,1,s9_n,1.0,AC_n,"1, -1, -1",Anticonformity,0.0,0.0
+uw6slj3m,2,s9_n,1.0,AC_n,"0, 1, 0",Anticonformity,0.0,0.0
+uw6slj3m,3,s9_n,1.0,AC_n,"0, -1, 0",Anticonformity,0.0,0.0
+uw6slj3m,4,s9_n,1.0,AC_n,"1, 0, 1",Anticonformity,0.0,0.0
+uw6slj3m,5,s9_n,1.0,AC_n,"1, -1, 1",Anticonformity,0.0,0.0
+uw6slj3m,6,s9_n,1.0,AC_n,"-1, -1, -1",Anticonformity,0.0,0.0
+uw6slj3m,7,s9_n,1.0,AC_n,"0, 0, 0",Anticonformity,0.0,0.0
+uw6slj3m,8,s9_n,1.0,AC_n,"0, -1, -1",Anticonformity,0.0,0.0
+uw6slj3m,9,s9_n,1.0,AC_n,"-1, 1, 0",Anticonformity,0.0,0.0
+uw6slj3m,10,s9_n,0.0,AC_n,"1, 1, 1",Anticonformity,-1.0,1.0
+wneo62fg,1,s4_n,0.0,C_n,"[0, 0, 1]",Conformity,-1.0,1.0
+wneo62fg,2,s4_n,1.0,C_n,"[1, 1, -1]",Conformity,1.0,1.0
+wneo62fg,3,s4_n,1.0,C_n,"[-1, -1, -1]",Conformity,0.0,0.0
+wneo62fg,4,s4_n,0.0,C_n,"[0, -1, 0]",Conformity,-1.0,1.0
+wneo62fg,5,s4_n,0.0,C_n,"[1, 1, 1]",Conformity,0.0,0.0
+wneo62fg,6,s4_n,-1.0,C_n,"[-1, 0, -1]",Conformity,-1.0,1.0
+wneo62fg,7,s4_n,0.0,C_n,"[0, 0, 0]",Conformity,1.0,1.0
+wneo62fg,8,s4_n,-1.0,C_n,"[-1, -1, 1]",Conformity,-1.0,1.0
+wneo62fg,9,s4_n,1.0,C_n,"[1, 0, 1]",Conformity,2.0,2.0
+wneo62fg,10,s4_n,0.0,C_n,"[1, 0, -1]",Conformity,-1.0,1.0
+wvgo0dnl,1,s4_n,0.0,C_n,"1, 1, 1",Conformity,1.0,1.0
+wvgo0dnl,2,s4_n,-1.0,C_n,"1, -1, 1",Conformity,-1.0,1.0
+wvgo0dnl,3,s4_n,-1.0,C_n,"-1, 0, -1",Conformity,0.0,0.0
+wvgo0dnl,4,s4_n,-1.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+wvgo0dnl,5,s4_n,0.0,C_n,"-1, 1, 0",Conformity,1.0,1.0
+wvgo0dnl,6,s4_n,-1.0,C_n,"0, 0, -1",Conformity,-1.0,1.0
+wvgo0dnl,7,s4_n,-1.0,C_n,"1, 0, 0",Conformity,0.0,0.0
+wvgo0dnl,8,s4_n,-1.0,C_n,"1, 1, 0",Conformity,0.0,0.0
+wvgo0dnl,9,s4_n,0.0,C_n,"0, 0, 0",Conformity,1.0,1.0
+wvgo0dnl,10,s4_n,-1.0,C_n,"-1, 1, -1",Conformity,-1.0,1.0
+xbtvsrjj,1,s4_p,1.0,NO_p,"[1, -1, -1]",No Treatment,0.0,0.0
+xbtvsrjj,2,s4_p,-1.0,NO_p,"[-1, -1, 0]",No Treatment,-2.0,2.0
+xbtvsrjj,3,s4_p,1.0,NO_p,"[0, 1, 1]",No Treatment,2.0,2.0
+xbtvsrjj,4,s4_p,1.0,NO_p,"[0, 0, 0]",No Treatment,0.0,0.0
+xbtvsrjj,5,s4_p,1.0,NO_p,"[0, -1, 0]",No Treatment,0.0,0.0
+xbtvsrjj,6,s4_p,1.0,NO_p,"[-1, -1, -1]",No Treatment,0.0,0.0
+xbtvsrjj,7,s4_p,0.0,NO_p,"[0, 0, 1]",No Treatment,-1.0,1.0
+xbtvsrjj,8,s4_p,1.0,NO_p,"[1, 1, 1]",No Treatment,1.0,1.0
+xbtvsrjj,9,s4_p,0.0,NO_p,"[-1, 1, 0]",No Treatment,-1.0,1.0
+xbtvsrjj,10,s4_p,-1.0,NO_p,"[1, 1, -1]",No Treatment,-1.0,1.0
+xcugzidr,1,s2_p,1.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+xcugzidr,2,s2_p,1.0,NO_p,"0, 1, 0",No Treatment,0.0,0.0
+xcugzidr,3,s2_p,0.0,NO_p,"0, -1, -1",No Treatment,-1.0,1.0
+xcugzidr,4,s2_p,1.0,NO_p,"-1, -1, 1",No Treatment,1.0,1.0
+xcugzidr,5,s2_p,0.0,NO_p,"-1, 0, 0",No Treatment,-1.0,1.0
+xcugzidr,6,s2_p,1.0,NO_p,"0, 1, -1",No Treatment,1.0,1.0
+xcugzidr,7,s2_p,1.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+xcugzidr,8,s2_p,1.0,NO_p,"1, 1, 0",No Treatment,0.0,0.0
+xcugzidr,9,s2_p,0.0,NO_p,"0, 0, 0",No Treatment,-1.0,1.0
+xcugzidr,10,s2_p,1.0,NO_p,"1, 1, -1",No Treatment,1.0,1.0
+y2vyodir,1,s4_n,0.0,NO_n,"0, 0, 0",No Treatment,-1.0,1.0
+y2vyodir,2,s4_n,-1.0,NO_n,"0, -1, -1",No Treatment,-1.0,1.0
+y2vyodir,3,s4_n,1.0,NO_n,"1, 1, 0",No Treatment,2.0,2.0
+y2vyodir,4,s4_n,-1.0,NO_n,"-1, -1, -1",No Treatment,-2.0,2.0
+y2vyodir,5,s4_n,1.0,NO_n,"1, -1, 1",No Treatment,2.0,2.0
+y2vyodir,6,s4_n,1.0,NO_n,"1, 0, 0",No Treatment,0.0,0.0
+y2vyodir,7,s4_n,1.0,NO_n,"1, 1, 1",No Treatment,0.0,0.0
+y2vyodir,8,s4_n,1.0,NO_n,"-1, 1, -1",No Treatment,0.0,0.0
+y2vyodir,9,s4_n,1.0,NO_n,"0, -1, 1",No Treatment,0.0,0.0
+y2vyodir,10,s4_n,1.0,NO_n,"0, -1, 0",No Treatment,0.0,0.0
+y9ft8u2d,1,s4_n,1.0,C_n,"1, 1, 0",Conformity,1.0,1.0
+y9ft8u2d,2,s4_n,0.0,C_n,"-1, 0, 0",Conformity,-1.0,1.0
+y9ft8u2d,3,s4_n,0.0,C_n,"0, 0, 0",Conformity,0.0,0.0
+y9ft8u2d,4,s4_n,0.0,C_n,"0, 1, 0",Conformity,0.0,0.0
+y9ft8u2d,5,s4_n,1.0,C_n,"1, 1, 1",Conformity,1.0,1.0
+y9ft8u2d,6,s4_n,-1.0,C_n,"-1, -1, -1",Conformity,-2.0,2.0
+y9ft8u2d,7,s4_n,-1.0,C_n,"1, -1, -1",Conformity,0.0,0.0
+y9ft8u2d,8,s4_n,-1.0,C_n,"-1, -1, 0",Conformity,0.0,0.0
+y9ft8u2d,9,s4_n,1.0,C_n,"-1, 1, 1",Conformity,2.0,2.0
+y9ft8u2d,10,s4_n,0.0,C_n,"-1, 0, 1",Conformity,-1.0,1.0
+ybsrvbyy,1,s9_n,1.0,C_n,"1, 1, 1",Conformity,0.0,0.0
+ybsrvbyy,2,s9_n,1.0,C_n,"1, 0, -1",Conformity,0.0,0.0
+ybsrvbyy,3,s9_n,1.0,C_n,"-1, 1, 1",Conformity,0.0,0.0
+ybsrvbyy,4,s9_n,1.0,C_n,"1, 1, 0",Conformity,0.0,0.0
+ybsrvbyy,5,s9_n,1.0,C_n,"-1, 0, -1",Conformity,0.0,0.0
+ybsrvbyy,6,s9_n,1.0,C_n,"0, 0, 0",Conformity,0.0,0.0
+ybsrvbyy,7,s9_n,1.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+ybsrvbyy,8,s9_n,1.0,C_n,"-1, 0, 0",Conformity,0.0,0.0
+ybsrvbyy,9,s9_n,1.0,C_n,"0, 1, 0",Conformity,0.0,0.0
+ybsrvbyy,10,s9_n,1.0,C_n,"1, -1, -1",Conformity,0.0,0.0
+yrzx29z5,1,s4_n,1.0,C_n,"-1, -1, 0",Conformity,0.0,0.0
+yrzx29z5,2,s4_n,1.0,C_n,"1, 1, 1",Conformity,0.0,0.0
+yrzx29z5,3,s4_n,1.0,C_n,"1, -1, -1",Conformity,0.0,0.0
+yrzx29z5,4,s4_n,1.0,C_n,"1, 1, 0",Conformity,0.0,0.0
+yrzx29z5,5,s4_n,1.0,C_n,"0, 1, 0",Conformity,0.0,0.0
+yrzx29z5,6,s4_n,1.0,C_n,"0, 0, 0",Conformity,0.0,0.0
+yrzx29z5,7,s4_n,1.0,C_n,"-1, 1, 1",Conformity,0.0,0.0
+yrzx29z5,8,s4_n,1.0,C_n,"0, -1, 0",Conformity,0.0,0.0
+yrzx29z5,9,s4_n,1.0,C_n,"-1, 0, 1",Conformity,0.0,0.0
+yrzx29z5,10,s4_n,1.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+z0aucopc,1,s9_p,0.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+z0aucopc,2,s9_p,0.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+z0aucopc,3,s9_p,0.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+z0aucopc,4,s9_p,0.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+z0aucopc,5,s9_p,0.0,NO_p,"-1, -1, 0",No Treatment,0.0,0.0
+z0aucopc,6,s9_p,0.0,NO_p,"1, -1, -1",No Treatment,0.0,0.0
+z0aucopc,7,s9_p,0.0,NO_p,"0, 1, -1",No Treatment,0.0,0.0
+z0aucopc,8,s9_p,0.0,NO_p,"-1, 1, 1",No Treatment,0.0,0.0
+z0aucopc,9,s9_p,0.0,NO_p,"-1, 0, 0",No Treatment,0.0,0.0
+z0aucopc,10,s9_p,0.0,NO_p,"1, 0, 1",No Treatment,0.0,0.0
+z18me9k9,1,s2_p,1.0,AC_p,"0, 0, 0",Anticonformity,1.0,1.0
+z18me9k9,2,s2_p,1.0,AC_p,"0, -1, -1",Anticonformity,0.0,0.0
+z18me9k9,3,s2_p,1.0,AC_p,"0, 0, -1",Anticonformity,0.0,0.0
+z18me9k9,4,s2_p,1.0,AC_p,"-1, -1, -1",Anticonformity,0.0,0.0
+z18me9k9,5,s2_p,1.0,AC_p,"1, 1, 1",Anticonformity,0.0,0.0
+z18me9k9,6,s2_p,1.0,AC_p,"-1, 1, 1",Anticonformity,0.0,0.0
+z18me9k9,7,s2_p,1.0,AC_p,"1, 1, 0",Anticonformity,0.0,0.0
+z18me9k9,8,s2_p,1.0,AC_p,"0, 1, 0",Anticonformity,0.0,0.0
+z18me9k9,9,s2_p,1.0,AC_p,"-1, -1, 1",Anticonformity,0.0,0.0
+z18me9k9,10,s2_p,1.0,AC_p,"-1, 0, 1",Anticonformity,0.0,0.0
+z3adp1r4,1,s2_p,1.0,AC_p,"[1, 0, 0]",Anticonformity,0.0,0.0
+z3adp1r4,2,s2_p,1.0,AC_p,"[0, 0, 0]",Anticonformity,0.0,0.0
+z3adp1r4,3,s2_p,1.0,AC_p,"[0, 1, -1]",Anticonformity,0.0,0.0
+z3adp1r4,4,s2_p,-1.0,AC_p,"[-1, -1, 0]",Anticonformity,-2.0,2.0
+z3adp1r4,5,s2_p,1.0,AC_p,"[0, 1, 1]",Anticonformity,2.0,2.0
+z3adp1r4,6,s2_p,1.0,AC_p,"[1, 1, 1]",Anticonformity,0.0,0.0
+z3adp1r4,7,s2_p,-1.0,AC_p,"[-1, -1, -1]",Anticonformity,-2.0,2.0
+z3adp1r4,8,s2_p,-1.0,AC_p,"[1, -1, -1]",Anticonformity,0.0,0.0
+z3adp1r4,9,s2_p,1.0,AC_p,"[1, -1, 1]",Anticonformity,2.0,2.0
+z3adp1r4,10,s2_p,0.0,AC_p,"[-1, 0, 0]",Anticonformity,-1.0,1.0
+z7xx7kw3,1,s9_p,0.0,C_p,"0, -1, 0",Conformity,0.0,0.0
+z7xx7kw3,2,s9_p,0.0,C_p,"0, 0, 0",Conformity,0.0,0.0
+z7xx7kw3,3,s9_p,0.0,C_p,"1, 0, 0",Conformity,0.0,0.0
+z7xx7kw3,4,s9_p,0.0,C_p,"-1, 0, 1",Conformity,0.0,0.0
+z7xx7kw3,5,s9_p,0.0,C_p,"-1, -1, -1",Conformity,0.0,0.0
+z7xx7kw3,6,s9_p,0.0,C_p,"0, -1, -1",Conformity,0.0,0.0
+z7xx7kw3,7,s9_p,1.0,C_p,"-1, 1, 1",Conformity,1.0,1.0
+z7xx7kw3,8,s9_p,0.0,C_p,"1, -1, -1",Conformity,-1.0,1.0
+z7xx7kw3,9,s9_p,-1.0,C_p,"1, 0, 1",Conformity,-1.0,1.0
+z7xx7kw3,10,s9_p,0.0,C_p,"1, 1, 1",Conformity,1.0,1.0
+zcucj5lv,1,s4_p,1.0,NO_p,"0, 1, 1",No Treatment,2.0,2.0
+zcucj5lv,2,s4_p,-1.0,NO_p,"-1, -1, -1",No Treatment,-2.0,2.0
+zcucj5lv,3,s4_p,0.0,NO_p,"1, 1, 1",No Treatment,1.0,1.0
+zcucj5lv,4,s4_p,0.0,NO_p,"1, -1, -1",No Treatment,0.0,0.0
+zcucj5lv,5,s4_p,0.0,NO_p,"0, -1, -1",No Treatment,0.0,0.0
+zcucj5lv,6,s4_p,0.0,NO_p,"-1, 0, 1",No Treatment,0.0,0.0
+zcucj5lv,7,s4_p,0.0,NO_p,"-1, 1, 1",No Treatment,0.0,0.0
+zcucj5lv,8,s4_p,0.0,NO_p,"1, 0, 0",No Treatment,0.0,0.0
+zcucj5lv,9,s4_p,0.0,NO_p,"0, -1, 0",No Treatment,0.0,0.0
+zcucj5lv,10,s4_p,0.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+zndefqj1,1,s9_p,1.0,NO_p,"1, 1, 1",No Treatment,0.0,0.0
+zndefqj1,2,s9_p,-1.0,NO_p,"0, -1, -1",No Treatment,-2.0,2.0
+zndefqj1,3,s9_p,1.0,NO_p,"1, 0, 1",No Treatment,2.0,2.0
+zndefqj1,4,s9_p,1.0,NO_p,"-1, -1, -1",No Treatment,0.0,0.0
+zndefqj1,5,s9_p,1.0,NO_p,"-1, 1, 0",No Treatment,0.0,0.0
+zndefqj1,6,s9_p,1.0,NO_p,"0, 1, 0",No Treatment,0.0,0.0
+zndefqj1,7,s9_p,1.0,NO_p,"0, 0, 0",No Treatment,0.0,0.0
+zndefqj1,8,s9_p,1.0,NO_p,"-1, -1, 1",No Treatment,0.0,0.0
+zndefqj1,9,s9_p,1.0,NO_p,"-1, 0, 0",No Treatment,0.0,0.0
+zndefqj1,10,s9_p,1.0,NO_p,"-1, 1, 1",No Treatment,0.0,0.0
+zxd50240,1,s4_n,0.0,C_n,"1, 1, 1",Conformity,1.0,1.0
+zxd50240,2,s4_n,0.0,C_n,"0, 1, 0",Conformity,0.0,0.0
+zxd50240,3,s4_n,1.0,C_n,"1, 1, -1",Conformity,1.0,1.0
+zxd50240,4,s4_n,0.0,C_n,"0, 0, -1",Conformity,-1.0,1.0
+zxd50240,5,s4_n,-1.0,C_n,"-1, -1, 1",Conformity,-1.0,1.0
+zxd50240,6,s4_n,0.0,C_n,"0, 0, 0",Conformity,1.0,1.0
+zxd50240,7,s4_n,-1.0,C_n,"0, -1, -1",Conformity,-1.0,1.0
+zxd50240,8,s4_n,-1.0,C_n,"-1, -1, -1",Conformity,0.0,0.0
+zxd50240,9,s4_n,0.0,C_n,"1, -1, 0",Conformity,1.0,1.0
+zxd50240,10,s4_n,0.0,C_n,"1, 1, 0",Conformity,0.0,0.0

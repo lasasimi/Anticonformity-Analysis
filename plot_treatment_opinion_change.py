@@ -953,6 +953,9 @@ df = pd.concat([clean_df_1, clean_df_2, clean_df_3], ignore_index=True)
 df_presurvey = df[df['neighbors'].isna()]
 df_mock = df[df['neighbors'].notna()]
 
+# save as .csv
+df_presurvey.to_csv('df_presurvey.csv', index=False)
+df_mock.to_csv('df_mock.csv', index=False)
 
 # Add a new row for round 0 by matching scenario_code with participant.scenario for the same participant.code
 # For each participant, we will add a row with round_no = 0 with their response which has the same scenario_code as their first round in the mock part of the app
@@ -987,6 +990,8 @@ def add_round_0(df_presurvey, df_mock):
 
 df_merged = add_round_0(df_presurvey, df_mock)
 
+# save as .csv
+df_merged.to_csv('df_merged.csv', index=False)
 
 # Copy values of participant.scenario from round_1 for the same participant.code
 df_merged['participant.scenario'] = df_merged.groupby('participant.code')['participant.scenario'].transform(
@@ -1014,6 +1019,8 @@ df_steps['response_delta'] = df_steps.groupby('participant.code')['response'].di
 # delete row where response_change is NaN (which is the first round for each participant)
 df_steps = df_steps.dropna(subset=['response_change'])
 
+# save as .csv
+df_steps.to_csv('df_steps.csv', index=False)
 
 # Plot the response change from round 1 to round 10 for all treatments, anticonformity and conformity
 plt.figure(figsize=(10, 6))
@@ -1256,6 +1263,8 @@ df_steps_extneu = df_steps_extneu.dropna(subset=['response_change'])
 df_steps_extneu['initially_neutral'].value_counts()/ 10
 # 81/120 = 67.5% of participants are initially non-neutral, 39/120 = 31.32.5% are initially neutral
 
+# save df_steps_extneu as .csv
+df_steps_extneu.to_csv('df_steps_extneu.csv', index=False)
 
 # Plot the response change from round 1 to round 10 for all treatments, anticonformity and conformity
 plt.figure(figsize=(10, 6))
