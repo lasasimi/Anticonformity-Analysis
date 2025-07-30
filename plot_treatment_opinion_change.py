@@ -400,6 +400,9 @@ df_treatment['treatment_type'] = df_treatment['participant.treatment'].apply(
 df_treatment['correct_response_given_treatment'] = pd.Categorical(df_treatment['correct_response_given_treatment'],
                                                          categories=['correct', 'incorrect', 'None'])   
 
+# Save df_treatment as .csv
+df_treatment.to_csv('df_treatment.csv', index=False)
+
 # Starts with A for Anticonformity and strats with C for Conformity
 df_counts_treatment = df_treatment.groupby(['round_no', 'correct_response_given_treatment', 'treatment_type']).size().reset_index(name='count')
 
@@ -583,7 +586,9 @@ plt.savefig('All+C+AC_expected_response_change_prop.png', dpi=300)
 plt.show()
 
 ## SPECIFIC SCENARIO PLOT
-spec_scenario = 's4'
+# take from df_treatment
+df = df_treatment
+spec_scenario = 's9'
 # Filter the DataFrame for the specific scenario
 df_spec_scenario = df[df['participant.scenario'].str.startswith(spec_scenario)]
 
@@ -604,19 +609,33 @@ df_spec_scenario['treatment_type'] = df_spec_scenario['participant.treatment'].a
 df_spec_scenario['correct_response_given_treatment'] = pd.Categorical(df_spec_scenario['correct_response_given_treatment'],
                                                          categories=['correct', 'incorrect', 'None'])   
 
+# load df_steps_extneu
+df_steps_extneu = pd.read_csv(file_location + 'df_steps_extneu.csv')
+df_neutral = df_steps_extneu[df_steps_extneu['initially_neutral'] == 'Neutral']
+# Filter out the participant.code that match the initially_neutral in df_neutral
+
+df_spec_scenario_filter = df_spec_scenario[~df_spec_scenario['participant.code'].isin(df_neutral['participant.code'])]
+
 # Starts with A for Anticonformity and strats with C for Conformity
 df_counts_spec = df_spec_scenario.groupby(['round_no', 'correct_response_given_treatment', 'treatment_type']).size().reset_index(name='count')
-
+df_counts_spec_filter = df_spec_scenario_filter.groupby(['round_no', 'correct_response_given_treatment', 'treatment_type']).size().reset_index(name='count')
 # Remove the rows with No Treatment
 df_counts_spec = df_counts_spec[df_counts_spec['treatment_type'] != 'No Treatment']
-
+df_counts_spec_filter = df_counts_spec_filter[df_counts_spec_filter['treatment_type'] != 'No Treatment']
 # Recount the participant after removing the No Treatment
 df_spec_scenario[df_spec_scenario['treatment_type'] != 'No Treatment']['participant.code'].nunique()
+df_spec_scenario_filter[df_spec_scenario_filter['treatment_type'] != 'No Treatment']['participant.code'].nunique()
+# filtered s9 = 30
+# filtered s2 = 11
 # s9 = 35
 # s4 = 25
 # s2 = 20
 
 df_counts_spec
+
+
+
+
 ## COUNT PLOT
 # Plot for specific scenario expected response (all types) in a single plot
 plt.figure(figsize=(10, 6))
@@ -690,6 +709,71 @@ ax.legend(handles=handles, labels=custom_labels, loc='upper left', bbox_to_ancho
 plt.tight_layout()
 plt.show()
 
+## PROPORTION PLOT (separated by Conformity and Anticonformity)
+df_steps_extneu = pd.read_csv(file_location + 'df_steps_extneu.csv')
+
+
+
+# Filter the ones with 
+# recalculate proportion -- number of participants in each treatment type and scenario
+df_spec_scenario = df_spec_scenario_filter.copy()
+spec_sc_ac_count = df_spec_scenario[df_spec_scenario['treatment_type'] == 'Anticonformity']['participant.code'].nunique() 
+# s9 filtered = 13
+# s2 filtered = 9
+# s2 = 15
+# s4 = 11
+# s9 = 14
+spec_sc_c_count = df_spec_scenario[df_spec_scenario['treatment_type'] == 'Conformity']['participant.code'].nunique()
+# s9 filtered = 17
+# s2 filtered = 2
+# s2 = 5
+# s4 = 14
+# s9 = 21
+
+# Convert counts to proportions by dividing by counts of people in the specific scenario with treatment (excluding No Treatment)
+df_counts_spec = df_counts_spec_filter.copy() # only do this if you want to use the filtered data / filtered out the initially neutral participants
+df_counts_spec.loc[df_counts_spec['treatment_type'] == 'Anticonformity', 'proportion'] = df_counts_spec['count'] / spec_sc_ac_count
+df_counts_spec.loc[df_counts_spec['treatment_type'] == 'Conformity', 'proportion'] = df_counts_spec['count'] / spec_sc_c_count
+# Plot for specific scenario expected response (all types) in two subplots: Conformity and Anticonformity
+fig, axes = plt.subplots(1, 2, figsize=(16, 6), sharey=True)
+
+treatment_types = ['Conformity', 'Anticonformity']
+titles = ['Conformity', 'Anticonformity']
+palette = {'correct': 'limegreen', 'incorrect': 'orange', 'None': 'gray'}
+custom_labels = ['Expected', 'Not Expected', 'None']
+
+for i, t_type in enumerate(treatment_types):
+    subset = df_counts_spec[df_counts_spec['treatment_type'] == t_type]
+    ax = axes[i]
+    sns.lineplot(
+        data=subset,
+        x='round_no',
+        y='proportion',
+        hue='correct_response_given_treatment',
+        style='correct_response_given_treatment',
+        markers=True,
+        dashes=True,
+        errorbar=None,
+        palette=palette,
+        ax=ax
+    )
+    ax.set_title(f'Expected Response in scenario {spec_scenario} ({titles[i]})')
+    ax.set_xlabel('Round Number')
+    ax.set_ylabel('Proportion')
+    ax.set_ylim(0, 1)
+    ax.set_xticks(range(1, 11))
+    # Only show legend at the second subplot
+    handles, labels = ax.get_legend_handles_labels()
+    if i == 1:
+        if labels and labels[0] == 'correct_response_given_treatment':
+            handles = handles[1:]
+            labels = labels[1:]
+        ax.legend(handles=handles, labels=custom_labels, loc='upper left', bbox_to_anchor=(1.05, 1))
+    else:
+        ax.get_legend().remove()
+
+plt.tight_layout()
+plt.show()
 
 
 ## PLOT THE EXPECTED X NON EXPECTED FOR INITIALLY NEUTRAL AND NON-NEUTRAL RESPONSES -- data is only from the mock round
