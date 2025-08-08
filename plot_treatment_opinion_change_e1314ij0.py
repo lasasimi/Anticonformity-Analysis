@@ -12,13 +12,13 @@ print(os.getcwd())
 file_location = '/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/Clean_files/'
 # mac
 # file_location = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/Clean_files/'
-clean_df_1 = pd.read_csv(file_location + 'clean_long_format_k1hhm7lf.csv')
-clean_df_2 = pd.read_csv(file_location + 'clean_long_format_pfu1qwfx.csv')
-clean_df_3 = pd.read_csv(file_location + 'clean_long_format_7agw525e.csv')
 
-# Merge the 3 dfs
-df = pd.concat([clean_df_1, clean_df_2, clean_df_3], ignore_index=True)
+# Load the three cleaned DataFrames
+df = pd.read_csv(file_location + 'clean_long_format_e1314ij0.csv')
 
+participant_label = pd.DataFrame(df['participant.label'].unique(), columns=['participant.label'])
+# save as csv
+participant_label.to_csv(file_location + 'participant_label.csv', index=False)
 # Load the neighbor configurations
 file_location = '/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/'
 neighbors_configs = pd.read_csv(file_location + 'neighbors_configurations.csv')
