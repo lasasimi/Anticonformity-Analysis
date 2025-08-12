@@ -15,10 +15,11 @@ import math
 print(os.getcwd())
 
 # mac
-#os.chdir('/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/')
+os.chdir('/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/')
 # windows
-os.chdir('/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/')
-path = '/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/'
+#os.chdir('/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/')
+
+path = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/'
 # Define the paths for raw and clean data
 data_clean = os.path.join(path, 'Clean_files/')
 data_raw = os.path.join(path, 'Raw_otree/')
@@ -141,18 +142,6 @@ player_vars_all = [
     'Pay.{i}.player.feedback_final',
     'Pay.{i}.player.id_in_group',]
 
-# variables that have multiple rounds
-player_vars_allR = [
-    #'presurvey.{i}.player.response',
-    #'presurvey.{i}.player.political_charge',
-    #'presurvey.{i}.player.emotional_charge',
-    #'presurvey.{i}.player.scenario_code',
-    'mock.{i}.player.old_response',
-    'mock.{i}.player.new_response',
-    'mock.{i}.player.forced_response',
-    'mock.{i}.player.neighbors'
-]
-
 # variables that have multiple rounds in mock app
 player_vars_mock_allR = [
     'mock.{i}.player.old_response',
@@ -211,7 +200,7 @@ player_vars_R2_R20 = [
 player_vars_keep = []
 for r in range(1,21):
     if r == 1:
-        all_vars = player_vars_allR1 + player_vars_allR
+        all_vars = player_vars_allR1 + player_vars_mock_allR
     else:
         all_vars = player_vars_R2_R20
     for var in all_vars:
@@ -241,12 +230,10 @@ player_info_vars = ['session.code','participant.code',
              'participant.scenario_order',
              'participant.training_attempt', 
              'participant.anticonformist',
-             'participant.position',
              'participant.own_faction',
              'participant.other_faction',
              'participant.all_responses',
              'participant.label',
-             'participant.treatment',
              'participant.discussion_grp',
              'participant.group_size', 
              'participant.single_group', 
@@ -259,13 +246,15 @@ player_info_vars = ['session.code','participant.code',
             'presurvey.1.player.age',
             'presurvey.1.player.gender',
             'presurvey.1.player.education_lvl',
-            'presurvey.1.player.neighborhood_type']
+            'presurvey.1.player.neighborhood_type',
+            'mock.1.group.beta_50',
+            'mock.1.group.anti_prop'
+        ]
 
 player_vars_mock_allR = [
     'mock.{i}.player.old_response',
     'mock.{i}.player.new_response',
     'mock.{i}.player.forced_response',
-    'mock.{i}.player.scenario',
     'mock.{i}.player.discussion_grp',
 ]
 # presurvey variables
