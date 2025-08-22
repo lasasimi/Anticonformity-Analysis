@@ -1,0 +1,169 @@
+participant.code,response,round_no,discussion_grp,forced_response,participant.scenario,participant.anticonformist,participant.group_size,neighbors_response,participant.treatment,participant.beta,neighbors,neighbors_std,correct_conformity,correct_anticonformity,treatment_resemblance,correct_response_given_treatment
+2a2asc23,1.0,0,,,s2_n,0,N08,,Conformist,0.5,,None,,,Unknown,incorrect
+2a2asc23,1.0,1,"['3wa30p90', 's7ermuix', 'vtqsoesz']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],conformity,correct
+2a2asc23,0.0,2,"['oo3k6zsr', 'vtqsoesz', 's7ermuix']",0.0,s2_n,0,N08,"[1.0, 1.0, 1.0]",Conformist,0.5,"1,1,1","1,1,1",1,"['-1', '0']",anticonformity,incorrect
+2a2asc23,1.0,3,"['fcjr64in', 'vtqsoesz', 'oo3k6zsr']",0.0,s2_n,0,N08,"[0.0, 1.0, -1.0]",Conformist,0.5,"0,1,-1","-1,0,1",None,None,None,None
+2a2asc23,0.0,4,"['3wa30p90', 'oo3k6zsr', 'vtqsoesz']",0.0,s2_n,0,N08,"[1.0, 0.0, 1.0]",Conformist,0.5,"1,0,1","0,1,1",1,['-1'],Unknown,incorrect
+2a2asc23,0.0,5,"['fcjr64in', 'oo3k6zsr', 'vtqsoesz']",0.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1",1,['0'],anticonformity,incorrect
+2a2asc23,-1.0,6,"['dathp6ot', '3wa30p90', 'vtqsoesz']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+2a2asc23,-1.0,7,"['dathp6ot', 'f3uh8uub', 'vtqsoesz']",0.0,s2_n,0,N08,"[-1.0, -1.0, -1.0]",Conformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",conformity,correct
+2a2asc23,-1.0,8,"['fcjr64in', 'vtqsoesz', 's7ermuix']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+2a2asc23,1.0,9,"['3wa30p90', 'dathp6ot', 'f3uh8uub']",0.0,s2_n,0,N08,"[0.0, -1.0, -1.0]",Conformist,0.5,"0,-1,-1","-1,-1,0",-1,['1'],anticonformity,incorrect
+2a2asc23,0.0,10,"['dathp6ot', 's7ermuix', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, 1.0, 0.0]",Conformist,0.5,"-1,1,0","-1,0,1",None,None,None,None
+2a2asc23,0.0,11,"['3wa30p90', 'vtqsoesz', 's7ermuix']",0.0,s2_n,0,N08,"[1.0, 0.0, 1.0]",Conformist,0.5,"1,0,1","0,1,1",1,['-1'],Unknown,incorrect
+2a2asc23,0.0,12,"['3wa30p90', 'f3uh8uub', 'vtqsoesz']",0.0,s2_n,0,N08,"[0.0, -1.0, 1.0]",Conformist,0.5,"0,-1,1","-1,0,1",None,None,None,None
+2a2asc23,1.0,13,"['dathp6ot', 'vtqsoesz', 's7ermuix']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+2a2asc23,-1.0,14,"['f3uh8uub', 'dathp6ot', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+2a2asc23,-1.0,15,"['f3uh8uub', '3wa30p90', 'vtqsoesz']",0.0,s2_n,0,N08,"[-1.0, -1.0, -1.0]",Conformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",conformity,correct
+2a2asc23,-1.0,16,"['dathp6ot', '3wa30p90', 'vtqsoesz']",0.0,s2_n,0,N08,"[-1.0, 0.0, -1.0]",Conformist,0.5,"-1,0,-1","-1,-1,0",-1,['1'],conformity,correct
+2a2asc23,-1.0,17,"['fcjr64in', 'f3uh8uub', 's7ermuix']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+2a2asc23,-1.0,18,"['f3uh8uub', 'fcjr64in', 's7ermuix']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+2a2asc23,0.0,19,"['f3uh8uub', 'vtqsoesz', 's7ermuix']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],anticonformity,incorrect
+2a2asc23,-1.0,20,"['f3uh8uub', '3wa30p90', 'vtqsoesz']",0.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1",1,['0'],Unknown,incorrect
+3wa30p90,-1.0,0,,,s2_n,1,N08,,Anticonformist,0.5,,None,,,Unknown,incorrect
+3wa30p90,1.0,1,"['vtqsoesz', 'fcjr64in', 'f3uh8uub']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+3wa30p90,1.0,2,"['2a2asc23', 'vtqsoesz', 'dathp6ot']",0.0,s2_n,1,N08,"[0.0, 1.0, 1.0]",Anticonformist,0.5,"0,1,1","0,1,1",1,['-1'],conformity,incorrect
+3wa30p90,0.0,3,"['2a2asc23', 'vtqsoesz', 'dathp6ot']",0.0,s2_n,1,N08,"[1.0, 1.0, -1.0]",Anticonformist,0.5,"1,1,-1","-1,1,1",1,['0'],anticonformity,correct
+3wa30p90,1.0,4,"['s7ermuix', 'dathp6ot', 'f3uh8uub']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+3wa30p90,-1.0,5,"['oo3k6zsr', 'fcjr64in', 'f3uh8uub']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+3wa30p90,-1.0,6,"['f3uh8uub', 'fcjr64in', 'dathp6ot']",0.0,s2_n,1,N08,"[-1.0, 0.0, -1.0]",Anticonformist,0.5,"-1,0,-1","-1,-1,0",-1,['1'],conformity,incorrect
+3wa30p90,1.0,7,"['oo3k6zsr', 'f3uh8uub', 'fcjr64in']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+3wa30p90,1.0,8,"['s7ermuix', '2a2asc23', 'f3uh8uub']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+3wa30p90,0.0,9,"['oo3k6zsr', 'vtqsoesz', 'dathp6ot']",0.0,s2_n,1,N08,"[0.0, 1.0, -1.0]",Anticonformist,0.5,"0,1,-1","-1,0,1",None,None,None,None
+3wa30p90,0.0,10,"['oo3k6zsr', 'vtqsoesz', '2a2asc23']",0.0,s2_n,1,N08,"[0.0, -1.0, 0.0]",Anticonformist,0.5,"0,-1,0","-1,0,0",0,['1'],conformity,incorrect
+3wa30p90,1.0,11,"['oo3k6zsr', 'fcjr64in', 'dathp6ot']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+3wa30p90,0.0,12,"['2a2asc23', 'dathp6ot', 'fcjr64in']",0.0,s2_n,1,N08,"[0.0, -1.0, -1.0]",Anticonformist,0.5,"0,-1,-1","-1,-1,0",-1,['1'],Unknown,incorrect
+3wa30p90,1.0,13,"['s7ermuix', 'f3uh8uub', 'dathp6ot']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+3wa30p90,-1.0,14,"['2a2asc23', 's7ermuix', 'fcjr64in']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+3wa30p90,-1.0,15,"['s7ermuix', 'vtqsoesz', 'fcjr64in']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+3wa30p90,0.0,16,"['s7ermuix', 'dathp6ot', 'fcjr64in']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],anticonformity,correct
+3wa30p90,1.0,17,"['vtqsoesz', '2a2asc23', 'f3uh8uub']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+3wa30p90,1.0,18,"['vtqsoesz', 'dathp6ot', 'f3uh8uub']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+3wa30p90,1.0,19,"['oo3k6zsr', 'vtqsoesz', 'f3uh8uub']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+3wa30p90,1.0,20,"['2a2asc23', 's7ermuix', 'fcjr64in']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+dathp6ot,-1.0,0,,,s2_n,1,N08,,Anticonformist,0.5,,None,,,Unknown,incorrect
+dathp6ot,-1.0,1,"['2a2asc23', 'oo3k6zsr', '3wa30p90']",0.0,s2_n,1,N08,"[1.0, 1.0, 1.0]",Anticonformist,0.5,"1,1,1","1,1,1",1,"['-1', '0']",anticonformity,correct
+dathp6ot,1.0,2,"['2a2asc23', 'oo3k6zsr', '3wa30p90']",0.0,s2_n,1,N08,"[0.0, 1.0, 1.0]",Anticonformist,0.5,"0,1,1","0,1,1",1,['-1'],conformity,incorrect
+dathp6ot,-1.0,3,"['oo3k6zsr', 's7ermuix', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, 1.0, 1.0]",Anticonformist,0.5,"-1,1,1","-1,1,1",1,['0'],Unknown,incorrect
+dathp6ot,-1.0,4,"['oo3k6zsr', 'vtqsoesz', 'f3uh8uub']",0.0,s2_n,1,N08,"[0.0, 1.0, -1.0]",Anticonformist,0.5,"0,1,-1","-1,0,1",None,None,None,None
+dathp6ot,-1.0,5,"['oo3k6zsr', 's7ermuix', '3wa30p90']",0.0,s2_n,1,N08,"[1.0, 1.0, -1.0]",Anticonformist,0.5,"1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+dathp6ot,-1.0,6,"['oo3k6zsr', '2a2asc23', 'f3uh8uub']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+dathp6ot,-1.0,7,"['f3uh8uub', 'fcjr64in', '3wa30p90']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,incorrect
+dathp6ot,1.0,8,"['oo3k6zsr', 'f3uh8uub', '3wa30p90']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","-1,1,1",1,['0'],conformity,incorrect
+dathp6ot,-1.0,9,"['vtqsoesz', 'oo3k6zsr', 'fcjr64in']",0.0,s2_n,1,N08,"[1.0, 0.0, -1.0]",Anticonformist,0.5,"1,0,-1","-1,0,1",None,None,None,None
+dathp6ot,-1.0,10,"['2a2asc23', 'vtqsoesz', 's7ermuix']",0.0,s2_n,1,N08,"[0.0, -1.0, 1.0]",Anticonformist,0.5,"0,-1,1","-1,0,1",None,None,None,None
+dathp6ot,-1.0,11,"['vtqsoesz', 'fcjr64in', '3wa30p90']",0.0,s2_n,1,N08,"[0.0, -1.0, 1.0]",Anticonformist,0.5,"0,-1,1","-1,0,1",None,None,None,None
+dathp6ot,-1.0,12,"['fcjr64in', 'f3uh8uub', '3wa30p90']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0",-1,['1'],conformity,incorrect
+dathp6ot,-1.0,13,"['vtqsoesz', '3wa30p90', 'fcjr64in']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+dathp6ot,-1.0,14,"['vtqsoesz', '2a2asc23', 'oo3k6zsr']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","-1,1,1",1,['0'],Unknown,incorrect
+dathp6ot,-1.0,15,"['oo3k6zsr', '2a2asc23', 'f3uh8uub']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+dathp6ot,-1.0,16,"['f3uh8uub', 'fcjr64in', '3wa30p90']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0",-1,['1'],conformity,incorrect
+dathp6ot,-1.0,17,"['s7ermuix', 'f3uh8uub', 'fcjr64in']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+dathp6ot,-1.0,18,"['2a2asc23', 'f3uh8uub', '3wa30p90']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,incorrect
+dathp6ot,-1.0,19,"['oo3k6zsr', 'vtqsoesz', 'f3uh8uub']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+dathp6ot,-1.0,20,"['s7ermuix', '2a2asc23', 'f3uh8uub']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+f3uh8uub,-1.0,0,,,s2_n,0,N08,,Conformist,0.5,,None,,,Unknown,incorrect
+f3uh8uub,-1.0,1,"['2a2asc23', 'oo3k6zsr', 's7ermuix']",0.0,s2_n,0,N08,"[1.0, 1.0, 1.0]",Conformist,0.5,"1,1,1","1,1,1",1,"['-1', '0']",anticonformity,incorrect
+f3uh8uub,-1.0,2,"['2a2asc23', 's7ermuix', 'dathp6ot']",0.0,s2_n,0,N08,"[0.0, 1.0, 1.0]",Conformist,0.5,"0,1,1","0,1,1",1,['-1'],anticonformity,incorrect
+f3uh8uub,-1.0,3,"['oo3k6zsr', 'fcjr64in', 'dathp6ot']",0.0,s2_n,0,N08,"[-1.0, 0.0, -1.0]",Conformist,0.5,"-1,0,-1","-1,-1,0",-1,['1'],conformity,correct
+f3uh8uub,-1.0,4,"['vtqsoesz', 'fcjr64in', 'dathp6ot']",0.0,s2_n,0,N08,"[1.0, -1.0, -1.0]",Conformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,correct
+f3uh8uub,-1.0,5,"['s7ermuix', 'vtqsoesz', 'oo3k6zsr']",0.0,s2_n,0,N08,"[1.0, 1.0, 1.0]",Conformist,0.5,"1,1,1","1,1,1",1,"['-1', '0']",anticonformity,incorrect
+f3uh8uub,-1.0,6,"['vtqsoesz', 'fcjr64in', 'dathp6ot']",0.0,s2_n,0,N08,"[1.0, 0.0, -1.0]",Conformist,0.5,"1,0,-1","-1,0,1",None,None,None,None
+f3uh8uub,-1.0,7,"['vtqsoesz', 's7ermuix', 'dathp6ot']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,correct
+f3uh8uub,-1.0,8,"['s7ermuix', 'oo3k6zsr', '3wa30p90']",0.0,s2_n,0,N08,"[1.0, 1.0, 1.0]",Conformist,0.5,"1,1,1","1,1,1",1,"['-1', '0']",anticonformity,incorrect
+f3uh8uub,-1.0,9,"['oo3k6zsr', '3wa30p90', 'fcjr64in']",0.0,s2_n,0,N08,"[0.0, 0.0, -1.0]",Conformist,0.5,"0,0,-1","-1,0,0",0,['1'],Unknown,incorrect
+f3uh8uub,-1.0,10,"['vtqsoesz', 's7ermuix', 'fcjr64in']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,correct
+f3uh8uub,-1.0,11,"['dathp6ot', '3wa30p90', 'fcjr64in']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,correct
+f3uh8uub,-1.0,12,"['s7ermuix', 'oo3k6zsr', 'fcjr64in']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+f3uh8uub,-1.0,13,"['2a2asc23', 's7ermuix', 'dathp6ot']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+f3uh8uub,-1.0,14,"['vtqsoesz', 'fcjr64in', 'dathp6ot']",0.0,s2_n,0,N08,"[1.0, -1.0, -1.0]",Conformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,correct
+f3uh8uub,-1.0,15,"['vtqsoesz', '2a2asc23', 'dathp6ot']",0.0,s2_n,0,N08,"[-1.0, -1.0, -1.0]",Conformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",conformity,correct
+f3uh8uub,-1.0,16,"['2a2asc23', '3wa30p90', 'fcjr64in']",0.0,s2_n,0,N08,"[-1.0, 0.0, -1.0]",Conformist,0.5,"-1,0,-1","-1,-1,0",-1,['1'],conformity,correct
+f3uh8uub,-1.0,17,"['oo3k6zsr', 'vtqsoesz', '2a2asc23']",0.0,s2_n,0,N08,"[1.0, -1.0, -1.0]",Conformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,correct
+f3uh8uub,-1.0,18,"['s7ermuix', 'dathp6ot', 'fcjr64in']",0.0,s2_n,0,N08,"[1.0, -1.0, -1.0]",Conformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,correct
+f3uh8uub,-1.0,19,"['oo3k6zsr', '2a2asc23', 's7ermuix']",0.0,s2_n,0,N08,"[1.0, 0.0, 1.0]",Conformist,0.5,"1,0,1","0,1,1",1,['-1'],anticonformity,incorrect
+f3uh8uub,-1.0,20,"['s7ermuix', '2a2asc23', 'vtqsoesz']",0.0,s2_n,0,N08,"[1.0, -1.0, 1.0]",Conformist,0.5,"1,-1,1","-1,1,1",1,['0'],Unknown,incorrect
+fcjr64in,-1.0,0,,,s2_n,0,N08,,Conformist,0.5,,None,,,Unknown,incorrect
+fcjr64in,-1.0,1,"['2a2asc23', 'f3uh8uub', '3wa30p90']",0.0,s2_n,0,N08,"[1.0, -1.0, 1.0]",Conformist,0.5,"1,-1,1","-1,1,1",1,['0'],Unknown,incorrect
+fcjr64in,-1.0,2,"['dathp6ot', '3wa30p90', 'f3uh8uub']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+fcjr64in,0.0,3,"['s7ermuix', '2a2asc23', 'vtqsoesz']",0.0,s2_n,0,N08,"[1.0, 1.0, 1.0]",Conformist,0.5,"1,1,1","1,1,1",1,"['-1', '0']",anticonformity,incorrect
+fcjr64in,-1.0,4,"['3wa30p90', 'f3uh8uub', 'dathp6ot']",0.0,s2_n,0,N08,"[1.0, -1.0, -1.0]",Conformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],conformity,correct
+fcjr64in,-1.0,5,"['dathp6ot', 'f3uh8uub', '3wa30p90']",0.0,s2_n,0,N08,"[-1.0, -1.0, -1.0]",Conformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",conformity,correct
+fcjr64in,0.0,6,"['oo3k6zsr', 's7ermuix', '3wa30p90']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],anticonformity,incorrect
+fcjr64in,-1.0,7,"['vtqsoesz', '3wa30p90', 'dathp6ot']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,correct
+fcjr64in,-1.0,8,"['vtqsoesz', '2a2asc23', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+fcjr64in,-1.0,9,"['2a2asc23', 'oo3k6zsr', 'f3uh8uub']",0.0,s2_n,0,N08,"[1.0, 0.0, -1.0]",Conformist,0.5,"1,0,-1","-1,0,1",None,None,None,None
+fcjr64in,-1.0,10,"['oo3k6zsr', 'dathp6ot', 'f3uh8uub']",0.0,s2_n,0,N08,"[0.0, -1.0, -1.0]",Conformist,0.5,"0,-1,-1","-1,-1,0",-1,['1'],conformity,correct
+fcjr64in,-1.0,11,"['2a2asc23', 'vtqsoesz', 'f3uh8uub']",0.0,s2_n,0,N08,"[0.0, 0.0, -1.0]",Conformist,0.5,"0,0,-1","-1,0,0",0,['1'],Unknown,incorrect
+fcjr64in,-1.0,12,"['s7ermuix', 'vtqsoesz', 'f3uh8uub']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+fcjr64in,-1.0,13,"['vtqsoesz', 'dathp6ot', 'f3uh8uub']",0.0,s2_n,0,N08,"[-1.0, -1.0, -1.0]",Conformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",conformity,correct
+fcjr64in,-1.0,14,"['oo3k6zsr', 's7ermuix', 'vtqsoesz']",0.0,s2_n,0,N08,"[1.0, 1.0, 1.0]",Conformist,0.5,"1,1,1","1,1,1",1,"['-1', '0']",anticonformity,incorrect
+fcjr64in,-1.0,15,"['2a2asc23', 'oo3k6zsr', 'f3uh8uub']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,correct
+fcjr64in,-1.0,16,"['s7ermuix', 'oo3k6zsr', 'dathp6ot']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+fcjr64in,-1.0,17,"['s7ermuix', '2a2asc23', '3wa30p90']",0.0,s2_n,0,N08,"[1.0, -1.0, 1.0]",Conformist,0.5,"1,-1,1","-1,1,1",1,['0'],Unknown,incorrect
+fcjr64in,-1.0,18,"['vtqsoesz', 's7ermuix', 'dathp6ot']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,correct
+fcjr64in,-1.0,19,"['s7ermuix', 'dathp6ot', '3wa30p90']",0.0,s2_n,0,N08,"[1.0, -1.0, 1.0]",Conformist,0.5,"1,-1,1","-1,1,1",1,['0'],Unknown,incorrect
+fcjr64in,-1.0,20,"['vtqsoesz', 's7ermuix', 'dathp6ot']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+oo3k6zsr,1.0,0,,,s2_n,1,N08,,Anticonformist,0.5,,None,,,Unknown,incorrect
+oo3k6zsr,1.0,1,"['fcjr64in', 'dathp6ot', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+oo3k6zsr,1.0,2,"['fcjr64in', 'dathp6ot', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, 1.0, 1.0]",Anticonformist,0.5,"-1,1,1","-1,1,1",1,['0'],conformity,incorrect
+oo3k6zsr,-1.0,3,"['dathp6ot', '2a2asc23', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, 1.0, 1.0]",Anticonformist,0.5,"-1,1,1","-1,1,1",1,['0'],Unknown,incorrect
+oo3k6zsr,0.0,4,"['dathp6ot', '2a2asc23', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, 0.0, 1.0]",Anticonformist,0.5,"-1,0,1","-1,0,1",None,None,None,None
+oo3k6zsr,1.0,5,"['fcjr64in', 'dathp6ot', '3wa30p90']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+oo3k6zsr,1.0,6,"['f3uh8uub', 'dathp6ot', '2a2asc23']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+oo3k6zsr,1.0,7,"['dathp6ot', 'f3uh8uub', 'fcjr64in']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+oo3k6zsr,1.0,8,"['3wa30p90', 'fcjr64in', '2a2asc23']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+oo3k6zsr,0.0,9,"['3wa30p90', 's7ermuix', 'vtqsoesz']",0.0,s2_n,1,N08,"[0.0, 1.0, 1.0]",Anticonformist,0.5,"0,1,1","0,1,1",1,['-1'],Unknown,incorrect
+oo3k6zsr,0.0,10,"['3wa30p90', '2a2asc23', 'vtqsoesz']",0.0,s2_n,1,N08,"[0.0, 0.0, -1.0]",Anticonformist,0.5,"0,0,-1","-1,0,0",0,['1'],conformity,incorrect
+oo3k6zsr,1.0,11,"['dathp6ot', 'f3uh8uub', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0",-1,['1'],anticonformity,correct
+oo3k6zsr,1.0,12,"['dathp6ot', 'vtqsoesz', 's7ermuix']",0.0,s2_n,1,N08,"[-1.0, 1.0, 1.0]",Anticonformist,0.5,"-1,1,1","-1,1,1",1,['0'],conformity,incorrect
+oo3k6zsr,1.0,13,"['dathp6ot', 'vtqsoesz', '2a2asc23']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+oo3k6zsr,1.0,14,"['dathp6ot', '3wa30p90', 'fcjr64in']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+oo3k6zsr,1.0,15,"['3wa30p90', '2a2asc23', 's7ermuix']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+oo3k6zsr,1.0,16,"['dathp6ot', 'fcjr64in', '3wa30p90']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0",-1,['1'],anticonformity,correct
+oo3k6zsr,1.0,17,"['fcjr64in', '3wa30p90', 'dathp6ot']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+oo3k6zsr,0.0,18,"['3wa30p90', 'f3uh8uub', 's7ermuix']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","-1,1,1",1,['0'],anticonformity,correct
+oo3k6zsr,1.0,19,"['dathp6ot', 's7ermuix', '2a2asc23']",0.0,s2_n,1,N08,"[-1.0, 1.0, 0.0]",Anticonformist,0.5,"-1,1,0","-1,0,1",None,None,None,None
+oo3k6zsr,-1.0,20,"['3wa30p90', 'fcjr64in', 's7ermuix']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","-1,1,1",1,['0'],Unknown,incorrect
+s7ermuix,1.0,0,,,s2_n,1,N08,,Anticonformist,0.5,,None,,,Unknown,incorrect
+s7ermuix,1.0,1,"['3wa30p90', '2a2asc23', 'vtqsoesz']",0.0,s2_n,1,N08,"[1.0, 1.0, -1.0]",Anticonformist,0.5,"1,1,-1","-1,1,1",1,['0'],conformity,incorrect
+s7ermuix,1.0,2,"['dathp6ot', 'f3uh8uub', 'vtqsoesz']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","-1,1,1",1,['0'],conformity,incorrect
+s7ermuix,1.0,3,"['3wa30p90', '2a2asc23', 'vtqsoesz']",0.0,s2_n,1,N08,"[0.0, 1.0, 1.0]",Anticonformist,0.5,"0,1,1","0,1,1",1,['-1'],conformity,incorrect
+s7ermuix,1.0,4,"['dathp6ot', '3wa30p90', 'f3uh8uub']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+s7ermuix,1.0,5,"['3wa30p90', 'fcjr64in', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+s7ermuix,1.0,6,"['fcjr64in', '3wa30p90', 'oo3k6zsr']",0.0,s2_n,1,N08,"[0.0, -1.0, 1.0]",Anticonformist,0.5,"0,-1,1","-1,0,1",None,None,None,None
+s7ermuix,1.0,7,"['fcjr64in', '3wa30p90', 'dathp6ot']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+s7ermuix,1.0,8,"['f3uh8uub', 'oo3k6zsr', '2a2asc23']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+s7ermuix,1.0,9,"['vtqsoesz', '2a2asc23', 'oo3k6zsr']",0.0,s2_n,1,N08,"[1.0, 1.0, 0.0]",Anticonformist,0.5,"1,1,0","0,1,1",1,['-1'],conformity,incorrect
+s7ermuix,1.0,10,"['dathp6ot', '3wa30p90', 'oo3k6zsr']",0.0,s2_n,1,N08,"[-1.0, 0.0, 0.0]",Anticonformist,0.5,"-1,0,0","-1,0,0",0,['1'],anticonformity,correct
+s7ermuix,1.0,11,"['fcjr64in', 'dathp6ot', 'f3uh8uub']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+s7ermuix,1.0,12,"['dathp6ot', 'fcjr64in', 'oo3k6zsr']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+s7ermuix,1.0,13,"['3wa30p90', 'fcjr64in', 'dathp6ot']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+s7ermuix,1.0,14,"['3wa30p90', 'dathp6ot', '2a2asc23']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+s7ermuix,1.0,15,"['dathp6ot', 'vtqsoesz', 'oo3k6zsr']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+s7ermuix,1.0,16,"['fcjr64in', '3wa30p90', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, 0.0, -1.0]",Anticonformist,0.5,"-1,0,-1","-1,-1,0",-1,['1'],anticonformity,correct
+s7ermuix,1.0,17,"['f3uh8uub', 'dathp6ot', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+s7ermuix,1.0,18,"['2a2asc23', 'oo3k6zsr', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, 0.0, -1.0]",Anticonformist,0.5,"-1,0,-1","-1,-1,0",-1,['1'],anticonformity,correct
+s7ermuix,1.0,19,"['f3uh8uub', 'fcjr64in', 'vtqsoesz']",0.0,s2_n,1,N08,"[-1.0, -1.0, -1.0]",Anticonformist,0.5,"-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,correct
+s7ermuix,1.0,20,"['3wa30p90', 'oo3k6zsr', 'vtqsoesz']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","-1,1,1",1,['0'],conformity,incorrect
+vtqsoesz,1.0,0,,,s2_n,0,N08,,Conformist,0.5,,None,,,Unknown,incorrect
+vtqsoesz,-1.0,1,"['fcjr64in', 'dathp6ot', 's7ermuix']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+vtqsoesz,1.0,2,"['fcjr64in', '3wa30p90', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1",1,['0'],conformity,correct
+vtqsoesz,1.0,3,"['s7ermuix', '2a2asc23', 'oo3k6zsr']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","-1,1,1",1,['0'],conformity,correct
+vtqsoesz,1.0,4,"['3wa30p90', 'oo3k6zsr', '2a2asc23']",0.0,s2_n,0,N08,"[1.0, 0.0, 0.0]",Conformist,0.5,"1,0,0","0,0,1",0,['-1'],Unknown,incorrect
+vtqsoesz,1.0,5,"['fcjr64in', 'dathp6ot', 's7ermuix']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+vtqsoesz,1.0,6,"['dathp6ot', '2a2asc23', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+vtqsoesz,-1.0,7,"['f3uh8uub', '2a2asc23', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+vtqsoesz,-1.0,8,"['f3uh8uub', 'dathp6ot', '3wa30p90']",0.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1",1,['0'],Unknown,incorrect
+vtqsoesz,1.0,9,"['3wa30p90', 'dathp6ot', 'oo3k6zsr']",0.0,s2_n,0,N08,"[0.0, -1.0, 0.0]",Conformist,0.5,"0,-1,0","-1,0,0",0,['1'],anticonformity,incorrect
+vtqsoesz,-1.0,10,"['dathp6ot', 'fcjr64in', '3wa30p90']",0.0,s2_n,0,N08,"[-1.0, -1.0, 0.0]",Conformist,0.5,"-1,-1,0","-1,-1,0",-1,['1'],conformity,correct
+vtqsoesz,0.0,11,"['f3uh8uub', '3wa30p90', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1",1,['0'],anticonformity,incorrect
+vtqsoesz,1.0,12,"['f3uh8uub', 's7ermuix', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1",1,['0'],conformity,correct
+vtqsoesz,-1.0,13,"['f3uh8uub', 'dathp6ot', '2a2asc23']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+vtqsoesz,1.0,14,"['f3uh8uub', '3wa30p90', 's7ermuix']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+vtqsoesz,-1.0,15,"['fcjr64in', 'oo3k6zsr', '2a2asc23']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,correct
+vtqsoesz,-1.0,16,"['fcjr64in', 'f3uh8uub', 'oo3k6zsr']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+vtqsoesz,-1.0,17,"['dathp6ot', 'fcjr64in', '3wa30p90']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+vtqsoesz,-1.0,18,"['fcjr64in', 's7ermuix', '2a2asc23']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,-1,1",-1,['0'],conformity,correct
+vtqsoesz,-1.0,19,"['fcjr64in', 's7ermuix', '2a2asc23']",0.0,s2_n,0,N08,"[-1.0, 1.0, 0.0]",Conformist,0.5,"-1,1,0","-1,0,1",None,None,None,None
+vtqsoesz,1.0,20,"['s7ermuix', 'oo3k6zsr', '2a2asc23']",0.0,s2_n,0,N08,"[1.0, -1.0, -1.0]",Conformist,0.5,"1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
