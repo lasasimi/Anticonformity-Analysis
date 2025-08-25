@@ -10,19 +10,20 @@ from matplotlib.colors import Normalize
 import seaborn as sns
 
 print(os.getcwd())
-session_id = 'ks5c9u60'
+session_id = '19yrypoq'
 # Load and merge the page time data
 # windows 
 file_location = '/Users/Lasmi Marbun/Documents/Git/Anticonformity-Analysis/'
 # mac
 #file_location = '/Users/lasmimarbun/Documents/Git/Anticonformity-Analysis/'
 
-# Load the three cleaned DataFrames
+# Load the the cleaned DataFrames
 df = pd.read_csv(file_location + 'Clean_files/clean_long_format_' + session_id + '.csv')
 
+df['participant.label'].unique()
 participant_label = pd.DataFrame(df['participant.label'].unique(), columns=['participant.label'])
 # save as csv
-participant_label.to_csv(file_location + 'participant_label_e1314ij0.csv', index=False)
+participant_label.to_csv(file_location + 'participant_label_' + session_id + '.csv', index=False)
 
 participant_code = df['participant.code'].unique().tolist()
 len(participant_code) # 8 participants
@@ -442,8 +443,8 @@ manual_check = conformity_df[[
     'neighbors', 'response', 'neighbors_std', 'correct_anticonformity', 'correct_conformity', 'correct_response_given_treatment', 'treatment_resemblance', 'round_no'
 ]]
 # looks legit
-# Plot the 6 participants conformist to see over the rounds
-conformity_df['participant.code'].unique() # 6 participants
+# Plot the 4 participants conformist to see over the rounds
+conformity_df['participant.code'].unique() # 4 participants
 
 
 # make categories for correct_response_given_treatment starting with 'correct', 'None', 'incorrect'
@@ -620,7 +621,7 @@ manual_check = anticonformity_df[[
 ]]
 # looks legit
 
-## Plot the 2 participants anticonformist to see over the rounds
+## Plot the 4 participants anticonformist to see over the rounds
 anticonformity_df['participant.code'].unique() # 4 participants because p = .50
 
 
@@ -730,7 +731,7 @@ plt.show()
 # get the individual responses round by round as a table
 individual_responses = df_mock_relevant.pivot(index='participant.code', columns='round_no', values='response')
 # sort the participant.code based on column 0
-individual_responses = individual_responses.sort_values(by=0)
+individual_responses = individual_responses.sort_values(by=1)
 # Visualize each participant's response over rounds as a heatmap
 from matplotlib.colors import LinearSegmentedColormap
 # create a custom colormap from tosca-like turquoise to purple
@@ -743,7 +744,6 @@ plt.ylabel('Participant Code')
 plt.tight_layout()
 plt.savefig('individual_responses_heatmap_' + session_id + '.png', dpi=300)
 plt.show()
-
 
 
 ### Calculate mu / polarization index ###

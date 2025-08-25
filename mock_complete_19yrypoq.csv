@@ -1,0 +1,169 @@
+participant.code,response,round_no,discussion_grp,forced_response,participant.scenario,participant.anticonformist,participant.group_size,neighbors_response,participant.treatment,participant.beta,neighbors,neighbors_1,neighbors_std,correct_conformity,correct_anticonformity,treatment_resemblance,correct_response_given_treatment
+60w3o5nq,-1.0,0,,,s2_n,1,N08,,Anticonformist,0.5,,,None,,,Unknown,incorrect
+60w3o5nq,-1.0,1,"['o33shhic', 'okdapvou', 'fuvncn2j']",0.0,s2_n,1,N08,"[1.0, 0.0, -1.0]",Anticonformist,0.5,"1,0,-1","1,0,-1","-1,0,1",None,None,None,None
+60w3o5nq,1.0,2,"['rg1i9b6i', 'u0oh5ww3', 'fuvncn2j']",0.0,s2_n,1,N08,"[1.0, -1.0, 0.0]",Anticonformist,0.5,"1,-1,0","1,-1,0","-1,0,1",None,None,None,None
+60w3o5nq,0.0,3,"['o33shhic', 'okdapvou', 'rg1i9b6i']",0.0,s2_n,1,N08,"[1.0, 0.0, 0.0]",Anticonformist,0.5,"1,0,0","1,0,0","0,0,1",0,['-1'],conformity,incorrect
+60w3o5nq,-1.0,4,"['rg1i9b6i', 'u0oh5ww3', 'fuvncn2j']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","1,-1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+60w3o5nq,-1.0,5,"['rg1i9b6i', '9mdbdt4y', 'w2j0qzso']",0.0,s2_n,1,N08,"[1.0, 1.0, -1.0]",Anticonformist,0.5,"1,1,-1","1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+60w3o5nq,0.0,6,"['9mdbdt4y', 'o33shhic', 'fuvncn2j']",0.0,s2_n,1,N08,"[-1.0, 0.0, 0.0]",Anticonformist,0.5,"-1,0,0","-1,0,0","-1,0,0",0,['1'],conformity,incorrect
+60w3o5nq,0.0,7,"['9mdbdt4y', 'okdapvou', 'fuvncn2j']",0.0,s2_n,1,N08,"[-1.0, 0.0, 1.0]",Anticonformist,0.5,"-1,0,1","-1,0,1","-1,0,1",None,None,None,None
+60w3o5nq,-1.0,8,"['okdapvou', 'rg1i9b6i', 'u0oh5ww3']",0.0,s2_n,1,N08,"[0.0, 1.0, -1.0]",Anticonformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+60w3o5nq,0.0,9,"['fuvncn2j', 'w2j0qzso', 'u0oh5ww3']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1","-1,-1,1",-1,['0'],anticonformity,correct
+60w3o5nq,1.0,10,"['fuvncn2j', 'w2j0qzso', 'u0oh5ww3']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0","-1,-1,0",-1,['1'],anticonformity,correct
+60w3o5nq,0.0,11,"['o33shhic', 'rg1i9b6i', 'u0oh5ww3']",0.0,s2_n,1,N08,"[1.0, -1.0, 0.0]",Anticonformist,0.5,"1,-1,0","1,-1,0","-1,0,1",None,None,None,None
+60w3o5nq,0.0,12,"['9mdbdt4y', 'okdapvou', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, 0.0, -1.0]",Anticonformist,0.5,"0,0,-1","0,0,-1","-1,0,0",0,['1'],conformity,incorrect
+60w3o5nq,0.0,13,"['rg1i9b6i', 'fuvncn2j', 'w2j0qzso']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","1,-1,1","-1,1,1",1,['0'],anticonformity,correct
+60w3o5nq,1.0,14,"['o33shhic', '9mdbdt4y', 'okdapvou']",0.0,s2_n,1,N08,"[0.0, 0.0, 0.0]",Anticonformist,0.5,"0,0,0","0,0,0","0,0,0",0,"['-1', '1']",anticonformity,correct
+60w3o5nq,-1.0,15,"['9mdbdt4y', 'okdapvou', 'u0oh5ww3']",0.0,s2_n,1,N08,"[1.0, 0.0, -1.0]",Anticonformist,0.5,"1,0,-1","1,0,-1","-1,0,1",None,None,None,None
+60w3o5nq,1.0,16,"['rg1i9b6i', 'okdapvou', '9mdbdt4y']",0.0,s2_n,1,N08,"[0.0, 0.0, -1.0]",Anticonformist,0.5,"0,0,-1","0,0,-1","-1,0,0",0,['1'],anticonformity,correct
+60w3o5nq,-1.0,17,"['okdapvou', 'rg1i9b6i', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, 1.0, 0.0]",Anticonformist,0.5,"0,1,0","0,1,0","0,0,1",0,['-1'],anticonformity,correct
+60w3o5nq,1.0,18,"['okdapvou', '9mdbdt4y', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, 1.0, 1.0]",Anticonformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],conformity,incorrect
+60w3o5nq,0.0,19,"['okdapvou', 'rg1i9b6i', 'fuvncn2j']",0.0,s2_n,1,N08,"[1.0, 1.0, 1.0]",Anticonformist,0.5,"1,1,1","1,1,1","1,1,1",1,"['-1', '0']",anticonformity,correct
+60w3o5nq,-1.0,20,"['o33shhic', 'rg1i9b6i', 'u0oh5ww3']",0.0,s2_n,1,N08,"[0.0, 1.0, -1.0]",Anticonformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+9mdbdt4y,1.0,0,,,s2_n,1,N08,,Anticonformist,0.5,,,None,,,Unknown,incorrect
+9mdbdt4y,0.0,1,"['w2j0qzso', 'u0oh5ww3', 'okdapvou']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0","-1,-1,0",-1,['1'],Unknown,incorrect
+9mdbdt4y,1.0,2,"['fuvncn2j', 'w2j0qzso', 'u0oh5ww3']",0.0,s2_n,1,N08,"[0.0, -1.0, -1.0]",Anticonformist,0.5,"0,-1,-1","0,-1,-1","-1,-1,0",-1,['1'],anticonformity,correct
+9mdbdt4y,0.0,3,"['u0oh5ww3', '60w3o5nq', 'rg1i9b6i']",0.0,s2_n,1,N08,"[-1.0, 0.0, 0.0]",Anticonformist,0.5,"-1,0,0","-1,0,0","-1,0,0",0,['1'],conformity,incorrect
+9mdbdt4y,1.0,4,"['fuvncn2j', 'u0oh5ww3', 'o33shhic']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0","-1,-1,0",-1,['1'],anticonformity,correct
+9mdbdt4y,1.0,5,"['w2j0qzso', 'fuvncn2j', 'okdapvou']",0.0,s2_n,1,N08,"[-1.0, 1.0, 0.0]",Anticonformist,0.5,"-1,1,0","-1,1,0","-1,0,1",None,None,None,None
+9mdbdt4y,-1.0,6,"['rg1i9b6i', 'okdapvou', 'o33shhic']",0.0,s2_n,1,N08,"[1.0, -1.0, 0.0]",Anticonformist,0.5,"1,-1,0","1,-1,0","-1,0,1",None,None,None,None
+9mdbdt4y,-1.0,7,"['u0oh5ww3', 'fuvncn2j', 'rg1i9b6i']",0.0,s2_n,1,N08,"[-1.0, 1.0, 0.0]",Anticonformist,0.5,"-1,1,0","-1,1,0","-1,0,1",None,None,None,None
+9mdbdt4y,1.0,8,"['w2j0qzso', '60w3o5nq', 'u0oh5ww3']",0.0,s2_n,1,N08,"[0.0, -1.0, -1.0]",Anticonformist,0.5,"0,-1,-1","0,-1,-1","-1,-1,0",-1,['1'],anticonformity,correct
+9mdbdt4y,1.0,9,"['u0oh5ww3', 'w2j0qzso', 'fuvncn2j']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+9mdbdt4y,-1.0,10,"['u0oh5ww3', 'o33shhic', 'okdapvou']",0.0,s2_n,1,N08,"[0.0, 1.0, 1.0]",Anticonformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],anticonformity,correct
+9mdbdt4y,0.0,11,"['u0oh5ww3', 'w2j0qzso', 'okdapvou']",0.0,s2_n,1,N08,"[0.0, -1.0, 1.0]",Anticonformist,0.5,"0,-1,1","0,-1,1","-1,0,1",None,None,None,None
+9mdbdt4y,0.0,12,"['60w3o5nq', 'o33shhic', 'rg1i9b6i']",0.0,s2_n,1,N08,"[0.0, 1.0, 0.0]",Anticonformist,0.5,"0,1,0","0,1,0","0,0,1",0,['-1'],conformity,incorrect
+9mdbdt4y,0.0,13,"['u0oh5ww3', 'fuvncn2j', 'w2j0qzso']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","1,-1,1","-1,1,1",1,['0'],anticonformity,correct
+9mdbdt4y,0.0,14,"['u0oh5ww3', 'fuvncn2j', 'rg1i9b6i']",0.0,s2_n,1,N08,"[-1.0, 0.0, 1.0]",Anticonformist,0.5,"-1,0,1","-1,0,1","-1,0,1",None,None,None,None
+9mdbdt4y,1.0,15,"['fuvncn2j', 'o33shhic', 'okdapvou']",0.0,s2_n,1,N08,"[0.0, 1.0, 0.0]",Anticonformist,0.5,"0,1,0","0,1,0","0,0,1",0,['-1'],Unknown,incorrect
+9mdbdt4y,-1.0,16,"['60w3o5nq', 'w2j0qzso', 'o33shhic']",0.0,s2_n,1,N08,"[1.0, 0.0, 1.0]",Anticonformist,0.5,"1,0,1","1,0,1","0,1,1",1,['-1'],anticonformity,correct
+9mdbdt4y,1.0,17,"['w2j0qzso', 'okdapvou', 'rg1i9b6i']",0.0,s2_n,1,N08,"[-1.0, 0.0, 1.0]",Anticonformist,0.5,"-1,0,1","-1,0,1","-1,0,1",None,None,None,None
+9mdbdt4y,1.0,18,"['60w3o5nq', 'u0oh5ww3', 'rg1i9b6i']",0.0,s2_n,1,N08,"[1.0, 0.0, 1.0]",Anticonformist,0.5,"1,0,1","1,0,1","0,1,1",1,['-1'],conformity,incorrect
+9mdbdt4y,-1.0,19,"['60w3o5nq', 'fuvncn2j', 'o33shhic']",0.0,s2_n,1,N08,"[0.0, 1.0, 1.0]",Anticonformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],anticonformity,correct
+9mdbdt4y,-1.0,20,"['rg1i9b6i', 'okdapvou', 'o33shhic']",0.0,s2_n,1,N08,"[1.0, 1.0, 0.0]",Anticonformist,0.5,"1,1,0","1,1,0","0,1,1",1,['-1'],anticonformity,correct
+fuvncn2j,-1.0,0,,,s2_n,0,N08,,Conformist,0.5,,,None,,,Unknown,incorrect
+fuvncn2j,-1.0,1,"['9mdbdt4y', '60w3o5nq', 'w2j0qzso']",0.0,s2_n,0,N08,"[0.0, -1.0, -1.0]",Conformist,0.5,"0,-1,-1","0,-1,-1","-1,-1,0",-1,['1'],conformity,correct
+fuvncn2j,0.0,2,"['9mdbdt4y', 'u0oh5ww3', '60w3o5nq']",1.0,s2_n,0,N08,"[1.0, -1.0, 1.0]",Conformist,0.5,"1,-1,1","1,-1,1","-1,1,1",1,['0'],anticonformity,incorrect
+fuvncn2j,0.0,3,"['o33shhic', 'w2j0qzso', '60w3o5nq']",1.0,s2_n,0,N08,"[1.0, -1.0, 0.0]",Conformist,0.5,"1,-1,0","1,-1,0","-1,0,1",None,None,None,None
+fuvncn2j,-1.0,4,"['9mdbdt4y', '60w3o5nq', 'w2j0qzso']",0.0,s2_n,0,N08,"[1.0, -1.0, -1.0]",Conformist,0.5,"1,-1,-1","1,-1,-1","-1,-1,1",-1,['0'],conformity,correct
+fuvncn2j,1.0,5,"['9mdbdt4y', 'w2j0qzso', '60w3o5nq']",1.0,s2_n,0,N08,"[1.0, -1.0, -1.0]",Conformist,0.5,"1,-1,-1","1,-1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+fuvncn2j,0.0,6,"['okdapvou', 'u0oh5ww3', 'w2j0qzso']",1.0,s2_n,0,N08,"[-1.0, -1.0, -1.0]",Conformist,0.5,"-1,-1,-1","-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,incorrect
+fuvncn2j,1.0,7,"['9mdbdt4y', 'rg1i9b6i', '60w3o5nq']",1.0,s2_n,0,N08,"[-1.0, 0.0, 0.0]",Conformist,0.5,"-1,0,0","-1,0,0","-1,0,0",0,['1'],anticonformity,incorrect
+fuvncn2j,-1.0,8,"['9mdbdt4y', 'rg1i9b6i', '60w3o5nq']",1.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+fuvncn2j,-1.0,9,"['okdapvou', '9mdbdt4y', 'o33shhic']",1.0,s2_n,0,N08,"[0.0, 1.0, 0.0]",Conformist,0.5,"0,1,0","0,1,0","0,0,1",0,['-1'],anticonformity,incorrect
+fuvncn2j,-1.0,10,"['9mdbdt4y', 'w2j0qzso', '60w3o5nq']",1.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1","-1,-1,1",-1,['0'],conformity,correct
+fuvncn2j,0.0,11,"['rg1i9b6i', 'u0oh5ww3', 'w2j0qzso']",1.0,s2_n,0,N08,"[-1.0, 0.0, -1.0]",Conformist,0.5,"-1,0,-1","-1,0,-1","-1,-1,0",-1,['1'],Unknown,incorrect
+fuvncn2j,-1.0,12,"['o33shhic', 'w2j0qzso', 'u0oh5ww3']",1.0,s2_n,0,N08,"[1.0, -1.0, 1.0]",Conformist,0.5,"1,-1,1","1,-1,1","-1,1,1",1,['0'],Unknown,incorrect
+fuvncn2j,-1.0,13,"['o33shhic', 'w2j0qzso', '60w3o5nq']",1.0,s2_n,0,N08,"[1.0, 1.0, 0.0]",Conformist,0.5,"1,1,0","1,1,0","0,1,1",1,['-1'],anticonformity,incorrect
+fuvncn2j,0.0,14,"['w2j0qzso', '60w3o5nq', 'u0oh5ww3']",1.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,1,-1","-1,-1,1",-1,['0'],anticonformity,incorrect
+fuvncn2j,0.0,15,"['60w3o5nq', 'w2j0qzso', 'u0oh5ww3']",1.0,s2_n,0,N08,"[-1.0, 0.0, -1.0]",Conformist,0.5,"-1,0,-1","-1,0,-1","-1,-1,0",-1,['1'],Unknown,incorrect
+fuvncn2j,-1.0,16,"['o33shhic', 'w2j0qzso', '60w3o5nq']",1.0,s2_n,0,N08,"[1.0, 0.0, 1.0]",Conformist,0.5,"1,0,1","1,0,1","0,1,1",1,['-1'],anticonformity,incorrect
+fuvncn2j,0.0,17,"['okdapvou', 'rg1i9b6i', 'w2j0qzso']",1.0,s2_n,0,N08,"[0.0, 1.0, -1.0]",Conformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+fuvncn2j,1.0,18,"['rg1i9b6i', '9mdbdt4y', '60w3o5nq']",1.0,s2_n,0,N08,"[1.0, 1.0, 1.0]",Conformist,0.5,"1,1,1","1,1,1","1,1,1",1,"['-1', '0']",conformity,correct
+fuvncn2j,1.0,19,"['9mdbdt4y', 'o33shhic', 'u0oh5ww3']",1.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,1,-1","-1,-1,1",-1,['0'],Unknown,incorrect
+fuvncn2j,-1.0,20,"['9mdbdt4y', 'u0oh5ww3', '60w3o5nq']",1.0,s2_n,0,N08,"[-1.0, -1.0, -1.0]",Conformist,0.5,"-1,-1,-1","-1,-1,-1","-1,-1,-1",-1,"['1', '0']",conformity,correct
+o33shhic,1.0,0,,,s2_n,0,N08,,Conformist,0.5,,,None,,,Unknown,incorrect
+o33shhic,1.0,1,"['w2j0qzso', 'u0oh5ww3', '9mdbdt4y']",0.0,s2_n,0,N08,"[-1.0, -1.0, 0.0]",Conformist,0.5,"-1,-1,0","-1,-1,0","-1,-1,0",-1,['1'],anticonformity,incorrect
+o33shhic,1.0,2,"['60w3o5nq', 'rg1i9b6i', 'okdapvou']",0.0,s2_n,0,N08,"[1.0, 1.0, 0.0]",Conformist,0.5,"1,1,0","1,1,0","0,1,1",1,['-1'],conformity,correct
+o33shhic,1.0,3,"['60w3o5nq', 'fuvncn2j', 'rg1i9b6i']",0.0,s2_n,0,N08,"[0.0, 0.0, 0.0]",Conformist,0.5,"0,0,0","0,0,0","0,0,0",0,"['-1', '1']",anticonformity,incorrect
+o33shhic,0.0,4,"['u0oh5ww3', '60w3o5nq', 'rg1i9b6i']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1","-1,-1,1",-1,['0'],anticonformity,incorrect
+o33shhic,0.0,5,"['60w3o5nq', 'okdapvou', 'rg1i9b6i']",0.0,s2_n,0,N08,"[-1.0, 0.0, 1.0]",Conformist,0.5,"-1,0,1","-1,0,1","-1,0,1",None,None,None,None
+o33shhic,0.0,6,"['u0oh5ww3', 'rg1i9b6i', '9mdbdt4y']",0.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,1,-1","-1,-1,1",-1,['0'],anticonformity,incorrect
+o33shhic,0.0,7,"['fuvncn2j', 'u0oh5ww3', 'okdapvou']",0.0,s2_n,0,N08,"[1.0, -1.0, 0.0]",Conformist,0.5,"1,-1,0","1,-1,0","-1,0,1",None,None,None,None
+o33shhic,1.0,8,"['w2j0qzso', 'rg1i9b6i', 'okdapvou']",0.0,s2_n,0,N08,"[0.0, 1.0, 0.0]",Conformist,0.5,"0,1,0","0,1,0","0,0,1",0,['-1'],Unknown,incorrect
+o33shhic,0.0,9,"['60w3o5nq', 'w2j0qzso', 'okdapvou']",0.0,s2_n,0,N08,"[0.0, -1.0, 0.0]",Conformist,0.5,"0,-1,0","0,-1,0","-1,0,0",0,['1'],conformity,correct
+o33shhic,1.0,10,"['w2j0qzso', 'fuvncn2j', 'rg1i9b6i']",0.0,s2_n,0,N08,"[-1.0, -1.0, 1.0]",Conformist,0.5,"-1,-1,1","-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+o33shhic,1.0,11,"['60w3o5nq', 'rg1i9b6i', 'okdapvou']",0.0,s2_n,0,N08,"[0.0, -1.0, 1.0]",Conformist,0.5,"0,-1,1","0,-1,1","-1,0,1",None,None,None,None
+o33shhic,1.0,12,"['u0oh5ww3', '9mdbdt4y', 'okdapvou']",0.0,s2_n,0,N08,"[1.0, 0.0, 0.0]",Conformist,0.5,"1,0,0","1,0,0","0,0,1",0,['-1'],Unknown,incorrect
+o33shhic,1.0,13,"['w2j0qzso', 'fuvncn2j', 'rg1i9b6i']",0.0,s2_n,0,N08,"[1.0, -1.0, 1.0]",Conformist,0.5,"1,-1,1","1,-1,1","-1,1,1",1,['0'],conformity,correct
+o33shhic,0.0,14,"['u0oh5ww3', 'fuvncn2j', '60w3o5nq']",0.0,s2_n,0,N08,"[-1.0, 0.0, 1.0]",Conformist,0.5,"-1,0,1","-1,0,1","-1,0,1",None,None,None,None
+o33shhic,1.0,15,"['fuvncn2j', '60w3o5nq', 'okdapvou']",0.0,s2_n,0,N08,"[0.0, -1.0, 0.0]",Conformist,0.5,"0,-1,0","0,-1,0","-1,0,0",0,['1'],anticonformity,incorrect
+o33shhic,1.0,16,"['w2j0qzso', '60w3o5nq', 'rg1i9b6i']",0.0,s2_n,0,N08,"[0.0, 1.0, 0.0]",Conformist,0.5,"0,1,0","0,1,0","0,0,1",0,['-1'],Unknown,incorrect
+o33shhic,1.0,17,"['fuvncn2j', 'w2j0qzso', 'okdapvou']",0.0,s2_n,0,N08,"[0.0, -1.0, 0.0]",Conformist,0.5,"0,-1,0","0,-1,0","-1,0,0",0,['1'],anticonformity,incorrect
+o33shhic,0.0,18,"['rg1i9b6i', '9mdbdt4y', 'okdapvou']",0.0,s2_n,0,N08,"[1.0, 1.0, 0.0]",Conformist,0.5,"1,1,0","1,1,0","0,1,1",1,['-1'],Unknown,incorrect
+o33shhic,1.0,19,"['60w3o5nq', 'rg1i9b6i', '9mdbdt4y']",0.0,s2_n,0,N08,"[0.0, 1.0, -1.0]",Conformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+o33shhic,0.0,20,"['u0oh5ww3', 'rg1i9b6i', '9mdbdt4y']",1.0,s2_n,0,N08,"[-1.0, 1.0, -1.0]",Conformist,0.5,"-1,1,-1","-1,1,-1","-1,-1,1",-1,['0'],anticonformity,incorrect
+okdapvou,1.0,0,,,s2_n,0,N08,,Conformist,0.5,,,None,,,Unknown,incorrect
+okdapvou,0.0,1,"['9mdbdt4y', 'rg1i9b6i', 'o33shhic']",0.0,s2_n,0,N08,"[0.0, 1.0, 1.0]",Conformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],Unknown,incorrect
+okdapvou,0.0,2,"['u0oh5ww3', 'o33shhic', 'rg1i9b6i']",0.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1","-1,1,1",1,['0'],anticonformity,incorrect
+okdapvou,0.0,3,"['9mdbdt4y', 'rg1i9b6i', 'o33shhic']",0.0,s2_n,0,N08,"[0.0, 0.0, 1.0]",Conformist,0.5,"0,0,1","0,0,1","0,0,1",0,['-1'],conformity,correct
+okdapvou,0.0,4,"['u0oh5ww3', 'w2j0qzso', 'fuvncn2j']",0.0,s2_n,0,N08,"[-1.0, -1.0, -1.0]",Conformist,0.5,"-1,-1,-1","-1,-1,-1","-1,-1,-1",-1,"['1', '0']",anticonformity,incorrect
+okdapvou,0.0,5,"['fuvncn2j', 'w2j0qzso', 'o33shhic']",0.0,s2_n,0,N08,"[1.0, -1.0, 0.0]",Conformist,0.5,"1,-1,0","1,-1,0","-1,0,1",None,None,None,None
+okdapvou,-1.0,6,"['60w3o5nq', 'u0oh5ww3', 'rg1i9b6i']",0.0,s2_n,0,N08,"[0.0, -1.0, 1.0]",Conformist,0.5,"0,-1,1","0,-1,1","-1,0,1",None,None,None,None
+okdapvou,0.0,7,"['60w3o5nq', '9mdbdt4y', 'o33shhic']",0.0,s2_n,0,N08,"[0.0, -1.0, 0.0]",Conformist,0.5,"0,-1,0","0,-1,0","-1,0,0",0,['1'],conformity,correct
+okdapvou,0.0,8,"['w2j0qzso', 'rg1i9b6i', '9mdbdt4y']",0.0,s2_n,0,N08,"[0.0, 1.0, 1.0]",Conformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],Unknown,incorrect
+okdapvou,0.0,9,"['w2j0qzso', 'fuvncn2j', 'o33shhic']",0.0,s2_n,0,N08,"[-1.0, -1.0, 0.0]",Conformist,0.5,"-1,-1,0","-1,-1,0","-1,-1,0",-1,['1'],Unknown,incorrect
+okdapvou,1.0,10,"['rg1i9b6i', 'o33shhic', '9mdbdt4y']",0.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","1,1,-1","-1,1,1",1,['0'],conformity,correct
+okdapvou,1.0,11,"['60w3o5nq', 'fuvncn2j', 'rg1i9b6i']",0.0,s2_n,0,N08,"[0.0, 0.0, -1.0]",Conformist,0.5,"0,0,-1","0,0,-1","-1,0,0",0,['1'],anticonformity,incorrect
+okdapvou,0.0,12,"['60w3o5nq', 'w2j0qzso', 'o33shhic']",0.0,s2_n,0,N08,"[0.0, -1.0, 1.0]",Conformist,0.5,"0,-1,1","0,-1,1","-1,0,1",None,None,None,None
+okdapvou,0.0,13,"['60w3o5nq', 'o33shhic', '9mdbdt4y']",0.0,s2_n,0,N08,"[0.0, 1.0, 0.0]",Conformist,0.5,"0,1,0","0,1,0","0,0,1",0,['-1'],conformity,correct
+okdapvou,0.0,14,"['u0oh5ww3', 'fuvncn2j', '9mdbdt4y']",0.0,s2_n,0,N08,"[-1.0, 0.0, 0.0]",Conformist,0.5,"-1,0,0","-1,0,0","-1,0,0",0,['1'],conformity,correct
+okdapvou,0.0,15,"['w2j0qzso', 'fuvncn2j', 'o33shhic']",0.0,s2_n,0,N08,"[0.0, 0.0, 1.0]",Conformist,0.5,"0,0,1","0,0,1","0,0,1",0,['-1'],conformity,correct
+okdapvou,0.0,16,"['fuvncn2j', 'u0oh5ww3', 'rg1i9b6i']",0.0,s2_n,0,N08,"[-1.0, -1.0, 0.0]",Conformist,0.5,"-1,-1,0","-1,-1,0","-1,-1,0",-1,['1'],Unknown,incorrect
+okdapvou,0.0,17,"['w2j0qzso', 'o33shhic', '9mdbdt4y']",0.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1","-1,1,1",1,['0'],anticonformity,incorrect
+okdapvou,0.0,18,"['fuvncn2j', 'u0oh5ww3', '60w3o5nq']",0.0,s2_n,0,N08,"[1.0, 0.0, 1.0]",Conformist,0.5,"1,0,1","1,0,1","0,1,1",1,['-1'],Unknown,incorrect
+okdapvou,1.0,19,"['w2j0qzso', 'o33shhic', 'rg1i9b6i']",0.0,s2_n,0,N08,"[0.0, 1.0, 1.0]",Conformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],conformity,correct
+okdapvou,1.0,20,"['rg1i9b6i', '9mdbdt4y', 'o33shhic']",0.0,s2_n,0,N08,"[1.0, -1.0, 0.0]",Conformist,0.5,"1,-1,0","1,-1,0","-1,0,1",None,None,None,None
+rg1i9b6i,1.0,0,,,s2_n,1,N08,,Anticonformist,0.5,,,None,,,Unknown,incorrect
+rg1i9b6i,1.0,1,"['w2j0qzso', 'fuvncn2j', 'o33shhic']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+rg1i9b6i,1.0,2,"['u0oh5ww3', 'fuvncn2j', 'o33shhic']",0.0,s2_n,1,N08,"[-1.0, 0.0, 1.0]",Anticonformist,0.5,"-1,0,1","-1,0,1","-1,0,1",None,None,None,None
+rg1i9b6i,0.0,3,"['u0oh5ww3', 'fuvncn2j', '9mdbdt4y']",0.0,s2_n,1,N08,"[-1.0, 0.0, 0.0]",Anticonformist,0.5,"-1,0,0","-1,0,0","-1,0,0",0,['1'],conformity,incorrect
+rg1i9b6i,1.0,4,"['9mdbdt4y', 'okdapvou', 'o33shhic']",0.0,s2_n,1,N08,"[1.0, 0.0, 0.0]",Anticonformist,0.5,"1,0,0","1,0,0","0,0,1",0,['-1'],Unknown,incorrect
+rg1i9b6i,1.0,5,"['u0oh5ww3', 'okdapvou', '9mdbdt4y']",0.0,s2_n,1,N08,"[-1.0, 0.0, 1.0]",Anticonformist,0.5,"-1,0,1","-1,0,1","-1,0,1",None,None,None,None
+rg1i9b6i,1.0,6,"['60w3o5nq', 'fuvncn2j', 'okdapvou']",0.0,s2_n,1,N08,"[0.0, 0.0, -1.0]",Anticonformist,0.5,"0,0,-1","0,0,-1","-1,0,0",0,['1'],anticonformity,correct
+rg1i9b6i,0.0,7,"['w2j0qzso', 'o33shhic', 'okdapvou']",0.0,s2_n,1,N08,"[0.0, 0.0, 0.0]",Anticonformist,0.5,"0,0,0","0,0,0","0,0,0",0,"['-1', '1']",conformity,incorrect
+rg1i9b6i,1.0,8,"['fuvncn2j', 'u0oh5ww3', '9mdbdt4y']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1","-1,-1,1",-1,['0'],Unknown,incorrect
+rg1i9b6i,1.0,9,"['60w3o5nq', 'fuvncn2j', '9mdbdt4y']",0.0,s2_n,1,N08,"[0.0, -1.0, 1.0]",Anticonformist,0.5,"0,-1,1","0,-1,1","-1,0,1",None,None,None,None
+rg1i9b6i,1.0,10,"['u0oh5ww3', 'w2j0qzso', '9mdbdt4y']",0.0,s2_n,1,N08,"[0.0, -1.0, -1.0]",Anticonformist,0.5,"0,-1,-1","0,-1,-1","-1,-1,0",-1,['1'],anticonformity,correct
+rg1i9b6i,-1.0,11,"['u0oh5ww3', 'w2j0qzso', 'okdapvou']",0.0,s2_n,1,N08,"[0.0, -1.0, 1.0]",Anticonformist,0.5,"0,-1,1","0,-1,1","-1,0,1",None,None,None,None
+rg1i9b6i,0.0,12,"['fuvncn2j', 'w2j0qzso', 'o33shhic']",0.0,s2_n,1,N08,"[-1.0, -1.0, 1.0]",Anticonformist,0.5,"-1,-1,1","-1,-1,1","-1,-1,1",-1,['0'],anticonformity,correct
+rg1i9b6i,1.0,13,"['fuvncn2j', 'o33shhic', 'okdapvou']",0.0,s2_n,1,N08,"[-1.0, 1.0, 0.0]",Anticonformist,0.5,"-1,1,0","-1,1,0","-1,0,1",None,None,None,None
+rg1i9b6i,1.0,14,"['w2j0qzso', 'o33shhic', '9mdbdt4y']",0.0,s2_n,1,N08,"[-1.0, 0.0, 0.0]",Anticonformist,0.5,"-1,0,0","-1,0,0","-1,0,0",0,['1'],anticonformity,correct
+rg1i9b6i,0.0,15,"['fuvncn2j', 'u0oh5ww3', 'okdapvou']",0.0,s2_n,1,N08,"[0.0, -1.0, 0.0]",Anticonformist,0.5,"0,-1,0","0,-1,0","-1,0,0",0,['1'],conformity,incorrect
+rg1i9b6i,0.0,16,"['u0oh5ww3', '60w3o5nq', '9mdbdt4y']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,1,-1","-1,-1,1",-1,['0'],anticonformity,correct
+rg1i9b6i,1.0,17,"['u0oh5ww3', 'fuvncn2j', '9mdbdt4y']",0.0,s2_n,1,N08,"[0.0, 0.0, 1.0]",Anticonformist,0.5,"0,0,1","0,0,1","0,0,1",0,['-1'],Unknown,incorrect
+rg1i9b6i,1.0,18,"['fuvncn2j', 'u0oh5ww3', '9mdbdt4y']",0.0,s2_n,1,N08,"[1.0, 0.0, 1.0]",Anticonformist,0.5,"1,0,1","1,0,1","0,1,1",1,['-1'],conformity,incorrect
+rg1i9b6i,1.0,19,"['fuvncn2j', 'okdapvou', '9mdbdt4y']",0.0,s2_n,1,N08,"[1.0, 1.0, -1.0]",Anticonformist,0.5,"1,1,-1","1,1,-1","-1,1,1",1,['0'],conformity,incorrect
+rg1i9b6i,1.0,20,"['fuvncn2j', 'u0oh5ww3', 'o33shhic']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0","-1,-1,0",-1,['1'],anticonformity,correct
+u0oh5ww3,-1.0,0,,,s2_n,1,N08,,Anticonformist,0.5,,,None,,,Unknown,incorrect
+u0oh5ww3,-1.0,1,"['o33shhic', '9mdbdt4y', 'rg1i9b6i']",0.0,s2_n,1,N08,"[1.0, 0.0, 1.0]",Anticonformist,0.5,"1,0,1","1,0,1","0,1,1",1,['-1'],anticonformity,correct
+u0oh5ww3,-1.0,2,"['9mdbdt4y', 'rg1i9b6i', 'fuvncn2j']",0.0,s2_n,1,N08,"[1.0, 1.0, 0.0]",Anticonformist,0.5,"1,1,0","1,1,0","0,1,1",1,['-1'],anticonformity,correct
+u0oh5ww3,-1.0,3,"['rg1i9b6i', 'w2j0qzso', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, -1.0, 0.0]",Anticonformist,0.5,"0,-1,0","0,-1,0","-1,0,0",0,['1'],Unknown,incorrect
+u0oh5ww3,-1.0,4,"['okdapvou', '60w3o5nq', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, -1.0, -1.0]",Anticonformist,0.5,"0,-1,-1","0,-1,-1","-1,-1,0",-1,['1'],conformity,incorrect
+u0oh5ww3,-1.0,5,"['o33shhic', 'w2j0qzso', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, -1.0, 1.0]",Anticonformist,0.5,"0,-1,1","0,-1,1","-1,0,1",None,None,None,None
+u0oh5ww3,-1.0,6,"['9mdbdt4y', '60w3o5nq', 'w2j0qzso']",0.0,s2_n,1,N08,"[-1.0, 0.0, -1.0]",Anticonformist,0.5,"-1,0,-1","-1,0,-1","-1,-1,0",-1,['1'],conformity,incorrect
+u0oh5ww3,-1.0,7,"['okdapvou', '60w3o5nq', 'w2j0qzso']",0.0,s2_n,1,N08,"[0.0, 0.0, 0.0]",Anticonformist,0.5,"0,0,0","0,0,0","0,0,0",0,"['-1', '1']",anticonformity,correct
+u0oh5ww3,-1.0,8,"['w2j0qzso', 'fuvncn2j', '60w3o5nq']",0.0,s2_n,1,N08,"[0.0, -1.0, -1.0]",Anticonformist,0.5,"0,-1,-1","0,-1,-1","-1,-1,0",-1,['1'],conformity,incorrect
+u0oh5ww3,1.0,9,"['okdapvou', '60w3o5nq', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, 0.0, -1.0]",Anticonformist,0.5,"0,0,-1","0,0,-1","-1,0,0",0,['1'],anticonformity,correct
+u0oh5ww3,0.0,10,"['rg1i9b6i', 'w2j0qzso', 'fuvncn2j']",0.0,s2_n,1,N08,"[1.0, -1.0, -1.0]",Anticonformist,0.5,"1,-1,-1","1,-1,-1","-1,-1,1",-1,['0'],anticonformity,correct
+u0oh5ww3,0.0,11,"['9mdbdt4y', 'okdapvou', 'w2j0qzso']",0.0,s2_n,1,N08,"[0.0, 1.0, -1.0]",Anticonformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+u0oh5ww3,1.0,12,"['9mdbdt4y', 'fuvncn2j', 'w2j0qzso']",0.0,s2_n,1,N08,"[0.0, -1.0, -1.0]",Anticonformist,0.5,"0,-1,-1","0,-1,-1","-1,-1,0",-1,['1'],anticonformity,correct
+u0oh5ww3,1.0,13,"['rg1i9b6i', 'fuvncn2j', 'w2j0qzso']",0.0,s2_n,1,N08,"[1.0, -1.0, 1.0]",Anticonformist,0.5,"1,-1,1","1,-1,1","-1,1,1",1,['0'],conformity,incorrect
+u0oh5ww3,-1.0,14,"['okdapvou', 'rg1i9b6i', '60w3o5nq']",0.0,s2_n,1,N08,"[0.0, 1.0, 1.0]",Anticonformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],anticonformity,correct
+u0oh5ww3,-1.0,15,"['w2j0qzso', '60w3o5nq', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, -1.0, 0.0]",Anticonformist,0.5,"0,-1,0","0,-1,0","-1,0,0",0,['1'],Unknown,incorrect
+u0oh5ww3,-1.0,16,"['okdapvou', 'rg1i9b6i', 'fuvncn2j']",0.0,s2_n,1,N08,"[0.0, 0.0, -1.0]",Anticonformist,0.5,"0,0,-1","0,0,-1","-1,0,0",0,['1'],Unknown,incorrect
+u0oh5ww3,0.0,17,"['w2j0qzso', '60w3o5nq', 'fuvncn2j']",0.0,s2_n,1,N08,"[-1.0, -1.0, 0.0]",Anticonformist,0.5,"-1,-1,0","-1,-1,0","-1,-1,0",-1,['1'],Unknown,incorrect
+u0oh5ww3,0.0,18,"['rg1i9b6i', 'w2j0qzso', '60w3o5nq']",0.0,s2_n,1,N08,"[1.0, 1.0, 1.0]",Anticonformist,0.5,"1,1,1","1,1,1","1,1,1",1,"['-1', '0']",anticonformity,correct
+u0oh5ww3,-1.0,19,"['o33shhic', 'okdapvou', 'w2j0qzso']",0.0,s2_n,1,N08,"[1.0, 1.0, 0.0]",Anticonformist,0.5,"1,1,0","1,1,0","0,1,1",1,['-1'],anticonformity,correct
+u0oh5ww3,-1.0,20,"['fuvncn2j', 'w2j0qzso', '60w3o5nq']",0.0,s2_n,1,N08,"[-1.0, 1.0, -1.0]",Anticonformist,0.5,"-1,1,-1","-1,1,-1","-1,-1,1",-1,['0'],conformity,incorrect
+w2j0qzso,-1.0,0,,,s2_n,0,N08,,Conformist,0.5,,,None,,,Unknown,incorrect
+w2j0qzso,-1.0,1,"['rg1i9b6i', '9mdbdt4y', 'u0oh5ww3']",0.0,s2_n,0,N08,"[1.0, 0.0, -1.0]",Conformist,0.5,"1,0,-1","1,0,-1","-1,0,1",None,None,None,None
+w2j0qzso,-1.0,2,"['rg1i9b6i', 'okdapvou', '9mdbdt4y']",0.0,s2_n,0,N08,"[1.0, 0.0, 1.0]",Conformist,0.5,"1,0,1","1,0,1","0,1,1",1,['-1'],anticonformity,incorrect
+w2j0qzso,-1.0,3,"['okdapvou', 'o33shhic', '60w3o5nq']",0.0,s2_n,0,N08,"[0.0, 1.0, 0.0]",Conformist,0.5,"0,1,0","0,1,0","0,0,1",0,['-1'],anticonformity,incorrect
+w2j0qzso,-1.0,4,"['okdapvou', '9mdbdt4y', 'fuvncn2j']",0.0,s2_n,0,N08,"[0.0, 1.0, -1.0]",Conformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+w2j0qzso,-1.0,5,"['o33shhic', 'u0oh5ww3', 'fuvncn2j']",0.0,s2_n,0,N08,"[0.0, -1.0, 1.0]",Conformist,0.5,"0,-1,1","0,-1,1","-1,0,1",None,None,None,None
+w2j0qzso,-1.0,6,"['o33shhic', 'rg1i9b6i', '9mdbdt4y']",0.0,s2_n,0,N08,"[0.0, 1.0, -1.0]",Conformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+w2j0qzso,0.0,7,"['60w3o5nq', 'fuvncn2j', 'u0oh5ww3']",1.0,s2_n,0,N08,"[0.0, 1.0, -1.0]",Conformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+w2j0qzso,0.0,8,"['okdapvou', 'o33shhic', '9mdbdt4y']",1.0,s2_n,0,N08,"[0.0, 1.0, 1.0]",Conformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],Unknown,incorrect
+w2j0qzso,-1.0,9,"['o33shhic', 'rg1i9b6i', 'fuvncn2j']",0.0,s2_n,0,N08,"[0.0, 1.0, -1.0]",Conformist,0.5,"0,1,-1","0,1,-1","-1,0,1",None,None,None,None
+w2j0qzso,-1.0,10,"['o33shhic', 'fuvncn2j', 'u0oh5ww3']",0.0,s2_n,0,N08,"[1.0, -1.0, 0.0]",Conformist,0.5,"1,-1,0","1,-1,0","-1,0,1",None,None,None,None
+w2j0qzso,-1.0,11,"['o33shhic', 'okdapvou', 'rg1i9b6i']",1.0,s2_n,0,N08,"[1.0, 1.0, -1.0]",Conformist,0.5,"1,1,-1","1,1,-1","-1,1,1",1,['0'],Unknown,incorrect
+w2j0qzso,-1.0,12,"['9mdbdt4y', 'rg1i9b6i', 'u0oh5ww3']",0.0,s2_n,0,N08,"[0.0, 0.0, 1.0]",Conformist,0.5,"0,0,1","0,0,1","0,0,1",0,['-1'],anticonformity,incorrect
+w2j0qzso,1.0,13,"['rg1i9b6i', 'fuvncn2j', 'u0oh5ww3']",1.0,s2_n,0,N08,"[1.0, -1.0, 1.0]",Conformist,0.5,"1,-1,1","1,-1,1","-1,1,1",1,['0'],conformity,correct
+w2j0qzso,-1.0,14,"['9mdbdt4y', 'rg1i9b6i', '60w3o5nq']",1.0,s2_n,0,N08,"[0.0, 1.0, 1.0]",Conformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],anticonformity,incorrect
+w2j0qzso,0.0,15,"['9mdbdt4y', 'fuvncn2j', 'u0oh5ww3']",1.0,s2_n,0,N08,"[1.0, 0.0, -1.0]",Conformist,0.5,"1,0,-1","1,0,-1","-1,0,1",None,None,None,None
+w2j0qzso,0.0,16,"['okdapvou', 'fuvncn2j', 'u0oh5ww3']",1.0,s2_n,0,N08,"[0.0, -1.0, -1.0]",Conformist,0.5,"0,-1,-1","0,-1,-1","-1,-1,0",-1,['1'],Unknown,incorrect
+w2j0qzso,-1.0,17,"['okdapvou', 'o33shhic', '9mdbdt4y']",1.0,s2_n,0,N08,"[0.0, 1.0, 1.0]",Conformist,0.5,"0,1,1","0,1,1","0,1,1",1,['-1'],anticonformity,incorrect
+w2j0qzso,1.0,18,"['o33shhic', 'u0oh5ww3', 'fuvncn2j']",1.0,s2_n,0,N08,"[0.0, 0.0, 1.0]",Conformist,0.5,"0,0,1","0,0,1","0,0,1",0,['-1'],Unknown,incorrect
+w2j0qzso,0.0,19,"['9mdbdt4y', 'o33shhic', 'fuvncn2j']",1.0,s2_n,0,N08,"[-1.0, 1.0, 1.0]",Conformist,0.5,"-1,1,1","-1,1,1","-1,1,1",1,['0'],anticonformity,incorrect
+w2j0qzso,1.0,20,"['9mdbdt4y', 'o33shhic', 'u0oh5ww3']",1.0,s2_n,0,N08,"[-1.0, 0.0, -1.0]",Conformist,0.5,"-1,0,-1","-1,0,-1","-1,-1,0",-1,['1'],anticonformity,incorrect
